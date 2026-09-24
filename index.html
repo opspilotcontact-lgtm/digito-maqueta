@@ -1,0 +1,547 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rótulos en La Carlota, Córdoba y Écija desde 1993 | Dígito Rotulación</title>
+<meta name="description" content="Taller de rótulos en La Carlota (Córdoba) desde 1993. Rótulos luminosos, letras corpóreas, rotulación de vehículos, vallas, monopostes, señalización e impresión digital. Del diseño al montaje, con la fabricación en el taller.">
+<link rel="canonical" href="https://digitorotulacion.com/">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#323846">
+<!-- PROPUESTA (24-sep-2026), noindex hasta publicar. Método: skill direccion-arte-web.
+     Colores MEDIDOS: #FEFE00/#D1D000 y canto #788088 en su logo (PIL, 22-sep); chapa #323846 y
+     damero #242738 en la foto de su fachada de la ficha de Google (PIL, 24-sep).
+     Fotos: archivo del taller (su web de 2018) + fachada de su ficha de Google (provisional, baja resolución).
+     Textos: sus frases (web de 2018 y post de su ficha), citadas. Sin precios, plazos ni opiniones:
+     no hay nada validado ni ninguna reseña. Tipografías: Anybody e Instrument Sans (OFL). Iconos: Lucide (ISC). -->
+<link rel="icon" href="img/logo-digito.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/anybody-var-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/instrument-var-latin.woff2" as="font" type="font/woff2" crossorigin>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"LocalBusiness","@id":"https://digitorotulacion.com/#taller","name":"Dígito Rotulación","description":"Taller de rótulos: diseño, fabricación y montaje desde 1993.","url":"https://digitorotulacion.com/","logo":"https://digitorotulacion.com/logo-digito.svg","image":"https://digitorotulacion.com/og.png","telephone":"+34957301773","email":"info@digitorotulacion.com","foundingDate":"1993","address":{"@type":"PostalAddress","streetAddress":"Polígono Industrial Gallardo, C/ Ingeniero Juan de la Cierva, 38","postalCode":"14100","addressLocality":"La Carlota","addressRegion":"Córdoba","addressCountry":"ES"},"geo":{"@type":"GeoCoordinates","latitude":37.6642927,"longitude":-4.9385672},"openingHoursSpecification":[{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"08:00","closes":"14:00"},{"@type":"OpeningHoursSpecification","dayOfWeek":["Monday","Tuesday","Wednesday","Thursday","Friday"],"opens":"16:00","closes":"18:00"}],"areaServed":["La Carlota","Córdoba","Écija","Provincia de Córdoba"]}
+</script>
+<style>
+@font-face{font-family:'Anybody';font-weight:100 900;font-stretch:50% 150%;font-display:swap;src:url('fonts/anybody-var-latin.woff2') format('woff2-variations')}
+@font-face{font-family:'Instrument Sans';font-weight:400 700;font-display:swap;src:url('fonts/instrument-var-latin.woff2') format('woff2-variations')}
+
+/* Solo lo medido. La chapa y el damero salen de SU fachada; el amarillo y el canto, de SU logo.
+   Los claros son el canto de aluminio aclarado (misma familia fría, H≈215). */
+:root{
+  --chapa:#323846; --chapa-surco:#2A2F3B; --chapa-luz:#3B4251; --damero:#242738;
+  --amarillo:#FEFE00; --amarillo-bajo:#D1D000; --canto:#788088; --canto-osc:#5B636C;
+  --tinta:#101316; --tinta-suave:#434B55; --hielo:#EEF0F3; --hielo-2:#DFE3E8; --blanco:#fff;
+  --rotulo:'Anybody',Impact,'Arial Narrow',sans-serif; --texto:'Instrument Sans',system-ui,sans-serif;
+  --ancho:78rem; --gutter:clamp(1rem,4vw,2.5rem);
+  --curva:cubic-bezier(.2,.7,.2,1);
+  /* La chapa grecada de la nave, en línea. */
+  --grecada:repeating-linear-gradient(90deg,var(--chapa) 0 1.6rem,var(--chapa-surco) 1.6rem 1.85rem,var(--chapa-luz) 1.85rem 1.95rem,var(--chapa) 1.95rem 2.6rem);
+  /* La columna de damero del borde de su fachada. */
+  --damero-bg:conic-gradient(var(--damero) 25%,#9AA1AC 0 50%,var(--damero) 0 75%,#9AA1AC 0) 0 0/1.5rem 1.5rem;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--hielo);color:var(--tinta);font-family:var(--texto);font-size:1.0625rem;line-height:1.6;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+.wrap{max-width:var(--ancho);margin:0 auto;padding:0 var(--gutter)}
+.salto{position:absolute;left:-999px}.salto:focus{left:1rem;top:1rem;z-index:99;background:#fff;padding:.5rem 1rem}
+h1,h2,h3{font-family:var(--rotulo);margin:0;line-height:.95;letter-spacing:-.005em}
+h2{font-size:clamp(2.3rem,5.2vw,4.2rem);font-weight:850;font-stretch:72%;text-transform:uppercase}
+p{margin:0 0 1rem;max-width:62ch}
+.ico{width:1.15em;height:1.15em;flex:none;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+
+/* La elipse de su logo, en pequeño: marca cada sección (la firma como estructura). */
+.marca{display:inline-flex;align-items:center;gap:.65rem;font-family:var(--rotulo);font-weight:800;font-stretch:118%;text-transform:uppercase;letter-spacing:.14em;font-size:.8rem;margin:0 0 1.1rem}
+.marca::before{content:"";width:2.1rem;height:1rem;border-radius:50%;background:var(--amarillo);box-shadow:0 0 0 .2rem var(--canto);transform:rotate(-7deg);flex:none}
+
+.btn{display:inline-flex;align-items:center;gap:.6rem;padding:.95rem 1.35rem;border-radius:999px;font-weight:700;text-decoration:none;font-size:1rem;transition:transform .25s var(--curva),box-shadow .25s var(--curva)}
+.btn:hover{transform:translateY(-2px)}
+.btn-luz{background:var(--amarillo);color:var(--tinta);box-shadow:0 0 0 .22rem var(--canto)}
+.btn-linea{border:2px solid currentColor}
+.btn-tinta{background:var(--tinta);color:var(--amarillo)}
+
+/* Franja de propuesta */
+.propuesta{background:var(--tinta);color:#E6E9EE;font-size:.82rem;text-align:center;padding:.45rem 1rem}
+.propuesta a{color:var(--amarillo)}
+
+/* Cabecera fija, en la chapa */
+.cab{position:sticky;top:0;z-index:40;background:var(--chapa);color:#fff;border-bottom:3px solid var(--amarillo)}
+.cab .wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:4.4rem}
+.cab-logo img{width:8.6rem}
+.cab nav{display:flex;gap:1.4rem;font-size:.95rem;font-weight:600}
+.cab nav a{text-decoration:none;opacity:.9}.cab nav a:hover{opacity:1;color:var(--amarillo)}
+.cab .btn{padding:.6rem 1rem;font-size:.95rem}
+@media (max-width:60rem){.cab nav{display:none}}
+@media (max-width:26rem){.cab .btn span{display:none}.cab .btn{padding:.7rem}}
+
+/* ============ PORTADA: su fachada ============ */
+.fachada{position:relative;background:var(--grecada);color:#fff;overflow:hidden;padding:clamp(2.5rem,6vw,4.5rem) 0 0}
+.fachada::before{content:"";position:absolute;left:0;top:0;bottom:0;width:3rem;background:var(--damero-bg)}   /* el damero */
+.fachada::after{content:"";position:absolute;left:3rem;top:0;bottom:0;width:.55rem;background:var(--amarillo)}  /* la franja vertical */
+.fachada .wrap{position:relative;padding-left:max(var(--gutter),4.5rem)}
+.fachada-rejilla{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.15fr);grid-template-rows:auto auto auto;column-gap:clamp(1rem,3vw,3rem)}
+.pregunta{grid-column:1;grid-row:1;align-self:end;padding-bottom:1.6rem}
+.pregunta .marca{color:var(--amarillo)}
+.pregunta h1{font-size:clamp(2.6rem,5.4vw,4.6rem);font-weight:850;font-stretch:66%;text-transform:uppercase;line-height:.92}
+.pregunta h1 em{font-style:normal;color:var(--amarillo)}
+.banda{grid-column:1 / -1;grid-row:2;position:relative;z-index:1;background:var(--amarillo);color:var(--tinta);margin-left:calc(-1 * max(var(--gutter),4.5rem) + 3.55rem);margin-right:calc(-50vw + 50%);padding:.7rem 0 .7rem max(var(--gutter),1rem)}
+.banda p{margin:0;max-width:none;font-family:var(--rotulo);font-weight:800;font-stretch:62%;text-transform:uppercase;letter-spacing:.04em;font-size:clamp(.95rem,1.5vw,1.2rem);line-height:1.2;max-width:30rem}
+.respuesta{grid-column:1;grid-row:3;padding:1.6rem 0 clamp(2.5rem,5vw,4rem)}
+.respuesta p{color:#E3E6EB;font-size:1.1rem}
+.respuesta .firma-voz{font-size:.85rem;color:#B9C0CA;margin-top:-.4rem}
+.acciones{display:flex;flex-wrap:wrap;gap:.8rem;margin:1.4rem 0 1.6rem}
+.datos{display:flex;flex-wrap:wrap;gap:.4rem 1.4rem;font-size:.9rem;color:#C9CED6;margin:0;padding:0;list-style:none}
+.datos li{display:flex;gap:.45rem;align-items:center}
+.datos .ico{color:var(--amarillo)}
+
+/* La elipse monumental: SU logo (canto + cara con la luz de arriba) con RÓTULOS en corpóreas. */
+.rotulo{grid-column:2;grid-row:2;align-self:center;position:relative;z-index:2;width:112%;aspect-ratio:640/300;container-type:inline-size;margin:calc(-26% + 2.3rem) 0 calc(-26% + 2.3rem) -6%}
+.rotulo svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+.rotulo .halo{position:absolute;inset:-6% -4%;border-radius:50%;background:radial-gradient(closest-side,rgb(254 254 0/.22),transparent);transform:rotate(-7deg)}
+.rotulo .letras{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;padding-bottom:2cqw}
+.corporeo{display:flex;font-family:var(--rotulo);font-weight:900;font-stretch:128%;font-size:11.2cqw;line-height:.9;color:var(--tinta);transform:skewX(-11deg);letter-spacing:-.01em}
+.corporeo span{display:inline-block;-webkit-text-stroke:.022em #fff;paint-order:stroke fill;
+  text-shadow:.012em .014em 0 var(--canto-osc),.024em .028em 0 var(--canto-osc),.036em .042em 0 var(--canto-osc),.05em .06em .06em rgb(0 0 0/.25)}
+.sub{font-family:var(--rotulo);font-weight:800;font-stretch:125%;font-size:2.45cqw;letter-spacing:.3em;text-transform:uppercase;color:var(--tinta);transform:skewX(-11deg);margin-top:1.4cqw;padding-left:.34em}
+.rotulo .apagado{opacity:0}
+
+@media (max-width:52rem){
+  .fachada .wrap{padding-left:max(var(--gutter),2.8rem)}
+  .fachada-rejilla{grid-template-columns:minmax(0,1fr);grid-template-rows:auto auto auto auto}
+  .fachada{padding-top:1.5rem}
+  .rotulo{grid-column:1;grid-row:1;margin:0 0 0 -2%;width:108%;z-index:2}
+  .banda{grid-row:1;grid-column:1;align-self:center;height:3.2rem;padding:0}
+  .banda p{display:none}
+  .pregunta{grid-row:2;padding:1.6rem 0 0}
+  .respuesta{grid-row:3}
+  .fachada::before{width:1.5rem}.fachada::after{left:1.5rem;width:.4rem}
+  .banda{margin-left:calc(-1 * max(var(--gutter),2.8rem) + 1.9rem)}
+}
+
+/* ============ LA LONA de la nave: el gesto ============ */
+.lona{background:var(--amarillo);color:var(--tinta);padding:clamp(3.5rem,7vw,5.5rem) 0}
+.lona-cab{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:1rem 3rem;align-items:end;margin-bottom:2rem}
+.lona-cab h2{font-size:clamp(3rem,8vw,6.5rem);font-stretch:60%}
+.lona-cab p{font-size:1.1rem}
+.lona-cab .cita{font-size:.85rem;color:#3B3F2A}
+@media (max-width:52rem){.lona-cab{grid-template-columns:1fr}}
+/* La tira de fotos que la lona lleva arriba */
+.tira{display:grid;grid-template-columns:1.3fr 1fr 1.15fr .9fr 1.2fr 1fr;gap:.35rem;background:var(--tinta);padding:.35rem}
+.tira img{width:100%;height:clamp(6rem,11vw,9.5rem);object-fit:cover}
+@media (max-width:52rem){.tira{grid-template-columns:repeat(3,1fr)}.tira img:nth-child(n+4){display:none}}
+/* La nube de oficios: como está pintada en su lona, cada palabra a su tamaño y en su sentido */
+.nube{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));grid-auto-rows:minmax(2.4rem,auto);gap:.5rem 1rem;align-items:center;padding:1.8rem .6rem .6rem;border-top:0;font-family:var(--rotulo);text-transform:uppercase;line-height:.9}
+.nube a,.nube span{text-decoration:none;font-weight:800}
+.nube a{position:relative;transition:color .25s var(--curva)}
+.nube a::after{content:"";position:absolute;left:0;right:0;bottom:-.14em;height:.09em;background:currentColor;transform:scaleX(0);transform-origin:left;transition:transform .3s var(--curva)}
+.nube a:hover::after,.nube a:focus-visible::after{transform:scaleX(1)}
+.nube .gris{color:#5B5E3A}
+.nube .v{writing-mode:vertical-rl;transform:rotate(180deg);justify-self:center;font-size:clamp(1.1rem,2vw,1.6rem);font-stretch:70%}
+.n-vehiculos{grid-column:1 / 5;font-size:clamp(2.2rem,5vw,4.2rem);font-stretch:62%}
+.n-senal{grid-column:1 / 5;font-size:clamp(1.3rem,2.6vw,2.1rem);font-stretch:80%}
+.n-carteleria{grid-column:5;grid-row:1 / 3}
+.n-leds{grid-column:6 / 8;font-size:clamp(1.8rem,3.6vw,3rem);font-stretch:70%}
+.n-lonas{grid-column:8;grid-row:1 / 3}
+.n-logotipos{grid-column:9;grid-row:2 / 4}
+.n-monolitos{grid-column:10;grid-row:1 / 4}
+.n-luminosos{grid-column:10 / 13;grid-row:2;font-size:clamp(1.8rem,3.8vw,3.2rem);font-stretch:66%;grid-column-start:11;justify-self:end;text-align:right}
+.n-imagen{grid-column:10 / 13;grid-row:1;justify-self:end;font-size:clamp(1rem,1.7vw,1.35rem);font-stretch:90%}
+.n-corporeas{grid-column:5 / 9;grid-row:3;font-size:clamp(2rem,4.4vw,3.6rem);font-stretch:60%}
+.n-vinilos{grid-column:6 / 8;grid-row:2;font-size:clamp(.85rem,1.3vw,1rem);font-stretch:100%;letter-spacing:.05em}
+.n-digital{grid-column:10 / 13;grid-row:3;justify-self:end;font-size:clamp(1.5rem,3vw,2.5rem);font-stretch:74%;grid-column-start:11}
+.n-vallas{grid-column:1 / 3;grid-row:3;font-size:clamp(1.3rem,2.4vw,2rem);font-stretch:74%}
+.n-stands{grid-column:3 / 5;grid-row:3;font-size:clamp(1rem,1.7vw,1.35rem);font-stretch:100%}
+@media (max-width:52rem){
+  .nube{grid-template-columns:repeat(6,minmax(0,1fr))}
+  .nube>*{grid-column:auto !important;grid-row:auto !important;justify-self:start !important;text-align:left !important}
+  .nube .v{writing-mode:horizontal-tb;transform:none}
+  .n-vehiculos,.n-corporeas,.n-luminosos{grid-column:span 6 !important}
+  .n-senal,.n-digital,.n-leds,.n-vallas{grid-column:span 3 !important}
+  .nube>span,.n-carteleria,.n-lonas,.n-logotipos,.n-monolitos,.n-imagen,.n-vinilos,.n-stands{grid-column:span 3 !important;font-size:1.05rem !important}
+}
+.lona-pie{margin-top:1.4rem;font-size:.9rem;display:flex;gap:.5rem;align-items:center}
+
+/* ============ LOS OFICIOS: cada uno es un trozo de lona (fotos arriba, palabra abajo) ============ */
+.oficios{padding:clamp(4rem,8vw,6rem) 0;background:var(--hielo)}
+.oficios-cab{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:1rem 3rem;align-items:end;margin-bottom:3rem}
+.oficios-cab .marca{color:var(--tinta-suave)}
+@media (max-width:52rem){.oficios-cab{grid-template-columns:1fr}}
+.oficio{margin:0 0 3.2rem;scroll-margin-top:6rem}
+.oficio .fotos{display:grid;gap:.35rem;background:var(--tinta);padding:.35rem}
+.oficio .fotos.a{grid-template-columns:1.5fr 1fr 1fr}
+.oficio .fotos.b{grid-template-columns:1fr 1.5fr 1fr}
+.oficio .fotos.c{grid-template-columns:1fr 1fr 1.5fr}
+.oficio figure{margin:0;position:relative}
+.oficio figure img{width:100%;height:clamp(11rem,22vw,17rem);object-fit:cover}
+.oficio figcaption{position:absolute;left:.4rem;bottom:.4rem;background:rgb(16 19 22/.82);color:#fff;font-size:.78rem;padding:.2rem .5rem;border-radius:.2rem}
+.oficio .palabra{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:.4rem 1.6rem;align-items:center;background:var(--amarillo);padding:1rem 1.2rem}
+.oficio h3{font-size:clamp(1.8rem,3.8vw,3rem);font-weight:850;font-stretch:62%;text-transform:uppercase}
+.oficio .palabra p{margin:0;font-size:.98rem;max-width:56ch}
+.oficio .palabra a{font-weight:700;font-size:.95rem;display:inline-flex;gap:.4rem;align-items:center;white-space:nowrap}
+@media (max-width:52rem){
+  .oficio .fotos.a,.oficio .fotos.b,.oficio .fotos.c{grid-template-columns:1fr 1fr}
+  .oficio figure:first-child{grid-column:1 / -1}
+  .oficio .palabra{grid-template-columns:1fr}
+}
+
+/* ============ DE NOCHE ============ */
+.noche{position:relative;background:var(--damero);color:#fff;padding:clamp(4rem,8vw,6rem) 0}
+.noche::before{content:"";position:absolute;left:0;top:0;bottom:0;width:1.5rem;background:var(--damero-bg)}
+.noche .marca{color:var(--amarillo)}
+.noche-rejilla{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.35fr);gap:2rem 3.5rem;align-items:start}
+.noche blockquote{margin:1.6rem 0 0;font-family:var(--rotulo);font-weight:700;font-stretch:88%;font-size:clamp(1.5rem,2.6vw,2.1rem);line-height:1.15;color:var(--amarillo)}
+.noche blockquote footer{margin-top:.8rem;font-family:var(--texto);font-weight:500;font-size:.9rem;color:#B9C0CA}
+.noche p{color:#D5DAE1}
+.mosaico{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));grid-auto-rows:clamp(6.5rem,11vw,9rem);gap:.4rem}
+.mosaico figure{margin:0;position:relative;overflow:hidden}
+.mosaico img{width:100%;height:100%;object-fit:cover}
+.mosaico figcaption{position:absolute;left:.4rem;bottom:.4rem;font-size:.75rem;background:rgb(0 0 0/.7);padding:.15rem .45rem;border-radius:.2rem}
+.m1{grid-column:1 / 5;grid-row:span 2}.m2{grid-column:5 / 7;grid-row:span 2}.m3{grid-column:1 / 3;grid-row:span 2}.m4{grid-column:3 / 5;grid-row:span 2}.m5{grid-column:5 / 7;grid-row:span 2}
+@media (max-width:52rem){.noche-rejilla{grid-template-columns:1fr}.mosaico{grid-template-columns:repeat(2,1fr)}.mosaico figure{grid-column:auto !important}.m1{grid-column:1 / -1 !important}}
+
+/* ============ EL TALLER: del diseño al montaje ============ */
+.taller{background:var(--hielo-2);padding:clamp(4rem,8vw,6rem) 0}
+.taller .marca{color:var(--tinta-suave)}
+.taller h2{max-width:18ch}
+.orden{list-style:none;margin:2.6rem 0 0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.2rem;counter-reset:paso}
+.orden li{background:var(--blanco);border-top:.4rem solid var(--canto);display:flex;flex-direction:column}
+.orden li img{width:100%;height:13rem;object-fit:cover}
+.orden .txt{padding:1.1rem 1.2rem 1.3rem}
+.orden h3{display:flex;align-items:center;gap:.8rem;font-size:1.9rem;font-weight:850;font-stretch:64%;text-transform:uppercase;margin-bottom:.5rem}
+.orden h3::before{counter-increment:paso;content:counter(paso);display:grid;place-items:center;width:3.2rem;height:1.7rem;border-radius:50%;background:var(--amarillo);box-shadow:0 0 0 .2rem var(--canto);font-size:1.05rem;font-stretch:100%;transform:rotate(-7deg);flex:none}
+.orden p{margin:0;font-size:.98rem;color:var(--tinta-suave)}
+.orden .sin-foto{display:grid;place-items:center;height:13rem;background:var(--grecada);color:#fff;padding:1rem;text-align:center}
+.orden .sin-foto svg{width:78%;height:auto}
+@media (max-width:52rem){.orden{grid-template-columns:1fr}}
+
+/* ============ DÓNDE ============ */
+.donde{background:var(--hielo);padding:clamp(4rem,8vw,6rem) 0}
+.donde .marca{color:var(--tinta-suave)}
+.donde-rejilla{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:2.5rem 4rem;align-items:center}
+.donde figure{margin:0}
+.donde figure img{width:100%;border:.35rem solid var(--tinta)}
+.donde figcaption{font-size:.8rem;color:var(--tinta-suave);margin-top:.5rem}
+.nap{list-style:none;margin:1.6rem 0;padding:0;display:grid;gap:.9rem}
+.nap li{display:flex;gap:.7rem}
+.nap .ico{margin-top:.25rem;color:var(--canto-osc)}
+.nap small{display:block;color:var(--tinta-suave);font-size:.85rem}
+@media (max-width:52rem){.donde-rejilla{grid-template-columns:1fr}}
+
+/* ============ CIERRE: la elipse en silueta sobre la chapa ============ */
+.cierre{position:relative;background:var(--grecada);color:#fff;padding:clamp(4.5rem,9vw,7rem) 0;overflow:hidden;border-top:.55rem solid var(--amarillo)}
+.cierre .silueta{position:absolute;right:-24%;top:50%;width:min(62rem,80vw);transform:translateY(-50%);opacity:.6;pointer-events:none}
+.cierre .wrap{position:relative}
+.cierre h2{font-size:clamp(2.8rem,7vw,5.6rem);font-stretch:60%;max-width:12ch}
+.cierre p{color:#E3E6EB;font-size:1.1rem;margin-top:1.2rem;max-width:38ch}
+@media (max-width:52rem){.cierre .silueta{right:-40%;width:130vw;opacity:.5}}
+
+/* ============ PIE ============ */
+.pie{background:var(--tinta);color:#C9CED6;padding:3rem 0 2rem;font-size:.92rem}
+.pie-rejilla{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:2rem}
+.pie img{width:8rem;margin-bottom:.8rem}
+.pie h3{font-family:var(--rotulo);font-size:.8rem;letter-spacing:.14em;font-stretch:118%;text-transform:uppercase;color:#fff;margin-bottom:.7rem}
+.pie p{margin:0 0 .3rem}
+.pie .legal{border-top:1px solid #2B3038;margin-top:2rem;padding-top:1.2rem;display:flex;flex-wrap:wrap;gap:1.2rem;font-size:.82rem}
+@media (max-width:52rem){.pie-rejilla{grid-template-columns:1fr}}
+
+/* Entradas suaves sin JS (nunca esconden nada: si no hay soporte, está todo puesto) */
+@media (prefers-reduced-motion:no-preference){@supports (animation-timeline:view()){
+  .revela{animation:sube linear both;animation-timeline:view();animation-range:entry 0% cover 24%}
+  @keyframes sube{from{opacity:0;transform:translateY(1.4rem)}to{opacity:1;transform:none}}}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none !important}}
+:focus-visible{outline:3px solid var(--amarillo);outline-offset:3px}
+/* Lo que queda fuera de la primera pantalla no se pinta hasta que hace falta */
+.oficios,.noche,.taller,.donde,.cierre,.pie{content-visibility:auto;contain-intrinsic-size:auto 1100px}
+.lona :focus-visible,.oficio .palabra :focus-visible{outline-color:var(--tinta)}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-tel" viewBox="0 0 24 24"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></symbol>
+  <symbol id="i-wa" viewBox="0 0 24 24"><path d="M2.992 16.342a2 2 0 0 1 .094 1.167l-1.065 3.29a1 1 0 0 0 1.236 1.168l3.413-.998a2 2 0 0 1 1.099.092 10 10 0 1 0-4.777-4.719"/></symbol>
+  <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></symbol>
+  <symbol id="i-reloj" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></symbol>
+  <symbol id="i-flecha" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></symbol>
+  <!-- La elipse de su logo (logo-digito.svg): canto de aluminio y cara con la luz de arriba -->
+  <linearGradient id="cara" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FEFE00"/><stop offset=".62" stop-color="#FEFE00"/><stop offset="1" stop-color="#D1D000"/></linearGradient>
+  <linearGradient id="canto" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9AA1AC"/><stop offset=".5" stop-color="#788088"/><stop offset="1" stop-color="#5B636C"/></linearGradient>
+</svg>
+<a class="salto" href="#contenido">Saltar al contenido</a>
+<div class="propuesta">Propuesta de rediseño en revisión · la web oficial sigue en <a href="https://digitorotulacion.com/">digitorotulacion.com</a></div>
+
+<header class="cab">
+  <div class="wrap">
+    <a class="cab-logo" href="#" aria-label="Dígito Rotulación, inicio"><img src="img/logo-digito.svg" alt="Dígito Rotulación" width="640" height="300"></a>
+    <nav aria-label="Principal">
+      <a href="#lona">Qué hacemos</a><a href="#trabajos">Trabajos</a><a href="#noche">De noche</a><a href="#taller">El taller</a><a href="#donde">Dónde</a>
+    </nav>
+    <a class="btn btn-luz" href="https://wa.me/34696915689?text=Hola%2C%20quiero%20presupuesto%20para%20un%20r%C3%B3tulo.%20Os%20cuento%3A%20" aria-label="Escríbenos por WhatsApp al 696 915 689"><svg class="ico"><use href="#i-wa"/></svg><span>WhatsApp</span></a>
+  </div>
+</header>
+
+<main id="contenido">
+<!-- PORTADA: su fachada. Chapa, damero, franja y banda amarilla con el rótulo encima. -->
+<section class="fachada" aria-labelledby="titular">
+  <div class="wrap">
+    <div class="fachada-rejilla">
+      <div class="pregunta">
+        <p class="marca">Taller de rótulos · La Carlota · desde 1993</p>
+        <h1 id="titular">¿Tu fachada ha perdido <em>fuerza?</em></h1>
+      </div>
+
+      <div class="rotulo" aria-hidden="true">
+        <div class="halo"></div>
+        <svg viewBox="0 0 640 300" preserveAspectRatio="none">
+          <g transform="rotate(-7 330 150)">
+            <ellipse cx="330" cy="150" rx="262" ry="122" fill="url(#canto)"/>
+            <ellipse cx="330" cy="150" rx="246" ry="106" fill="url(#cara)"/>
+            <ellipse class="apagado" cx="330" cy="150" rx="246" ry="106" fill="#3a3a1c"/>
+            <ellipse cx="330" cy="104" rx="200" ry="44" fill="#fff" opacity=".16"/>
+          </g>
+        </svg>
+        <div class="letras">
+          <div class="corporeo"><span>R</span><span>Ó</span><span>T</span><span>U</span><span>L</span><span>O</span><span>S</span></div>
+          <div class="sub">del diseño al montaje</div>
+        </div>
+      </div>
+
+      <div class="banda"><p>Rótulos luminosos · Letras corpóreas · Vehículos · Vallas y monopostes · Señalización · Impresión digital · Neón y LED</p></div>
+
+      <div class="respuesta">
+        <p>Lo diseñamos, lo fabricamos en nuestro taller de La Carlota y te lo montamos: en tu fachada, en tu furgoneta o en la carretera. Para Córdoba, Écija y toda la provincia.</p>
+        <p class="firma-voz">«Un rótulo bien diseñado puede transformar la imagen de tu negocio.» · Dígito, en su ficha de Google</p>
+        <div class="acciones">
+          <a class="btn btn-luz" href="https://wa.me/34696915689?text=Hola%2C%20os%20mando%20una%20foto%20de%20mi%20fachada%20para%20un%20r%C3%B3tulo.%20"><svg class="ico"><use href="#i-wa"/></svg>Mándanos una foto de tu fachada</a>
+          <a class="btn btn-linea" href="tel:+34957301773"><svg class="ico"><use href="#i-tel"/></svg>957 30 17 73</a>
+        </div>
+        <ul class="datos">
+          <li><svg class="ico"><use href="#i-reloj"/></svg>L-V 8:00-14:00 y 16:00-18:00</li>
+          <li><svg class="ico"><use href="#i-pin"/></svg>Polígono Gallardo, La Carlota</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- LA LONA: su lona de oficios, tal cual está colgada en la nave -->
+<section class="lona" id="lona" aria-labelledby="t-lona">
+  <div class="wrap">
+    <div class="lona-cab">
+      <div>
+        <p class="marca">La lona de la nave</p>
+        <h2 id="t-lona">Danos una idea.</h2>
+      </div>
+      <div>
+        <p>Esto es lo que tenemos colgado en la fachada del taller. Cada palabra es un oficio: tócala y te enseñamos trabajos de verdad, hechos aquí.</p>
+        <p class="cita">«Denos una idea y potenciaremos al máximo la imagen de su empresa.» · Dígito, en su web</p>
+      </div>
+    </div>
+    <div class="tira" aria-hidden="true">
+      <img src="img/rotulacion-furgoneta-agrizoo.webp" alt="" width="800" height="600" loading="lazy">
+      <img src="img/letra-h-hotel-neon-verde-noche.webp" alt="" width="800" height="600" loading="lazy">
+      <img src="img/letras-corporeas-carpinteria-seymo.webp" alt="" width="800" height="600" loading="lazy">
+      <img src="img/banderola-luminosa-centro-optico.webp" alt="" width="750" height="800" loading="lazy">
+      <img src="img/rotulos-luminosos-concesionario-motos.webp" alt="" width="800" height="450" loading="lazy">
+      <img src="img/valla-publicitaria-villas-la-carlota.webp" alt="" width="800" height="600" loading="lazy">
+    </div>
+    <nav class="nube" aria-label="Oficios del taller">
+      <a class="n-vehiculos gris" href="#vehiculos">Vehículos</a>
+      <span class="n-carteleria v">Cartelería</span>
+      <a class="n-leds" href="#luminosos">Leds</a>
+      <span class="n-lonas v">Lonas</span>
+      <a class="n-monolitos v gris" href="#vallas">Monolitos</a>
+      <span class="n-imagen gris">Imagen corporativa</span>
+      <a class="n-senal" href="#senalizacion">Señalización</a>
+      <span class="n-vinilos gris">Vinilos decorativos</span>
+      <span class="n-logotipos v">Logotipos</span>
+      <a class="n-luminosos" href="#luminosos">Rótulos luminosos</a>
+      <a class="n-vallas gris" href="#vallas">Vallas</a>
+      <span class="n-stands gris">Stands</span>
+      <a class="n-corporeas" href="#corporeas">Letras corpóreas</a>
+      <a class="n-digital gris" href="#digital">Impresión digital</a>
+    </nav>
+  </div>
+</section>
+
+<!-- LOS OFICIOS: cada uno, un trozo de lona -->
+<section class="oficios" id="trabajos" aria-labelledby="t-trabajos">
+  <div class="wrap">
+    <div class="oficios-cab">
+      <div>
+        <p class="marca">Del archivo del taller</p>
+        <h2 id="t-trabajos">Se hacen en La Carlota. Se montan en tu calle.</h2>
+      </div>
+      <p>Fotos de trabajos nuestros, en calles, carreteras y naves de la provincia. Ni una de un banco de imágenes.</p>
+    </div>
+
+    <article class="oficio revela" id="luminosos">
+      <div class="fotos a">
+        <figure><img src="img/letras-retroiluminadas-restaurante-mezquita.webp" alt="Letras retroiluminadas «Restaurante Mezquita» sobre listones de madera" width="800" height="533" loading="lazy"><figcaption>Letras retroiluminadas sobre madera</figcaption></figure>
+        <figure><img src="img/banderola-luminosa-bar-tralara.webp" alt="Banderola luminosa de doble cara del bar de copas Tralará" width="800" height="600" loading="lazy"><figcaption>Banderola de doble cara</figcaption></figure>
+        <figure><img src="img/banderola-luminosa-redonda-moda-infantil.webp" alt="Banderola luminosa redonda verde de la tienda de moda infantil El Jardín de los Duendes" width="800" height="600" loading="lazy"><figcaption>Banderola redonda</figcaption></figure>
+      </div>
+      <div class="palabra"><h3>Rótulos luminosos</h3><p>Cajones, banderolas y letras con luz. Se diseñan, se fabrican en el taller y se montan.</p><a href="https://wa.me/34696915689?text=Hola%2C%20quiero%20presupuesto%20para%20un%20r%C3%B3tulo%20luminoso.%20">Pídelo por WhatsApp <svg class="ico"><use href="#i-flecha"/></svg></a></div>
+    </article>
+
+    <article class="oficio revela" id="corporeas">
+      <div class="fotos b">
+        <figure><img src="img/letras-corporeas-centro-formacion-exposiciones.webp" alt="Letras corpóreas de acero inoxidable en la fachada roja de un centro de formación y exposiciones" width="800" height="600" loading="lazy"><figcaption>Corpóreo inox sobre fachada roja</figcaption></figure>
+        <figure><img src="img/letras-corporeas-carpinteria-seymo.webp" alt="Letras corpóreas negras y logotipo en relieve de Carpintería Seymo sobre fachada gris" width="800" height="600" loading="lazy"><figcaption>Logotipo en relieve para carpintería</figcaption></figure>
+        <figure><img src="img/fabricacion-letra-corporea-chapa-taller.webp" alt="Letra corpórea de chapa en proceso de fabricación en el taller" width="800" height="600" loading="lazy"><figcaption>Una letra de chapa, en el taller</figcaption></figure>
+      </div>
+      <div class="palabra"><h3>Letras corpóreas</h3><p>Letras con volumen para fachadas, recepciones y edificios.</p><a href="https://wa.me/34696915689?text=Hola%2C%20quiero%20presupuesto%20para%20letras%20corp%C3%B3reas.%20">Pídelo por WhatsApp <svg class="ico"><use href="#i-flecha"/></svg></a></div>
+    </article>
+
+    <article class="oficio revela" id="vehiculos">
+      <div class="fotos c">
+        <figure><img src="img/rotulacion-camion-la-carlotena.webp" alt="Camión de La Carloteña con la caja rotulada en verde y foto de producto" width="800" height="600" loading="lazy"><figcaption>Camión de reparto, La Carloteña</figcaption></figure>
+        <figure><img src="img/rotulacion-coche-rally-renault-4.webp" alt="Renault 4 de rally rotulado en amarillo con dorsal 120" width="800" height="480" loading="lazy"><figcaption>Rotulación de competición</figcaption></figure>
+        <figure><img src="img/rotulacion-furgoneta-agrizoo.webp" alt="Furgoneta rotulada a todo color para Agrizoo, jardinería y animales" width="800" height="600" loading="lazy"><figcaption>Furgoneta con impresión digital</figcaption></figure>
+      </div>
+      <div class="palabra"><h3>Vehículos</h3><p>Furgonetas, camiones, flotas y hasta un Renault 4 de rally.</p><a href="https://wa.me/34696915689?text=Hola%2C%20quiero%20rotular%20un%20veh%C3%ADculo.%20">Pídelo por WhatsApp <svg class="ico"><use href="#i-flecha"/></svg></a></div>
+    </article>
+
+    <article class="oficio revela" id="vallas">
+      <div class="fotos a">
+        <figure><img src="img/valla-publicitaria-venta-parcelas-carretera.webp" alt="Valla publicitaria «Venta de parcelas» junto a una carretera" width="800" height="662" loading="lazy"><figcaption>Valla junto a carretera</figcaption></figure>
+        <figure><img src="img/monoposte-hotel-area-santa-ana.webp" alt="Monoposte de área de servicio con paneles de hotel, cafetería 24 h y gasolinera" width="600" height="800" loading="lazy"><figcaption>Monoposte de área de servicio</figcaption></figure>
+        <figure><img src="img/rotulacion-marquesina-gasolinera.webp" alt="Marquesina de gasolinera rotulada en verde y blanco" width="800" height="600" loading="lazy"><figcaption>Marquesina de estación de servicio</figcaption></figure>
+      </div>
+      <div class="palabra"><h3>Vallas y monopostes</h3><p>Lo que se ve desde la carretera: vallas, monopostes y marquesinas.</p><a href="https://wa.me/34696915689?text=Hola%2C%20quiero%20presupuesto%20para%20una%20valla%20o%20monoposte.%20">Pídelo por WhatsApp <svg class="ico"><use href="#i-flecha"/></svg></a></div>
+    </article>
+
+    <article class="oficio revela" id="senalizacion">
+      <div class="fotos b">
+        <figure><img src="img/senal-direccional-hospederia.webp" alt="Señal direccional sobre poste de la Hospedería Laredo" width="800" height="575" loading="lazy"><figcaption>Direccional sobre poste</figcaption></figure>
+        <figure><img src="img/senalizacion-vial-rotonda-la-carlota.webp" alt="Señal vial de rotonda con direcciones a Córdoba, Sevilla, Posadas y La Carlota" width="800" height="600" loading="lazy"><figcaption>Señal vial: La Carlota, en la rotonda</figcaption></figure>
+        <figure><img src="img/rotulo-retroiluminado-dafisa.webp" alt="Rótulo «DAFISA» retroiluminado en blanco sobre pared gris" width="800" height="600" loading="lazy"><figcaption>Retroiluminado para oficina</figcaption></figure>
+      </div>
+      <div class="palabra"><h3>Señalización</h3><p>Direccionales, placas y señal vial, de la puerta a la rotonda.</p><a href="https://wa.me/34696915689?text=Hola%2C%20quiero%20presupuesto%20de%20se%C3%B1alizaci%C3%B3n.%20">Pídelo por WhatsApp <svg class="ico"><use href="#i-flecha"/></svg></a></div>
+    </article>
+
+    <article class="oficio revela" id="digital">
+      <div class="fotos c">
+        <figure><img src="img/vinilo-escaparate-heladeria-cucuruchos.webp" alt="Escaparate de heladería con vinilo impreso de cucuruchos de helado a tamaño real" width="800" height="476" loading="lazy"><figcaption>Vinilo de escaparate para heladería</figcaption></figure>
+        <figure><img src="img/vinilo-escaparate-peluqueria-roses.webp" alt="Escaparate de peluquería con vinilo impreso de gran formato y lista de servicios" width="800" height="600" loading="lazy"><figcaption>Escaparate con vinilo impreso</figcaption></figure>
+        <figure><img src="img/valla-publicitaria-villas-la-carlota.webp" alt="Valla publicitaria «Las Villas de La Carlota» sobre postes en una obra" width="800" height="600" loading="lazy"><figcaption>Lona impresa para una obra</figcaption></figure>
+      </div>
+      <div class="palabra"><h3>Impresión digital</h3><p>Vinilos, lonas y escaparates impresos en gran formato.</p><a href="https://wa.me/34696915689?text=Hola%2C%20quiero%20presupuesto%20de%20impresi%C3%B3n%20digital.%20">Pídelo por WhatsApp <svg class="ico"><use href="#i-flecha"/></svg></a></div>
+    </article>
+  </div>
+</section>
+
+<!-- DE NOCHE -->
+<section class="noche" id="noche" aria-labelledby="t-noche">
+  <div class="wrap">
+    <div class="noche-rejilla">
+      <div>
+        <p class="marca">Cuando se encienden</p>
+        <h2 id="t-noche">Los acabados se ven de noche.</h2>
+        <blockquote>«Hacemos especial hincapié en el diseño y los acabados.»<footer>Dígito, en su web</footer></blockquote>
+        <p style="margin-top:1.4rem">De día un rótulo es una placa. De noche, o se lee o no se lee. Estos son algunos de los nuestros, encendidos.</p>
+      </div>
+      <div class="mosaico">
+        <figure class="m1 revela"><img src="img/rotulo-luminoso-restaurante-azotea-noche.webp" alt="Rótulo luminoso «Restaurante» encendido al atardecer sobre una azotea" width="800" height="600" loading="lazy"><figcaption>Luminoso al anochecer</figcaption></figure>
+        <figure class="m2 revela"><img src="img/letra-h-hotel-neon-verde-noche.webp" alt="Letra H verde de hotel iluminada de noche con tres estrellas" width="800" height="600" loading="lazy"><figcaption>H de hotel con LED verde</figcaption></figure>
+        <figure class="m3 revela"><img src="img/letras-corporeas-iluminadas-restaurante-carmen-noche.webp" alt="Fachada del Restaurante Carmen de noche con las letras corpóreas iluminadas" width="800" height="600" loading="lazy"><figcaption>Corpóreo iluminado</figcaption></figure>
+        <figure class="m4 revela"><img src="img/rotulos-luminosos-concesionario-motos.webp" alt="Fachada de concesionario de motos con rótulos luminosos Kawasaki, Royal Enfield e Indian" width="800" height="450" loading="lazy"><figcaption>Varias marcas, una fachada</figcaption></figure>
+        <figure class="m5 revela"><img src="img/neon-colores-tubos.webp" alt="Tubos de neón de distintos colores encendidos en el taller" width="800" height="600" loading="lazy"><figcaption>Neón, en el taller</figcaption></figure>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- EL TALLER: sus palabras, «del diseño al montaje, incluyendo la fabricación en todo su proceso» -->
+<section class="taller" id="taller" aria-labelledby="t-taller">
+  <div class="wrap">
+    <p class="marca">El taller de La Carlota</p>
+    <h2 id="t-taller">Del diseño al montaje. Y la fabricación, entera, aquí.</h2>
+    <p style="margin-top:1.2rem">Desde 1993 tenemos «maquinaria, herramientas y personal cualificado para dar forma a su imagen corporativa desde el diseño al montaje, incluyendo la fabricación en todo su proceso». Lo decíamos en nuestra web y lo seguimos haciendo igual.</p>
+    <ol class="orden">
+      <li class="revela">
+        <div class="sin-foto" aria-hidden="true">
+          <svg viewBox="0 0 640 300"><g transform="rotate(-7 330 150)"><ellipse cx="330" cy="150" rx="262" ry="122" fill="none" stroke="#FEFE00" stroke-width="4" stroke-dasharray="14 10"/><ellipse cx="330" cy="150" rx="246" ry="106" fill="none" stroke="#9AA1AC" stroke-width="2"/></g><text x="330" y="168" text-anchor="middle" font-family="Anybody,sans-serif" font-weight="800" font-size="54" fill="#fff" letter-spacing="4">TU NOMBRE</text></svg>
+        </div>
+        <div class="txt"><h3>Diseño</h3><p>Nos mandas una foto de la fachada, el vehículo o el sitio, con medidas aproximadas. Te preparamos el diseño.</p></div>
+      </li>
+      <li class="revela">
+        <img src="img/fabricacion-rotulo-taller-la-carlota.webp" alt="Operario fabricando la estructura de aluminio de un rótulo en el taller de Dígito Rotulación en La Carlota" width="800" height="533" loading="lazy">
+        <div class="txt"><h3>Fabricación</h3><p>Estructura, chapa, soldadura, luz y vinilo, en nuestra nave del Polígono Gallardo.</p></div>
+      </li>
+      <li class="revela">
+        <img src="img/furgoneta-digito-rotulacion-taller.webp" alt="Furgoneta amarilla de Dígito Rotulación delante de un concesionario de maquinaria agrícola" width="800" height="544" loading="lazy">
+        <div class="txt"><h3>Montaje</h3><p>Lo llevamos y lo montamos nosotros, con nuestra furgoneta y los medios que haga falta.</p></div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- DÓNDE -->
+<section class="donde" id="donde" aria-labelledby="t-donde">
+  <div class="wrap donde-rejilla">
+    <figure class="revela">
+      <img src="img/fachada-taller-la-carlota.webp" alt="Fachada del taller de Dígito Rotulación: chapa gris con la palabra RÓTULOS en letras corpóreas, el rótulo elíptico amarillo sobre una banda amarilla y la furgoneta de la empresa delante" width="567" height="456" loading="lazy">
+      <figcaption>Nuestra nave. Foto de la ficha de Google (provisional, a baja resolución).</figcaption>
+    </figure>
+    <div>
+      <p class="marca">Dónde estamos</p>
+      <h2 id="t-donde">La nave de los rótulos, en el Polígono Gallardo.</h2>
+      <ul class="nap">
+        <li><svg class="ico"><use href="#i-pin"/></svg><span>C/ Ingeniero Juan de la Cierva, 38 · Polígono Industrial Gallardo<small>14100 La Carlota (Córdoba)</small></span></li>
+        <li><svg class="ico"><use href="#i-reloj"/></svg><span>Lunes a viernes, de 8:00 a 14:00 y de 16:00 a 18:00<small>Horario de nuestra ficha de Google</small></span></li>
+        <li><svg class="ico"><use href="#i-tel"/></svg><span><a href="tel:+34957301773">957 30 17 73</a> · <a href="https://wa.me/34696915689">696 915 689</a> (WhatsApp)<small><a href="mailto:info@digitorotulacion.com">info@digitorotulacion.com</a></small></span></li>
+      </ul>
+      <a class="btn btn-tinta" href="https://www.google.com/maps/search/?api=1&amp;query=Digito%20Rotulaci%C3%B3n%20La%20Carlota"><svg class="ico"><use href="#i-pin"/></svg>Cómo llegar</a>
+    </div>
+  </div>
+</section>
+
+<!-- CIERRE: la elipse en silueta sobre la chapa -->
+<section class="cierre" aria-labelledby="t-cierre">
+  <svg class="silueta" viewBox="0 0 640 300" aria-hidden="true"><g transform="rotate(-7 330 150)"><ellipse cx="330" cy="150" rx="262" ry="122" fill="none" stroke="#788088" stroke-width="10"/><ellipse cx="330" cy="150" rx="246" ry="106" fill="none" stroke="#FEFE00" stroke-width="3" opacity=".75"/></g></svg>
+  <div class="wrap">
+    <p class="marca" style="color:var(--amarillo)">Te contestamos desde el taller</p>
+    <h2 id="t-cierre">Mándanos una foto de tu fachada.</h2>
+    <p>Con la foto y unas medidas aproximadas te decimos qué haríamos y cuánto costaría.</p>
+    <div class="acciones">
+      <a class="btn btn-luz" href="https://wa.me/34696915689?text=Hola%2C%20os%20mando%20una%20foto%20de%20mi%20fachada%20para%20un%20r%C3%B3tulo.%20"><svg class="ico"><use href="#i-wa"/></svg>WhatsApp 696 915 689</a>
+      <a class="btn btn-linea" href="tel:+34957301773"><svg class="ico"><use href="#i-tel"/></svg>Llamar al taller</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="pie">
+  <div class="wrap">
+    <div class="pie-rejilla">
+      <div><img src="img/logo-digito.svg" alt="Dígito Rotulación" width="640" height="300" loading="lazy"><p>Taller de rótulos en La Carlota desde 1993.</p></div>
+      <div><h3>El taller</h3><p>P.I. Gallardo, C/ Ingeniero Juan de la Cierva, 38</p><p>14100 La Carlota (Córdoba)</p><p>L-V 8:00-14:00 y 16:00-18:00</p></div>
+      <div><h3>Contacto</h3><p><a href="tel:+34957301773">957 30 17 73</a></p><p><a href="https://wa.me/34696915689">696 915 689</a> (WhatsApp)</p><p><a href="mailto:info@digitorotulacion.com">info@digitorotulacion.com</a></p></div>
+    </div>
+    <div class="legal"><span>© Dígito Rotulación</span><span>Aviso legal y privacidad: [pendiente · razón social y NIF]</span></div>
+  </div>
+</footer>
+
+<script src="js/gsap.min.js" defer></script>
+<script>
+// Movimiento de oficio: el rótulo se monta letra a letra y se enciende (dos parpadeos de tubo).
+// En el HTML ya está montado y encendido: si no hay JS o hay movimiento reducido, no pasa nada.
+addEventListener('load',()=>{
+  if(!window.gsap||matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  const r=document.querySelector('.rotulo'), off=r.querySelector('.apagado'), halo=r.querySelector('.halo');
+  const letras=r.querySelectorAll('.corporeo span');
+  gsap.set([halo,off,letras],{willChange:'transform,opacity'});
+  gsap.timeline({defaults:{ease:'power3.out'},onComplete:()=>gsap.set([halo,off,letras],{willChange:'auto'})})
+    .set(off,{opacity:.62}).set(halo,{opacity:0})
+    .from(letras,{y:-34,opacity:0,duration:.5,ease:'back.out(2)',stagger:.075})
+    .from('.rotulo .sub',{opacity:0,y:8,duration:.4},'-=.2')
+    .to(off,{opacity:0,duration:.05},'+=.25')
+    .to(off,{opacity:.5,duration:.06},'+=.08')
+    .to(off,{opacity:0,duration:.05},'+=.12')
+    .to(off,{opacity:.35,duration:.05},'+=.05')
+    .to(off,{opacity:0,duration:.2})
+    .to(halo,{opacity:1,duration:.9},'<');
+});
+</script>
+</body>
+</html>
