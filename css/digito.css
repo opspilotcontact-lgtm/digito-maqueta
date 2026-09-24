@@ -1,0 +1,372 @@
+
+@font-face{font-family:'Anybody';font-weight:100 900;font-stretch:50% 150%;font-display:swap;src:url('../fonts/anybody-var-latin.woff2') format('woff2-variations')}
+@font-face{font-family:'Instrument Sans';font-weight:400 700;font-display:swap;src:url('../fonts/instrument-var-latin.woff2') format('woff2-variations')}
+
+/* Solo lo medido: la chapa y el damero de SU fachada; el amarillo y el canto de SU logo.
+   Los claros son el canto de aluminio aclarado (una sola familia fría, H≈215). */
+:root{
+  --chapa:#323846; --chapa-surco:#2A2F3B; --chapa-luz:#3B4251; --damero:#242738;
+  --amarillo:#FEFE00; --amarillo-bajo:#D3D300; --canto:#78818A; --canto-osc:#5B636C; --canto-claro:#9AA1AC;
+  --tinta:#101316; --tinta-suave:#434B55; --hielo:#EEF0F3; --hielo-2:#DFE3E8; --blanco:#fff;
+  --rotulo:'Anybody',Impact,'Arial Narrow',sans-serif; --texto:'Instrument Sans',system-ui,sans-serif;
+  --ancho:78rem; --gutter:clamp(1rem,4vw,2.5rem);
+  --curva:cubic-bezier(.2,.7,.2,1);
+  --grecada:repeating-linear-gradient(90deg,var(--chapa) 0 1.6rem,var(--chapa-surco) 1.6rem 1.85rem,var(--chapa-luz) 1.85rem 1.95rem,var(--chapa) 1.95rem 2.6rem);
+  --damero-bg:conic-gradient(var(--damero) 25%,var(--canto-claro) 0 50%,var(--damero) 0 75%,var(--canto-claro) 0) 0 0/1.5rem 1.5rem;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--hielo);color:var(--tinta);font-family:var(--texto);font-size:1.0625rem;line-height:1.6;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+.wrap{max-width:var(--ancho);margin:0 auto;padding:0 var(--gutter)}
+.salto{position:absolute;left:-999px}.salto:focus{left:1rem;top:1rem;z-index:99;background:#fff;padding:.5rem 1rem}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+h1,h2,h3{font-family:var(--rotulo);margin:0;line-height:.95;letter-spacing:-.005em}
+h2{font-size:clamp(2.3rem,5.2vw,4.2rem);font-weight:850;font-stretch:72%;text-transform:uppercase}
+p{margin:0 0 1rem;max-width:62ch}
+.ico{width:1.15em;height:1.15em;flex:none;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.logo{display:block;aspect-ratio:2/1;height:auto}
+
+/* El sello: la elipse de su logo en pequeño, sin letras. Abre cada sección. */
+.marca{display:inline-flex;align-items:center;gap:.65rem;font-family:var(--rotulo);font-weight:800;font-stretch:118%;text-transform:uppercase;letter-spacing:.14em;font-size:.8rem;margin:0 0 1.1rem}
+.marca::before{content:"";width:2.1rem;height:1.05rem;border-radius:50%;background:var(--amarillo);box-shadow:0 0 0 .12rem #fff,0 0 0 .3rem var(--canto);transform:rotate(-9deg);flex:none}
+
+.btn{display:inline-flex;align-items:center;gap:.6rem;padding:.95rem 1.35rem;border-radius:999px;font-weight:700;text-decoration:none;font-size:1rem;border:0;cursor:pointer;font-family:inherit;transition:transform .25s var(--curva)}
+.btn:hover{transform:translateY(-2px)}
+.btn-luz{background:var(--amarillo);color:var(--tinta);box-shadow:0 0 0 .14rem #fff,0 0 0 .32rem var(--canto)}
+.btn-linea{border:2px solid currentColor;background:none;color:inherit}
+.btn-tinta{background:var(--tinta);color:var(--amarillo)}
+
+.propuesta{background:var(--tinta);color:#E6E9EE;font-size:.82rem;text-align:center;padding:.45rem 1rem}
+.propuesta a{color:var(--amarillo)}
+
+/* Cabecera: la chapa, con el logo real */
+.cab{position:sticky;top:0;z-index:40;background:var(--chapa);color:#fff;border-bottom:3px solid var(--amarillo)}
+.cab .wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:4.4rem}
+.cab-logo .logo{width:7.6rem}
+.cab nav{display:flex;gap:1.4rem;font-size:.95rem;font-weight:600}
+.cab nav a{text-decoration:none;opacity:.9}.cab nav a:hover{opacity:1;color:var(--amarillo)}
+.cab .btn{padding:.6rem 1rem;font-size:.95rem}
+@media (max-width:60rem){.cab nav{display:none}}
+@media (max-width:26rem){.cab .btn span{display:none}.cab .btn{padding:.7rem}}
+
+/* ================= PORTADA: su fachada, entera, como un solo objeto =================
+   Arriba la banda amarilla que cruza la pared con su logo montado encima; debajo, en la chapa,
+   las letras corpóreas blancas (donde su nave dice RÓTULOS) y la tira amarilla fina. */
+.fachada{position:relative;background:var(--grecada);color:#fff;overflow:hidden;padding:clamp(1.6rem,3.2vw,2.6rem) 0 clamp(2.4rem,4vw,3.4rem)}
+.fachada::before{content:"";position:absolute;z-index:2;left:0;top:0;bottom:0;width:3rem;background:var(--damero-bg)}
+.fachada::after{content:"";position:absolute;z-index:2;left:3rem;top:0;bottom:0;width:.55rem;background:var(--amarillo)}
+.fachada .wrap{position:relative;padding-left:max(var(--gutter),4.8rem)}
+.firma{position:relative;width:min(32rem,82vw);margin-left:-1.2%}
+.firma .banda{position:absolute;z-index:1;top:31%;height:40%;left:-100vw;right:-100vw;background:var(--amarillo);box-shadow:0 .5rem 1.2rem rgb(0 0 0/.25)}
+.firma .halo{position:absolute;z-index:2;inset:-14% -10%;border-radius:50%;background:radial-gradient(closest-side,rgb(254 254 0/.45),rgb(254 254 0/0));pointer-events:none}
+.firma svg{position:relative;z-index:3;width:100%;filter:drop-shadow(.35rem .5rem .5rem rgb(0 0 0/.35))}
+.firma .apagado{opacity:0}
+.fachada h1{margin:clamp(1.2rem,2.4vw,1.8rem) 0 0;text-transform:uppercase}
+.corporeo{display:block;font-weight:880;font-stretch:124%;font-size:clamp(2.1rem,5.6vw,5rem);line-height:1.02;color:#fff;letter-spacing:.01em}
+.corporeo .w{display:inline-block;white-space:nowrap}
+/* Reserva las líneas del titular: la letra de respaldo es más estrecha y, sin esto, todo lo de debajo salta al cargar Anybody */
+.corporeo{min-height:2.04em}
+@media (max-width:52rem){.corporeo{min-height:3.06em}}
+.corporeo .l{display:inline-block;text-shadow:.02em .025em 0 var(--canto-osc),.04em .05em 0 var(--canto-osc),.06em .075em .02em #20242d}
+.tira{display:inline-block;margin:.9rem 0 0;background:var(--amarillo);color:var(--tinta);font-weight:700;font-size:clamp(.88rem,1.25vw,1rem);padding:.35rem .9rem;max-width:none}
+.fachada-pie{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:1.5rem 3rem;align-items:end;margin-top:1.8rem}
+.fachada-pie p{color:#E3E6EB;font-size:1.1rem;margin:0}
+.acciones{display:flex;flex-wrap:wrap;gap:.8rem}
+.datos{display:flex;flex-wrap:wrap;gap:.3rem 1.4rem;font-size:.9rem;color:#C9CED6;margin:1rem 0 0;padding:0;list-style:none}
+.datos li{display:flex;gap:.45rem;align-items:center}
+.datos .ico{color:var(--amarillo)}
+@media (max-width:52rem){
+  .fachada .wrap{padding-left:max(var(--gutter),2.9rem)}
+  .fachada::before{width:1.5rem}.fachada::after{left:1.5rem;width:.4rem}
+  .firma{width:min(26rem,86vw);margin-left:-3%}
+  .fachada-pie{grid-template-columns:1fr;margin-top:1.4rem}
+}
+
+/* ================= LA LONA de su nave: índice de oficios ================= */
+.lona{background:var(--amarillo);color:var(--tinta);padding:clamp(3.5rem,7vw,5.5rem) 0}
+.lona-cab{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:1rem 3rem;align-items:end;margin-bottom:2rem}
+.lona-cab h2{font-size:clamp(3rem,8vw,6.5rem);font-stretch:60%}
+.lona-cab p{font-size:1.1rem;margin:0}
+.lona-cab .marca::before{box-shadow:0 0 0 .12rem var(--tinta),0 0 0 .3rem var(--canto)}
+@media (max-width:52rem){.lona-cab{grid-template-columns:1fr}}
+.lona-panel{position:relative;background:var(--tinta);padding:.35rem}
+.lona-panel::before,.lona-panel::after{content:"";position:absolute;top:-.55rem;width:1.1rem;height:1.1rem;border-radius:50%;background:var(--canto-claro);box-shadow:inset 0 0 0 .3rem var(--canto-osc)}   /* los ollaos */
+.lona-panel::before{left:-.55rem}.lona-panel::after{right:-.55rem}
+.fotos-tira{display:grid;grid-template-columns:1.3fr 1fr 1.15fr .9fr 1.2fr 1fr;gap:.35rem}
+.fotos-tira img{width:100%;height:clamp(6rem,11vw,9.5rem);object-fit:cover}
+@media (max-width:52rem){.fotos-tira{grid-template-columns:repeat(3,1fr)}.fotos-tira img:nth-child(n+4){display:none}}
+.nube{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));grid-auto-rows:minmax(2.4rem,auto);gap:.5rem 1rem;align-items:center;padding:1.8rem .6rem .6rem;font-family:var(--rotulo);text-transform:uppercase;line-height:.9}
+.nube a,.nube span{text-decoration:none;font-weight:800}
+.nube a{position:relative}
+.nube a::after{content:"";position:absolute;left:0;right:0;bottom:-.14em;height:.09em;background:currentColor;transform:scaleX(0);transform-origin:left;transition:transform .3s var(--curva)}
+.nube a:hover::after,.nube a:focus-visible::after{transform:scaleX(1)}
+.nube .gris{color:#5B5E3A}
+.nube .v{writing-mode:vertical-rl;transform:rotate(180deg);justify-self:center;font-size:clamp(1.1rem,2vw,1.6rem);font-stretch:70%}
+.n-vehiculos{grid-column:1 / 5;font-size:clamp(2.2rem,5vw,4.2rem);font-stretch:62%}
+.n-senal{grid-column:1 / 5;font-size:clamp(1.3rem,2.6vw,2.1rem);font-stretch:80%}
+.n-carteleria{grid-column:5;grid-row:1 / 3}
+.n-leds{grid-column:6 / 8;font-size:clamp(1.8rem,3.6vw,3rem);font-stretch:70%}
+.n-lonas{grid-column:8;grid-row:1 / 3}
+.n-logotipos{grid-column:9;grid-row:2 / 4}
+.n-monolitos{grid-column:10;grid-row:1 / 4}
+.n-luminosos{grid-column:11 / 13;grid-row:2;justify-self:end;text-align:right;font-size:clamp(1.8rem,3.8vw,3.2rem);font-stretch:66%}
+.n-imagen{grid-column:10 / 13;grid-row:1;justify-self:end;font-size:clamp(1rem,1.7vw,1.35rem);font-stretch:90%}
+.n-corporeas{grid-column:5 / 9;grid-row:3;font-size:clamp(2rem,4.4vw,3.6rem);font-stretch:60%}
+.n-vinilos{grid-column:6 / 8;grid-row:2;font-size:clamp(.85rem,1.3vw,1rem);font-stretch:100%;letter-spacing:.05em}
+.n-digital{grid-column:11 / 13;grid-row:3;justify-self:end;text-align:right;font-size:clamp(1.5rem,3vw,2.5rem);font-stretch:74%}
+.n-vallas{grid-column:1 / 3;grid-row:3;font-size:clamp(1.3rem,2.4vw,2rem);font-stretch:74%}
+.n-stands{grid-column:3 / 5;grid-row:3;font-size:clamp(1rem,1.7vw,1.35rem);font-stretch:100%}
+/* En móvil sigue siendo una nube: palabras de distinto tamaño que se enlazan */
+@media (max-width:52rem){
+  .nube{display:flex;flex-wrap:wrap;align-items:baseline;gap:.35rem .9rem;padding:1.2rem .3rem .4rem}
+  .nube .v{writing-mode:horizontal-tb;transform:none}
+  .nube>*{font-size:1.05rem !important}
+  .n-vehiculos,.n-corporeas,.n-luminosos{font-size:2.1rem !important}
+  .n-leds,.n-digital,.n-senal{font-size:1.5rem !important}
+}
+.nube-pie{margin:1.2rem 0 0;font-size:.95rem}
+
+/* ================= LOS OFICIOS: cada uno con su forma ================= */
+.oficios{padding:clamp(4rem,8vw,6rem) 0;background:var(--hielo)}
+.oficios-cab{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:1rem 3rem;align-items:end;margin-bottom:3rem}
+.oficios-cab .marca{color:var(--tinta-suave)}
+.oficios-cab p{margin:0}
+@media (max-width:52rem){.oficios-cab{grid-template-columns:1fr}}
+.oficio{margin:0 0 clamp(3rem,6vw,4.5rem);scroll-margin-top:6rem}
+.oficio figure{margin:0;position:relative;background:var(--tinta)}
+.oficio figure img{width:100%;height:100%;object-fit:cover}
+.oficio figcaption{position:absolute;left:.5rem;bottom:.5rem;background:rgb(16 19 22/.84);color:#fff;font-size:.78rem;padding:.2rem .55rem;border-radius:.2rem}
+/* La palabra de la lona: el rótulo de cada oficio */
+.palabra{background:var(--amarillo);padding:1.1rem 1.25rem}
+.palabra h3{font-size:clamp(1.9rem,3.8vw,3rem);font-weight:850;font-stretch:62%;text-transform:uppercase;margin:0 0 .5rem}
+.palabra p{margin:0 0 .6rem;font-size:.98rem}
+.palabra a{font-weight:700;font-size:.95rem;display:inline-flex;gap:.4rem;align-items:center}
+
+/* Letras corpóreas: del taller a la fachada */
+.o-corporeas{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1.25fr);gap:.8rem;align-items:stretch}
+.o-corporeas figure{height:clamp(15rem,30vw,24rem)}
+.o-corporeas .paso{align-self:center;display:grid;place-items:center;width:3.2rem;height:3.2rem;border-radius:50%;background:var(--tinta);color:var(--amarillo)}
+.o-corporeas .paso .ico{width:1.5rem;height:1.5rem}
+.o-corporeas .palabra{grid-column:1 / -1;display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:.4rem 2rem;align-items:center}
+.o-corporeas .palabra h3,.o-corporeas .palabra p{margin:0}
+.o-corporeas .detalle{grid-column:3;display:grid;grid-template-columns:1fr 1fr;gap:.8rem}
+.o-corporeas .detalle figure{height:clamp(9rem,15vw,12rem)}
+@media (max-width:52rem){
+  .o-corporeas{grid-template-columns:1fr}
+  .o-corporeas .paso{transform:rotate(90deg);justify-self:center;width:2.6rem;height:2.6rem}
+  .o-corporeas figure{height:14rem}
+  .o-corporeas .detalle{grid-column:auto}
+  .o-corporeas .palabra{grid-template-columns:1fr}
+}
+
+/* Vehículos: el R4 de rally manda */
+.o-vehiculos{display:grid;grid-template-columns:minmax(0,1.7fr) minmax(0,.55fr) minmax(0,.55fr);grid-template-rows:auto auto;gap:.8rem}
+.o-vehiculos .grande{grid-column:1;grid-row:1 / 3;min-height:clamp(18rem,36vw,29rem)}
+.o-vehiculos .palabra{grid-column:2 / 4;grid-row:1;display:flex;flex-direction:column;justify-content:flex-end}
+.o-vehiculos .peque{grid-row:2;height:clamp(8rem,15vw,12rem)}
+@media (max-width:52rem){.o-vehiculos{grid-template-columns:1fr 1fr}.o-vehiculos .grande{grid-column:1 / -1;grid-row:auto;min-height:14rem}.o-vehiculos .palabra{grid-column:1 / -1;grid-row:auto}.o-vehiculos .peque{grid-row:auto}}
+
+/* Carretera: el monoposte en vertical, el resto alrededor */
+.o-carretera{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1fr) minmax(0,1fr);grid-template-rows:auto auto auto;gap:.8rem}
+.o-carretera .alto{grid-row:1 / 4;min-height:clamp(24rem,48vw,38rem)}
+.o-carretera .c2{height:clamp(10rem,17vw,14rem)}
+.o-carretera .palabra{grid-column:2 / 4}
+@media (max-width:52rem){.o-carretera{grid-template-columns:1fr 1fr}.o-carretera .alto{grid-column:1 / -1;grid-row:auto;min-height:22rem}.o-carretera .palabra{grid-column:1 / -1}}
+
+/* Impresión digital: franja corta */
+.o-digital{display:grid;grid-template-columns:minmax(0,1.1fr) repeat(3,minmax(0,1fr));gap:.8rem;align-items:stretch}
+.o-digital figure{min-height:12rem}
+@media (max-width:52rem){.o-digital{grid-template-columns:1fr 1fr}.o-digital .palabra{grid-column:1 / -1}}
+
+/* ================= DE NOCHE: los luminosos ================= */
+.noche{position:relative;background:var(--damero);color:#fff;padding:clamp(4rem,8vw,6rem) 0;scroll-margin-top:4rem}
+.noche::before{content:"";position:absolute;left:0;top:0;bottom:0;width:1.5rem;background:var(--damero-bg)}
+.noche .marca{color:var(--amarillo)}
+.noche .marca::before{box-shadow:0 0 0 .12rem #fff,0 0 0 .3rem var(--canto),0 0 1.2rem .2rem rgb(254 254 0/.45)}
+.noche-rejilla{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.4fr);gap:2rem 3.5rem;align-items:start}
+.noche h2 em{font-style:normal;color:var(--amarillo)}
+.noche .voz{margin:1.6rem 0 1.4rem;font-family:var(--rotulo);font-weight:700;font-stretch:88%;font-size:clamp(1.4rem,2.4vw,1.95rem);line-height:1.15;color:var(--amarillo);max-width:22ch}
+.noche p{color:#D5DAE1}
+.mosaico{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));grid-auto-rows:clamp(6rem,10vw,8.5rem);gap:.4rem}
+.mosaico figure{margin:0;position:relative;overflow:hidden}
+.mosaico img{width:100%;height:100%;object-fit:cover}
+.mosaico figcaption{position:absolute;left:.4rem;bottom:.4rem;font-size:.75rem;background:rgb(0 0 0/.72);padding:.15rem .45rem;border-radius:.2rem}
+.m1{grid-column:1 / 5;grid-row:span 2}.m2{grid-column:5 / 7;grid-row:span 2}.m3{grid-column:1 / 3;grid-row:span 2}.m4{grid-column:3 / 5;grid-row:span 2}.m5{grid-column:5 / 7;grid-row:span 2}
+.dia{margin-top:2.4rem;display:grid;grid-template-columns:auto repeat(3,minmax(0,1fr));gap:.6rem;align-items:center}
+.dia p{margin:0 1rem 0 0;font-family:var(--rotulo);font-weight:800;font-stretch:80%;text-transform:uppercase;font-size:1.2rem;color:#fff;max-width:9ch;line-height:1.05}
+.dia img{width:100%;height:clamp(7rem,11vw,9rem);object-fit:cover}
+@media (max-width:52rem){.noche .wrap{padding-left:2.4rem}.noche::before{width:1rem}.noche-rejilla{grid-template-columns:1fr}.mosaico{grid-template-columns:repeat(2,1fr)}.mosaico figure{grid-column:auto !important}.m1{grid-column:1 / -1 !important}.dia{grid-template-columns:repeat(3,1fr)}.dia p{grid-column:1 / -1;max-width:none}}
+
+/* ================= EL TALLER ================= */
+.taller{background:var(--hielo-2);padding:clamp(4rem,8vw,6rem) 0}
+.taller .marca{color:var(--tinta-suave)}
+.taller-cab{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:1rem 3rem;align-items:end}
+.taller-cab p{margin:0}
+@media (max-width:52rem){.taller-cab{grid-template-columns:1fr}}
+.orden{list-style:none;margin:2.6rem 0 0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.2rem;counter-reset:paso}
+.orden li{background:var(--blanco);border-top:.4rem solid var(--canto);display:flex;flex-direction:column}
+.orden li img{width:100%;height:13rem;object-fit:cover}
+.orden .txt{padding:1.1rem 1.2rem 1.3rem}
+.orden h3{display:flex;align-items:center;gap:.8rem;font-size:1.9rem;font-weight:850;font-stretch:64%;text-transform:uppercase;margin-bottom:.5rem}
+.orden h3::before{counter-increment:paso;content:counter(paso);display:grid;place-items:center;width:3.1rem;height:1.6rem;border-radius:50%;background:var(--amarillo);box-shadow:0 0 0 .12rem #fff,0 0 0 .28rem var(--canto);font-size:1rem;font-stretch:100%;transform:rotate(-9deg);flex:none}
+.orden p{margin:0;font-size:.98rem;color:var(--tinta-suave)}
+.orden .envia{height:13rem;background:var(--amarillo);padding:1.2rem 1.3rem;display:flex;flex-direction:column;justify-content:center;gap:.5rem;font-family:var(--rotulo);text-transform:uppercase;font-weight:800;font-stretch:78%;font-size:1.35rem;line-height:1.05}
+.orden .envia span{display:flex;align-items:center;gap:.6rem}
+.orden .envia .ico{width:1.3rem;height:1.3rem;stroke-width:2.4}
+@media (max-width:52rem){.orden{grid-template-columns:1fr}}
+
+/* ================= DÓNDE ================= */
+.donde{background:var(--hielo);padding:clamp(4rem,8vw,6rem) 0}
+.donde .marca{color:var(--tinta-suave)}
+.donde-rejilla{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:2.5rem 4rem;align-items:center}
+.donde figure{margin:0}
+.donde figure img{width:100%;border:.35rem solid var(--tinta)}
+.donde figcaption{font-size:.85rem;color:var(--tinta-suave);margin-top:.5rem}
+.nap{list-style:none;margin:1.6rem 0;padding:0;display:grid;gap:.9rem}
+.nap li{display:flex;gap:.7rem}
+.nap .ico{margin-top:.25rem;color:var(--canto-osc)}
+.nap small{display:block;color:var(--tinta-suave);font-size:.85rem}
+@media (max-width:52rem){.donde-rejilla{grid-template-columns:1fr}}
+
+/* ================= CIERRE: presupuesto por WhatsApp, sobre la chapa ================= */
+.cierre{position:relative;background:var(--grecada);color:#fff;padding:clamp(4.5rem,9vw,7rem) 0;overflow:hidden;border-top:.55rem solid var(--amarillo)}
+.cierre .silueta{position:absolute;left:-6rem;bottom:-9rem;width:min(52rem,80vw);pointer-events:none;opacity:.55}
+.cierre .wrap{position:relative;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);gap:2.5rem 4rem;align-items:start}
+.cierre .marca{color:var(--amarillo)}
+.cierre h2{font-size:clamp(2.6rem,6vw,4.8rem);font-stretch:60%;max-width:12ch}
+.cierre .lead{color:#E3E6EB;font-size:1.1rem;margin-top:1.2rem}
+.cierre .otros{display:flex;flex-wrap:wrap;gap:.6rem 1.4rem;margin-top:1.6rem;font-size:.95rem;color:#C9CED6}
+.cierre .otros a{color:#fff}
+@media (max-width:52rem){.cierre .wrap{grid-template-columns:1fr}.cierre .silueta{left:-30%;width:140vw;bottom:auto;top:-4rem;opacity:.4}}
+.pide{background:rgb(16 19 22/.86);border:1px solid #4A515E;padding:clamp(1.2rem,2.5vw,1.8rem);border-radius:.4rem}
+.pide fieldset{border:0;margin:0 0 1.1rem;padding:0}
+.pide legend,.pide label{display:block;font-weight:700;font-size:.95rem;margin-bottom:.5rem;color:#fff}
+.chips{display:flex;flex-wrap:wrap;gap:.45rem}
+.chips input{position:absolute;opacity:0;pointer-events:none}
+.chips label{margin:0;font-weight:600;font-size:.9rem;border:1.5px solid #6B7380;border-radius:999px;padding:.4rem .85rem;cursor:pointer;color:#E3E6EB;transition:background .2s var(--curva),color .2s var(--curva),border-color .2s var(--curva)}
+.chips input:checked+label{background:var(--amarillo);border-color:var(--amarillo);color:var(--tinta)}
+.chips input:focus-visible+label{outline:3px solid var(--amarillo);outline-offset:2px}
+.pide .dos{display:grid;grid-template-columns:1fr 1fr;gap:.9rem;margin-bottom:1.1rem}
+.pide input[type=text],.pide textarea{width:100%;font:inherit;font-size:1rem;color:var(--tinta);background:#fff;border:0;border-radius:.3rem;padding:.7rem .8rem}
+.pide textarea{min-height:5rem;resize:vertical}
+.pide .nota{font-size:.85rem;color:#B9C0CA;margin:.9rem 0 0}
+@media (max-width:30rem){.pide .dos{grid-template-columns:1fr}}
+
+/* ================= PIE ================= */
+.pie{background:var(--tinta);color:#C9CED6;padding:3rem 0 2rem;font-size:.92rem}
+.pie-rejilla{display:grid;grid-template-columns:1.2fr 1fr 1fr;gap:2rem}
+.pie .logo{width:8rem;margin-bottom:.8rem}
+.pie h3{font-family:var(--rotulo);font-size:.8rem;letter-spacing:.14em;font-stretch:118%;text-transform:uppercase;color:#fff;margin-bottom:.7rem}
+.pie p{margin:0 0 .3rem}
+.pie .legal{border-top:1px solid #2B3038;margin-top:2rem;padding-top:1.2rem;display:flex;flex-wrap:wrap;gap:1.2rem;font-size:.82rem}
+@media (max-width:52rem){.pie-rejilla{grid-template-columns:1fr}}
+
+/* ================= MOVIMIENTO DE OFICIO =================
+   El rótulo se enciende (la cara pasa de apagada a luz con dos parpadeos de tubo) y las letras
+   corpóreas se montan una a una. Solo transform y opacity. En reposo, y con movimiento
+   reducido, está todo montado y encendido: el efecto nunca esconde nada. */
+@media (prefers-reduced-motion:no-preference){
+  .firma .apagado{animation:tubo 1.25s linear .35s backwards}
+  @keyframes tubo{0%,22%{opacity:.8}24%{opacity:0}34%{opacity:.62}40%{opacity:0}50%,56%{opacity:.4}76%,100%{opacity:0}}
+  .firma .halo{animation:aparece 1s ease-out 1.2s backwards}
+  @keyframes aparece{from{opacity:0}}
+  .corporeo .l{animation:monta .5s cubic-bezier(.34,1.56,.64,1) backwards;animation-delay:calc(.25s + var(--i) * .045s)}
+  @keyframes monta{from{opacity:0;transform:translateY(-.38em)}}
+  .tira{animation:aparece .5s ease-out 1.5s backwards}
+  @supports (animation-timeline:view()){
+    .revela{animation:sube linear both;animation-timeline:view();animation-range:entry 0% cover 24%}
+    @keyframes sube{from{opacity:0;transform:translateY(1.4rem)}to{opacity:1;transform:none}}}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none !important}}
+:focus-visible{outline:3px solid var(--amarillo);outline-offset:3px}
+.lona :focus-visible,.palabra :focus-visible{outline-color:var(--tinta)}
+.oficios,.noche,.taller,.donde,.cierre,.pie{content-visibility:auto;contain-intrinsic-size:auto 1100px}
+/* Pueblos y enlaces del pie */
+.zona{background:var(--amarillo);color:var(--tinta);padding:clamp(3rem,6vw,4.5rem) 0}
+.zona h2{margin-bottom:1rem}.zona p{font-size:1.08rem}
+.zona .marca::before{box-shadow:0 0 0 .12rem var(--tinta),0 0 0 .3rem var(--canto)}
+.chips-links{display:flex;flex-wrap:wrap;gap:.45rem;margin:1.2rem 0}
+.chips-links a{text-decoration:none;border:1.5px solid var(--tinta);border-radius:999px;padding:.35rem .85rem;font-weight:600;font-size:.92rem;color:var(--tinta)}
+.chips-links a:hover{background:var(--tinta);color:var(--amarillo)}
+.guias-home{font-size:.95rem !important}
+.pie-links{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1.5rem 2rem;margin-top:2rem;padding-top:1.6rem;border-top:1px solid #2B3038}
+.pie-links h3{margin-bottom:.6rem}.pie-links ul{list-style:none;margin:0;padding:0;display:grid;gap:.25rem;font-size:.88rem}
+.pie-links a{color:#C9CED6;text-decoration:none}.pie-links a:hover{color:var(--amarillo)}
+@media (max-width:52rem){.pie-links{grid-template-columns:1fr 1fr}}
+
+
+/* ===== Páginas interiores ===== */
+.migas{font-size:.82rem;color:#B9C0CA;margin:0 0 1rem;display:flex;flex-wrap:wrap;gap:.2rem .5rem}
+.migas a{color:#fff}.migas span[aria-hidden]{opacity:.6}
+.sub-hero{position:relative;background:var(--grecada);color:#fff;overflow:hidden;padding:clamp(2rem,4vw,3.2rem) 0 clamp(2.4rem,5vw,3.6rem)}
+.sub-hero::before{content:"";position:absolute;z-index:2;left:0;top:0;bottom:0;width:1.6rem;background:var(--damero-bg)}
+.sub-hero::after{content:"";position:absolute;z-index:2;left:1.6rem;top:0;bottom:0;width:.4rem;background:var(--amarillo)}
+.sub-hero .wrap{position:relative;padding-left:max(var(--gutter),3.2rem);display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,1fr);gap:1.5rem 3rem;align-items:center}
+.sub-hero h1{font-size:clamp(2.3rem,5.4vw,4.4rem);font-weight:880;font-stretch:66%;text-transform:uppercase;line-height:.93;text-shadow:.02em .025em 0 var(--canto-osc),.04em .05em 0 var(--canto-osc)}
+.sub-hero .lead{color:#E3E6EB;font-size:1.12rem;margin:1.1rem 0 1.4rem}
+.sub-hero.guia h1{font-size:clamp(2rem,3.9vw,3.2rem);font-stretch:70%}
+.prosa details{border-top:1px solid var(--hielo-2);padding:.8rem 0;max-width:62ch}
+.prosa summary{cursor:pointer;font-weight:700}
+.prosa details p{margin:.5rem 0 0}
+.sub-hero .marca{color:var(--amarillo)}
+.sub-hero figure{margin:0;border:.35rem solid var(--tinta);box-shadow:0 0 0 .35rem var(--amarillo)}
+.sub-hero figure img{width:100%;aspect-ratio:4/3;object-fit:cover}
+@media (max-width:52rem){.sub-hero .wrap{grid-template-columns:1fr;padding-left:2.4rem}.sub-hero::before{width:1rem}.sub-hero::after{left:1rem;width:.3rem}}
+.bloque{padding:clamp(3rem,6vw,4.5rem) 0}
+.bloque.claro{background:var(--hielo)}.bloque.gris{background:var(--hielo-2)}
+.bloque.luz{background:var(--amarillo)}.bloque.noche{background:var(--damero);color:#fff}
+.bloque h2{margin-bottom:1.2rem}
+.dos-col{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:2rem 3.5rem;align-items:start}
+@media (max-width:52rem){.dos-col{grid-template-columns:1fr}}
+.prosa p{font-size:1.06rem}
+.prosa h2{font-size:clamp(1.8rem,3.6vw,2.7rem);margin:2.4rem 0 1rem}
+.prosa h3{font-size:1.45rem;font-weight:800;font-stretch:80%;text-transform:uppercase;margin:1.8rem 0 .6rem}
+.prosa ul,.prosa ol{padding-left:1.2rem;max-width:62ch}.prosa li{margin:.35rem 0}
+.prosa a{text-decoration-thickness:2px;text-underline-offset:2px}
+.prosa .corto{background:var(--amarillo);padding:1rem 1.2rem;border-left:.45rem solid var(--tinta);max-width:62ch}
+.checks{list-style:none;padding:0;margin:0;display:grid;gap:.55rem}
+.checks li{display:flex;gap:.6rem;align-items:flex-start}
+.checks li::before{content:"";flex:none;width:1.1rem;height:.55rem;margin-top:.5rem;border-radius:50%;background:var(--amarillo);box-shadow:0 0 0 .1rem var(--tinta);transform:rotate(-9deg)}
+.tabla-wrap{overflow-x:auto;background:#fff;border:.3rem solid var(--tinta)}
+table.precios{border-collapse:collapse;width:100%;font-size:.95rem;min-width:34rem}
+table.precios th,table.precios td{padding:.7rem .9rem;text-align:left;border-bottom:1px solid var(--hielo-2);vertical-align:top}
+table.precios th{font-family:var(--rotulo);text-transform:uppercase;font-stretch:90%;font-size:.8rem;letter-spacing:.06em;background:var(--tinta);color:#fff}
+table.precios td.num{white-space:nowrap;font-weight:700;font-variant-numeric:tabular-nums}
+table.precios small{display:block;color:var(--tinta-suave)}
+.nota{font-size:.88rem;color:var(--tinta-suave);margin-top:.8rem}
+.bloque.luz .nota{color:#3B3F2A}
+.faq details{border-top:1px solid #3A4050;padding:.9rem 0}
+.faq summary{cursor:pointer;font-weight:700;font-size:1.05rem;list-style:none;display:flex;justify-content:space-between;gap:1rem}
+.faq summary::after{content:"+";font-family:var(--rotulo);color:var(--amarillo);font-size:1.4rem;line-height:1}
+.faq details[open] summary::after{content:"–"}
+.faq details p{color:#D5DAE1;margin:.6rem 0 0}
+.fotos-3{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:.4rem;background:var(--tinta);padding:.4rem}
+.fotos-3 figure{margin:0;position:relative}.fotos-3 img{width:100%;height:clamp(10rem,18vw,14rem);object-fit:cover}
+.fotos-3 figcaption{position:absolute;left:.4rem;bottom:.4rem;background:rgb(16 19 22/.84);color:#fff;font-size:.75rem;padding:.15rem .5rem;border-radius:.2rem}
+@media (max-width:40rem){.fotos-3{grid-template-columns:1fr 1fr}.fotos-3 figure:first-child{grid-column:1 / -1}}
+.tarjetas{display:grid;grid-template-columns:repeat(auto-fill,minmax(15rem,1fr));gap:.8rem}
+.tarjeta{display:block;text-decoration:none;background:#fff;border-top:.4rem solid var(--amarillo);padding:1rem 1.1rem;transition:transform .25s var(--curva)}
+.tarjeta:hover{transform:translateY(-3px)}
+.tarjeta b{display:block;font-family:var(--rotulo);font-weight:850;font-stretch:66%;text-transform:uppercase;font-size:1.45rem;line-height:1;margin-bottom:.4rem}
+.tarjeta span{font-size:.92rem;color:var(--tinta-suave)}
+.chips-links{display:flex;flex-wrap:wrap;gap:.45rem}
+.chips-links a{text-decoration:none;border:1.5px solid var(--tinta);border-radius:999px;padding:.35rem .85rem;font-weight:600;font-size:.92rem}
+.chips-links a:hover{background:var(--tinta);color:var(--amarillo)}
+.pasos-4{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1rem;counter-reset:p}
+.pasos-4 li{background:#fff;border-top:.4rem solid var(--canto);padding:1rem 1.1rem}
+.pasos-4 h3{display:flex;gap:.6rem;align-items:center;font-size:1.35rem;font-weight:850;font-stretch:66%;text-transform:uppercase;margin-bottom:.4rem}
+.pasos-4 h3::before{counter-increment:p;content:counter(p);display:grid;place-items:center;width:2.6rem;height:1.35rem;border-radius:50%;background:var(--amarillo);box-shadow:0 0 0 .1rem #fff,0 0 0 .24rem var(--canto);font-size:.85rem;font-stretch:100%;transform:rotate(-9deg);flex:none}
+.pasos-4 p{margin:0;font-size:.95rem;color:var(--tinta-suave)}
+@media (max-width:60rem){.pasos-4{grid-template-columns:1fr 1fr}}@media (max-width:36rem){.pasos-4{grid-template-columns:1fr}}
+.galeria{display:grid;grid-template-columns:repeat(auto-fill,minmax(14rem,1fr));gap:.4rem}
+.galeria figure{margin:0;position:relative;background:var(--tinta)}
+.galeria img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.galeria figcaption{font-size:.8rem;padding:.35rem .5rem;color:#D5DAE1}
+.pie-links{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1.5rem 2rem;margin-top:2rem;padding-top:1.6rem;border-top:1px solid #2B3038}
+.pie-links h3{margin-bottom:.6rem}.pie-links ul{list-style:none;margin:0;padding:0;display:grid;gap:.25rem;font-size:.88rem}
+.pie-links a{color:#C9CED6;text-decoration:none}.pie-links a:hover{color:var(--amarillo)}
+@media (max-width:52rem){.pie-links{grid-template-columns:1fr 1fr}}
+.cab-logo img{width:7.6rem;height:auto}
+.pie .pie-logo{width:8rem;height:auto;margin-bottom:.8rem}

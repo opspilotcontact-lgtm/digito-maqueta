@@ -1,0 +1,3536 @@
+{
+ "services": [
+  {
+   "slug": "rotulos-luminosos",
+   "name": "Luminosos",
+   "short": "Rótulos luminosos",
+   "label": "Rótulos luminosos",
+   "icon": "luminoso",
+   "oldPath": "/trabajos-realizados/luminosos/",
+   "title": "Rótulos luminosos en Córdoba · Fabricación y montaje propios desde 1993",
+   "h1": "Rótulos luminosos en Córdoba y Écija",
+   "meta": "Rótulos luminosos LED para fachadas, banderolas y letras iluminadas. Los diseñamos, fabricamos y montamos nosotros desde 1993 en La Carlota. Precios orientativos y presupuesto cerrado en 48 h.",
+   "claim": "Para que tu negocio se vea de noche desde la carretera. LED de bajo consumo, fabricado y montado por nosotros.",
+   "intro": [
+    "Un rótulo luminoso es lo primero que ve un cliente que llega de noche, y lo último que se apaga en la calle. Si parpadea, si tiene una letra fundida o si el metacrilato está amarillento, eso también lo ve. Por eso fabricamos los nuestros con estructura de aluminio, LED de calidad y fuentes de alimentación que se cambian sin desmontar el rótulo.",
+    "Llevamos desde 1993 haciendo luminosos para comercios, restaurantes, farmacias, gasolineras y concesionarios de Córdoba, Écija y provincia. Muchos de los que ves en las calles de La Carlota, Écija o Palma del Río salieron de nuestro taller. Y seguimos manteniendo rótulos que montamos hace veinte años."
+   ],
+   "bullets": [
+    "Cajón de luz (rótulo de fachada) con frontal de metacrilato o lona tensada, iluminación LED interior.",
+    "Banderolas luminosas de doble cara: cuadradas, redondas, ovaladas o con la forma de tu logotipo.",
+    "Letras corpóreas iluminadas: luz frontal, luz trasera (efecto halo) o las dos.",
+    "Cruces de farmacia y ortopedia LED, con programación de textos si la quieres.",
+    "Sustitución de tubos fluorescentes por LED en rótulos existentes: menos consumo, sin parpadeo.",
+    "Montaje con plataforma elevadora, conexión eléctrica y programador horario."
+   ],
+   "steps": [
+    {
+     "title": "Nos cuentas qué necesitas",
+     "text": "Por WhatsApp o con el formulario: qué tipo de rótulo, medidas aproximadas, dónde va y una foto del sitio. Con eso ya podemos trabajar. Te contestamos en menos de 24 horas laborables."
+    },
+    {
+     "title": "Boceto y presupuesto cerrado",
+     "text": "En 48 horas tienes un boceto sobre la foto de tu fachada o vehículo y un presupuesto con materiales, medidas, plazo de fabricación, montaje y, si hacen falta, los permisos. Sin sorpresas después."
+    },
+    {
+     "title": "Lo fabricamos en nuestro taller de La Carlota",
+     "text": "Corte, soldadura, pintura, LED, impresión y laminado: todo lo hacemos nosotros, en nuestras instalaciones. No subcontratamos la fabricación, por eso controlamos el plazo y el acabado. Te mandamos una foto antes de salir del taller."
+    },
+    {
+     "title": "Montaje y puesta en marcha",
+     "text": "Nuestro equipo monta el rótulo con los medios que hagan falta: plataforma elevadora, camión grúa o andamio. Conectamos la iluminación, limpiamos y te lo dejamos funcionando. Garantía por escrito."
+    }
+   ],
+   "prices": [
+    {
+     "concept": "Cajón de luz LED con frontal de metacrilato",
+     "range": "260 – 420 €",
+     "unit": "m²",
+     "note": "Estructura de aluminio, LED y fuente incluidos. Mínimo habitual 1,5 m². Impresión del frontal incluida."
+    },
+    {
+     "concept": "Cajón de luz LED con lona tensada (grandes formatos)",
+     "range": "190 – 320 €",
+     "unit": "m²",
+     "note": "Para rótulos de más de 4 m². Lona backlight con sistema de tensado, sin juntas."
+    },
+    {
+     "concept": "Banderola luminosa 60 × 60 cm, doble cara",
+     "range": "390 – 690 €",
+     "unit": "unidad",
+     "note": "Con soporte a pared. Redonda u ovalada de 70-80 cm: 480 – 850 €."
+    },
+    {
+     "concept": "Letras corpóreas iluminadas, 30 cm de altura",
+     "range": "95 – 170 €",
+     "unit": "letra",
+     "note": "Luz frontal o halo. De 50 cm: 150 – 280 €/letra. Incluye LED y fuente."
+    },
+    {
+     "concept": "Cruz de farmacia LED",
+     "range": "950 – 2.600 €",
+     "unit": "unidad",
+     "note": "Según tamaño y si lleva texto programable."
+    },
+    {
+     "concept": "Pasar un rótulo de fluorescente a LED",
+     "range": "140 – 350 €",
+     "unit": "rótulo",
+     "note": "Aprovechando el cajón existente. Ahorra hasta un 70 % de consumo."
+    },
+    {
+     "concept": "Montaje en fachada hasta 4 m de altura",
+     "range": "160 – 380 €",
+     "unit": "montaje",
+     "note": "Incluye anclajes y conexión al punto de luz existente. Con plataforma elevadora se suma el alquiler."
+    }
+   ],
+   "priceNote": "Precios orientativos con IVA, para que vayas con una idea. El precio real depende de las medidas exactas, el material, la altura de montaje y la distancia. Te lo damos cerrado, sin «a partir de», en 48 horas.",
+   "duration": "Entre 7 y 12 días laborables desde que apruebas el boceto, montaje incluido. Si tienes una apertura con fecha, dínoslo el primer día y nos organizamos.",
+   "faqs": [
+    {
+     "q": "¿Cuánto cuesta un rótulo luminoso para una tienda?",
+     "a": "Un cajón de luz LED de 3 × 0,8 m (el tamaño habitual de un comercio de calle) sale entre 700 y 1.100 € montado, según el frontal y la altura. Una banderola de 60 × 60 cm, entre 390 y 690 €. Te damos el precio cerrado en 48 horas con una foto de la fachada y las medidas."
+    },
+    {
+     "q": "¿Qué consume un rótulo luminoso LED?",
+     "a": "Muy poco. Un cajón de 3 × 0,8 m con LED consume unos 40-60 W, lo mismo que una bombilla antigua. Con programador horario, encendido de 19 a 1 h, son menos de 3 € al mes. Los antiguos de fluorescentes consumían de 3 a 5 veces más."
+    },
+    {
+     "q": "¿Hace falta licencia para poner un rótulo luminoso?",
+     "a": "En la mayoría de municipios de Córdoba basta una declaración responsable o una licencia de obra menor, y en cascos históricos protegidos (como el de Córdoba capital o Écija) hay ordenanzas de tamaño, iluminación y color. Te decimos qué pide tu ayuntamiento y preparamos la documentación técnica del rótulo."
+    },
+    {
+     "q": "¿Cuánto dura un rótulo luminoso?",
+     "a": "La estructura de aluminio, décadas: seguimos manteniendo rótulos nuestros de los años 90. El LED tiene una vida de 50.000 horas (más de 15 años a 8 horas diarias). La fuente de alimentación es lo que antes falla, por eso la montamos accesible para cambiarla en 20 minutos."
+    },
+    {
+     "q": "Mi rótulo luminoso ya no enciende, ¿lo arregláis?",
+     "a": "Sí, aunque no lo hayamos hecho nosotros. Lo más habitual es la fuente de alimentación o los tubos fluorescentes. Casi siempre compensa pasarlo a LED aprovechando el cajón: queda como nuevo por 140-350 €."
+    },
+    {
+     "q": "¿Hacéis el diseño o tengo que traerlo?",
+     "a": "Las dos cosas. Si tienes logotipo, lo adaptamos al rótulo (y te lo pedimos en vectorial; si solo tienes una imagen, lo redibujamos). Si no tienes nada, lo diseñamos contigo: es lo que hacemos desde 1993."
+    }
+   ],
+   "localAngle": "En {loc} hemos montado luminosos para comercios de calle, farmacias, bares y naves de polígono. Conocemos las ordenanzas del ayuntamiento y las alturas habituales de las fachadas, así que el presupuesto va con el montaje real, no con una estimación.",
+   "photo": "restauranteNoche",
+   "gallery": [
+    "mezquitaArea",
+    "tralara",
+    "optico",
+    "farmacia",
+    "kawasaki",
+    "mezquitaLetras",
+    "puntomoto",
+    "duendes"
+   ],
+   "subs": [
+    {
+     "slug": "cajon-de-luz",
+     "name": "Cajón de luz para fachada",
+     "title": "Cajón de luz LED para fachada en Córdoba · Rótulo luminoso de comercio",
+     "h1": "Cajón de luz para fachada",
+     "meta": "El rótulo luminoso clásico de comercio: cajón de aluminio con frontal de metacrilato o lona tensada e iluminación LED. Fabricado en La Carlota, montado en toda la provincia. Desde 260 €/m².",
+     "intro": [
+      "Es el rótulo luminoso de toda la vida, hecho bien: un cajón de aluminio lacado, un frontal de metacrilato opal con tu diseño impreso o en vinilo, y módulos LED repartidos para que la luz sea uniforme, sin sombras ni puntos.",
+      "Para fachadas largas (más de 4 metros) el frontal se hace con lona backlight tensada, que no tiene juntas ni se dilata con el calor de agosto. Lo fabricamos a la medida exacta de tu fachada, no a medidas estándar."
+     ],
+     "bullets": [
+      "Cajón de aluminio lacado en el color que quieras, fondo de 12 a 18 cm.",
+      "Frontal de metacrilato opal de 3 mm impreso o con vinilos, o lona backlight tensada.",
+      "LED de 6.500 K (blanco) o del color de tu marca, 50.000 horas de vida.",
+      "Fuente de alimentación accesible desde fuera para mantenimiento.",
+      "Programador horario para que se encienda y apague solo."
+     ],
+     "prices": [
+      {
+       "concept": "Cajón de luz LED, frontal de metacrilato",
+       "range": "260 – 420 €",
+       "unit": "m²"
+      },
+      {
+       "concept": "Cajón de luz LED, lona tensada",
+       "range": "190 – 320 €",
+       "unit": "m²",
+       "note": "A partir de 4 m²."
+      },
+      {
+       "concept": "Rótulo 3 × 0,8 m montado (el más pedido)",
+       "range": "700 – 1.100 €",
+       "unit": "completo"
+      },
+      {
+       "concept": "Cambiar solo el frontal de un cajón existente",
+       "range": "90 – 160 €",
+       "unit": "m²"
+      }
+     ],
+     "faqs": [
+      {
+       "q": "¿Metacrilato o lona?",
+       "a": "Hasta 3-4 m², metacrilato: es rígido, se limpia bien y aguanta décadas. A partir de ahí, lona tensada: no tiene juntas, pesa menos y sale más barata por metro. En ambos casos la luz LED es la misma."
+      },
+      {
+       "q": "¿Se puede aprovechar mi cajón antiguo?",
+       "a": "Casi siempre. Cambiamos el frontal y pasamos la iluminación a LED, y el rótulo queda nuevo por una fracción del precio."
+      }
+     ],
+     "photo": "aguilar"
+    },
+    {
+     "slug": "banderolas-luminosas",
+     "name": "Banderolas luminosas",
+     "title": "Banderolas luminosas en Córdoba · Doble cara, redondas y con forma",
+     "h1": "Banderolas luminosas de doble cara",
+     "meta": "Banderolas luminosas perpendiculares a la fachada para que te vean desde lejos en la calle: cuadradas, redondas, ovaladas o con la forma de tu logotipo. Desde 390 €.",
+     "intro": [
+      "La banderola es el rótulo que se ve caminando por la acera, desde los dos lados. Para un bar, una farmacia, una óptica o una tienda en una calle comercial, muchas veces trae más clientes que el rótulo de fachada.",
+      "Las fabricamos en aluminio con frontal de metacrilato por las dos caras, LED interior y el soporte a pared calculado para el peso y el viento. Cuadradas, redondas, ovaladas o recortadas con la silueta de tu logotipo."
+     ],
+     "bullets": [
+      "Doble cara iluminada, visible desde ambos sentidos de la calle.",
+      "Formas: cuadrada, rectangular, redonda, ovalada o recortada.",
+      "Soporte a pared de acero galvanizado, calculado para el viento.",
+      "Cruz de farmacia y ortopedia en el mismo formato."
+     ],
+     "prices": [
+      {
+       "concept": "Banderola 60 × 60 cm, doble cara LED",
+       "range": "390 – 690 €",
+       "unit": "unidad"
+      },
+      {
+       "concept": "Banderola redonda u ovalada de 70-80 cm",
+       "range": "480 – 850 €",
+       "unit": "unidad"
+      },
+      {
+       "concept": "Banderola con forma de logotipo",
+       "range": "650 – 1.400 €",
+       "unit": "unidad",
+       "note": "Según complejidad del recorte."
+      },
+      {
+       "concept": "Cruz de farmacia LED",
+       "range": "950 – 2.600 €",
+       "unit": "unidad"
+      }
+     ],
+     "faqs": [
+      {
+       "q": "¿Cuánto puede sobresalir una banderola?",
+       "a": "Depende de la ordenanza municipal y del ancho de la acera; lo habitual es entre 60 y 90 cm y una altura mínima libre de 2,5 m. Lo comprobamos antes de fabricar."
+      }
+     ],
+     "photo": "tosca"
+    },
+    {
+     "slug": "letras-iluminadas",
+     "name": "Letras corpóreas iluminadas",
+     "title": "Letras corpóreas iluminadas en Córdoba · Luz frontal y efecto halo",
+     "h1": "Letras corpóreas iluminadas",
+     "meta": "Letras corpóreas con LED: luz frontal, luz trasera (halo) o ambas. El acabado más elegante para fachadas de restaurantes, clínicas, hoteles y oficinas. Desde 95 €/letra.",
+     "intro": [
+      "Cuando un rótulo de cajón se queda corto, se pasa a letras iluminadas: cada letra es una pieza con su propio LED. De día son letras corpóreas; de noche, la fachada entera cambia.",
+      "Tres opciones: luz frontal (la cara de la letra ilumina), halo (la luz sale por detrás y dibuja la silueta en la pared) o mixta. El halo es el acabado que piden hoteles, restaurantes y clínicas porque no deslumbra y queda elegante."
+     ],
+     "bullets": [
+      "Cuerpo de aluminio o acero inoxidable, frontal de metacrilato para luz frontal.",
+      "Halo: letra opaca separada 2-3 cm de la pared, LED trasero.",
+      "Montaje sobre plantilla, cableado oculto, una sola fuente accesible.",
+      "Alturas desde 20 cm hasta más de 2 m (letras de azotea)."
+     ],
+     "prices": [
+      {
+       "concept": "Letra iluminada de 30 cm (frontal o halo)",
+       "range": "95 – 170 €",
+       "unit": "letra"
+      },
+      {
+       "concept": "Letra iluminada de 50 cm",
+       "range": "150 – 280 €",
+       "unit": "letra"
+      },
+      {
+       "concept": "Letra iluminada de 1 m",
+       "range": "380 – 750 €",
+       "unit": "letra"
+      },
+      {
+       "concept": "Rótulo de 10 letras de 40 cm, halo, montado",
+       "range": "1.600 – 2.900 €",
+       "unit": "completo"
+      }
+     ],
+     "faqs": [
+      {
+       "q": "¿Frontal o halo?",
+       "a": "Frontal se lee desde más lejos y es lo indicado para carretera o naves. Halo es más elegante y no deslumbra: perfecto para calle, hostelería y sanidad. Mixto, cuando quieres las dos cosas."
+      }
+     ],
+     "photo": "carmenNoche"
+    }
+   ]
+  },
+  {
+   "slug": "letras-corporeas",
+   "name": "Corpóreos",
+   "short": "Letras corpóreas",
+   "label": "Letras corpóreas",
+   "icon": "corporeo",
+   "oldPath": "/trabajos-realizados/corporeos/",
+   "title": "Letras corpóreas en Córdoba · PVC, aluminio, acero inoxidable y metacrilato",
+   "h1": "Letras corpóreas y logotipos en relieve",
+   "meta": "Letras corpóreas para fachadas, naves y oficinas en Córdoba, Écija y provincia: PVC, Dibond, aluminio, acero inoxidable y metacrilato. Cortadas y montadas por nuestro taller de La Carlota desde 1993.",
+   "claim": "Volumen en la fachada. La forma más limpia y duradera de poner tu nombre en un edificio.",
+   "intro": [
+    "Las letras corpóreas son letras con cuerpo: se cortan en PVC, aluminio, acero o metacrilato y se separan de la pared con varillas, de forma que proyectan sombra y se leen a distancia. Es el acabado de las clínicas, los centros oficiales, las naves de polígono y las oficinas que quieren durar.",
+    "En nuestro taller cortamos, soldamos, pintamos y pulimos las letras; el montaje lo hacemos con plantilla, a nivel, con anclajes calculados para el soporte (ladrillo, piedra, panel sándwich, chapa). Desde una placa de 20 cm hasta letras de dos metros para una azotea."
+   ],
+   "bullets": [
+    "PVC espumado de 10 a 19 mm, lacado en cualquier color: la opción económica y duradera.",
+    "Dibond (aluminio compuesto) para exteriores exigentes, cortes limpios.",
+    "Aluminio lacado y acero inoxidable (pulido, satinado o corten) para acabados premium.",
+    "Metacrilato de colores o transparente para interiores y recepciones.",
+    "Logotipos y formas recortadas, no solo letras.",
+    "Montaje con plantilla y separadores; retirada de rótulos antiguos."
+   ],
+   "steps": [
+    {
+     "title": "Nos cuentas qué necesitas",
+     "text": "Por WhatsApp o con el formulario: qué tipo de rótulo, medidas aproximadas, dónde va y una foto del sitio. Con eso ya podemos trabajar. Te contestamos en menos de 24 horas laborables."
+    },
+    {
+     "title": "Boceto y presupuesto cerrado",
+     "text": "En 48 horas tienes un boceto sobre la foto de tu fachada o vehículo y un presupuesto con materiales, medidas, plazo de fabricación, montaje y, si hacen falta, los permisos. Sin sorpresas después."
+    },
+    {
+     "title": "Lo fabricamos en nuestro taller de La Carlota",
+     "text": "Corte, soldadura, pintura, LED, impresión y laminado: todo lo hacemos nosotros, en nuestras instalaciones. No subcontratamos la fabricación, por eso controlamos el plazo y el acabado. Te mandamos una foto antes de salir del taller."
+    },
+    {
+     "title": "Montaje y puesta en marcha",
+     "text": "Nuestro equipo monta el rótulo con los medios que hagan falta: plataforma elevadora, camión grúa o andamio. Conectamos la iluminación, limpiamos y te lo dejamos funcionando. Garantía por escrito."
+    }
+   ],
+   "prices": [
+    {
+     "concept": "Letra de PVC 10 mm, 30 cm de altura, lacada",
+     "range": "24 – 48 €",
+     "unit": "letra",
+     "note": "La opción más pedida para comercios y oficinas."
+    },
+    {
+     "concept": "Letra de PVC 19 mm, 50 cm de altura",
+     "range": "42 – 85 €",
+     "unit": "letra"
+    },
+    {
+     "concept": "Letra de Dibond, 30-50 cm",
+     "range": "38 – 90 €",
+     "unit": "letra"
+    },
+    {
+     "concept": "Letra de aluminio lacado con cuerpo, 30-50 cm",
+     "range": "75 – 160 €",
+     "unit": "letra"
+    },
+    {
+     "concept": "Letra de acero inoxidable, 30-50 cm",
+     "range": "115 – 240 €",
+     "unit": "letra",
+     "note": "Pulido espejo, satinado o efecto corten."
+    },
+    {
+     "concept": "Letra de metacrilato 20 mm, 30 cm",
+     "range": "48 – 95 €",
+     "unit": "letra"
+    },
+    {
+     "concept": "Montaje sobre fachada hasta 4 m con plantilla",
+     "range": "150 – 400 €",
+     "unit": "montaje",
+     "note": "Con plataforma elevadora se suma el alquiler (150-350 €/día)."
+    }
+   ],
+   "priceNote": "Precios orientativos con IVA, para que vayas con una idea. El precio real depende de las medidas exactas, el material, la altura de montaje y la distancia. Te lo damos cerrado, sin «a partir de», en 48 horas.",
+   "duration": "Entre 5 y 10 días laborables desde el boceto aprobado, montaje incluido. Acero inoxidable y letras de más de 1 m, de 10 a 15 días.",
+   "faqs": [
+    {
+     "q": "¿Cuánto cuesta un rótulo de letras corpóreas?",
+     "a": "Un nombre de 10 letras de 30 cm en PVC lacado, montado en fachada, sale entre 450 y 800 €. En acero inoxidable, entre 1.400 y 2.700 €. Manda la foto de la fachada y el nombre y te lo cerramos en 48 horas."
+    },
+    {
+     "q": "¿Qué material aguanta mejor el sol de Córdoba?",
+     "a": "Todos los que usamos están pensados para exterior, pero no igual: el PVC lacado con pintura de poliuretano aguanta 8-12 años sin amarillear; el aluminio y el acero, décadas. El metacrilato de color lo reservamos para interior o zonas sin sol directo."
+    },
+    {
+     "q": "¿Las letras corpóreas se pueden iluminar después?",
+     "a": "Si crees que algún día querrás luz, dínoslo ahora: las fabricamos con cuerpo hueco y preinstalación, y añadir el LED más adelante cuesta la mitad. Mira la página de letras iluminadas."
+    },
+    {
+     "q": "¿Cómo se sujetan a la pared?",
+     "a": "Con varillas roscadas ancladas con resina química o tacos según el soporte, sobre una plantilla a tamaño real que hacemos en el taller. Sobre panel sándwich o chapa usamos remaches ciegos o adhesivo estructural. No dejamos letras torcidas."
+    },
+    {
+     "q": "¿Solo hacéis letras o también logotipos?",
+     "a": "Cualquier forma que se pueda vectorizar: logotipos, iconos, siluetas. Si tu logotipo tiene degradados o fotos, te proponemos cómo adaptarlo al corpóreo sin que pierda."
+    }
+   ],
+   "localAngle": "En {loc} el corpóreo es el rótulo de las clínicas, las asesorías, los centros municipales y las naves nuevas del polígono. Cortamos las letras en el taller y las montamos con plantilla en una mañana.",
+   "photo": "econaturNave",
+   "gallery": [
+    "carmenDia",
+    "ruza",
+    "parafarmacia",
+    "formacion",
+    "veterinaria",
+    "carlotenaCorporeo",
+    "hotelH",
+    "mayores"
+   ],
+   "subs": [
+    {
+     "slug": "pvc-y-dibond",
+     "name": "Letras de PVC y Dibond",
+     "title": "Letras corpóreas de PVC y Dibond en Córdoba · Económicas y duraderas",
+     "h1": "Letras corpóreas de PVC y Dibond",
+     "meta": "La opción más pedida: letras de PVC espumado de 10 a 19 mm o Dibond, lacadas en cualquier color y montadas con separadores. Desde 24 €/letra.",
+     "intro": [
+      "El PVC espumado es el material con mejor relación entre precio, acabado y duración para letras corpóreas de exterior. Se corta con precisión, se laca en cualquier color RAL y, con separadores, da el mismo efecto de volumen que materiales mucho más caros.",
+      "El Dibond (dos láminas de aluminio con núcleo de polietileno) se usa cuando la letra es grande o va en una zona muy expuesta: no se deforma con el calor y el corte queda perfectamente recto."
+     ],
+     "bullets": [
+      "PVC de 10, 15 y 19 mm según el tamaño de la letra.",
+      "Lacado con pintura de poliuretano de exterior, cualquier color.",
+      "Dibond de 3 mm para letras grandes y zonas de mucho sol.",
+      "Separadores de 2-3 cm para el efecto de sombra."
+     ],
+     "prices": [
+      {
+       "concept": "Letra de PVC 10 mm, 30 cm",
+       "range": "24 – 48 €",
+       "unit": "letra"
+      },
+      {
+       "concept": "Letra de PVC 19 mm, 50 cm",
+       "range": "42 – 85 €",
+       "unit": "letra"
+      },
+      {
+       "concept": "Letra de Dibond, 50 cm",
+       "range": "55 – 90 €",
+       "unit": "letra"
+      },
+      {
+       "concept": "Nombre de 10 letras de 30 cm, montado",
+       "range": "450 – 800 €",
+       "unit": "completo"
+      }
+     ],
+     "faqs": [
+      {
+       "q": "¿El PVC amarillea?",
+       "a": "El PVC blanco sin pintar, con los años, sí. Por eso nosotros lo lacamos siempre con pintura de poliuretano de exterior, que aguanta 8-12 años como el primer día."
+      }
+     ],
+     "photo": "mayores"
+    },
+    {
+     "slug": "aluminio-y-acero-inoxidable",
+     "name": "Letras de aluminio y acero inoxidable",
+     "title": "Letras corpóreas de acero inoxidable y aluminio en Córdoba · Acabado premium",
+     "h1": "Letras corpóreas de aluminio y acero inoxidable",
+     "meta": "Letras con cuerpo de aluminio lacado o acero inoxidable pulido, satinado o corten. El acabado premium para sedes, hoteles, restaurantes y edificios de oficinas. Fabricadas y soldadas en nuestro taller.",
+     "intro": [
+      "Cuando el edificio lo pide, la letra se hace en metal: cuerpo de aluminio soldado y lacado, o acero inoxidable con acabado espejo, satinado o corten. Son letras que duran lo que dura el edificio.",
+      "Las soldamos y pulimos en el taller, una a una. Pueden dejarse ciegas o prepararse para iluminación frontal o halo."
+     ],
+     "bullets": [
+      "Aluminio de 1,5-2 mm soldado y lacado en cualquier color.",
+      "Acero inoxidable AISI 304 (316 para ambientes agresivos), espejo o satinado.",
+      "Efecto corten (óxido controlado) para arquitectura contemporánea.",
+      "Preparadas para LED si se quiere iluminar después."
+     ],
+     "prices": [
+      {
+       "concept": "Letra de aluminio lacado, 30-50 cm",
+       "range": "75 – 160 €",
+       "unit": "letra"
+      },
+      {
+       "concept": "Letra de acero inoxidable, 30-50 cm",
+       "range": "115 – 240 €",
+       "unit": "letra"
+      },
+      {
+       "concept": "Letra de acero inoxidable, 1 m",
+       "range": "320 – 620 €",
+       "unit": "letra"
+      }
+     ],
+     "faqs": [
+      {
+       "q": "¿Inoxidable pulido o satinado?",
+       "a": "El pulido espejo brilla y refleja (muy visible, pero marca huellas y refleja el sol de frente). El satinado es más sobrio y disimula el polvo: es el que más se pide para fachadas."
+      }
+     ],
+     "photo": "ruza"
+    },
+    {
+     "slug": "metacrilato",
+     "name": "Letras y logotipos de metacrilato",
+     "title": "Letras de metacrilato en Córdoba · Recepciones, interiores y escaparates",
+     "h1": "Letras y logotipos de metacrilato",
+     "meta": "Letras de metacrilato de 10 a 30 mm, de color, transparentes o con vinilo, para recepciones, oficinas, clínicas y escaparates. Corte a medida en nuestro taller.",
+     "intro": [
+      "El metacrilato es el material de los rótulos de interior: recepciones, paredes de oficina, clínicas, tiendas. Tiene brillo propio, colores intensos y cantos pulidos que quedan perfectos a un metro de distancia.",
+      "Lo cortamos de 10 a 30 mm, en colores de catálogo, transparente con vinilo por detrás o con pintura al dorso. Montado con separadores de acero o pegado a la pared, según el sitio."
+     ],
+     "bullets": [
+      "Espesores de 10 a 30 mm.",
+      "Colores opacos, translúcidos y transparente.",
+      "Cantos pulidos a máquina.",
+      "Ideal para interior; en exterior, solo en zonas sin sol directo."
+     ],
+     "prices": [
+      {
+       "concept": "Letra de metacrilato 20 mm, 30 cm",
+       "range": "48 – 95 €",
+       "unit": "letra"
+      },
+      {
+       "concept": "Logotipo de recepción 1 × 0,4 m, montado",
+       "range": "350 – 750 €",
+       "unit": "completo"
+      }
+     ],
+     "faqs": [
+      {
+       "q": "¿Sirve para exterior?",
+       "a": "El metacrilato de calidad (colada) aguanta bien el exterior, pero el color se apaga antes que el lacado sobre aluminio si le da el sol de frente todo el día. Para fachadas orientadas al sur, te recomendamos PVC lacado o aluminio."
+      }
+     ],
+     "photo": "lapaz"
+    }
+   ]
+  },
+  {
+   "slug": "rotulacion-vehiculos",
+   "name": "Vehículos",
+   "short": "Rotulación de vehículos",
+   "label": "Rotulación de vehículos",
+   "icon": "vehiculo",
+   "oldPath": "/trabajos-realizados/vehiculos/",
+   "title": "Rotulación de vehículos en Córdoba · Furgonetas, flotas y camiones",
+   "h1": "Rotulación de vehículos en Córdoba y Écija",
+   "meta": "Rotulamos furgonetas, coches comerciales, camiones y flotas en nuestro taller de La Carlota: vinilo de corte o impresión digital laminada, diseño incluido. Tu vehículo vuelve a la calle en 1-3 días.",
+   "claim": "La publicidad más rentable que existe: la que va contigo a cada obra, cada reparto y cada cliente.",
+   "intro": [
+    "Una furgoneta rotulada recorre 20.000 o 30.000 km al año por Córdoba, Écija y provincia. Es un anuncio que ve todo el mundo, cuesta lo que un mes de anuncios en internet y dura cinco años. Y si está mal hecha (vinilo que se levanta, colores que se apagan, letras torcidas) también lo ve todo el mundo.",
+    "Rotulamos en nuestro taller de La Carlota, a cubierto y con el vehículo limpio y a temperatura: vinilo de corte para logotipos y textos, impresión digital laminada para fotos y fondos, y rotulación integral cuando quieres que el vehículo sea la marca. Diseñamos sobre la plantilla real de tu modelo para que no haya sorpresas en puertas, tiradores ni curvas."
+   ],
+   "bullets": [
+    "Rotulación parcial con vinilo de corte: logotipo, teléfono, web y servicios en laterales y trasera.",
+    "Rotulación con impresión digital laminada: fotos, degradados y fondos a todo color.",
+    "Rotulación integral (car wrapping publicitario) de furgonetas y furgones.",
+    "Flotas: misma imagen en todos los vehículos, plantilla guardada para las próximas altas.",
+    "Camiones, cajas, remolques, semirremolques y vehículos especiales.",
+    "Retirada de rotulación antigua sin dañar la pintura."
+   ],
+   "steps": [
+    {
+     "title": "Nos dices modelo y qué quieres",
+     "text": "Marca, modelo y año del vehículo, tu logotipo y qué quieres que ponga. Con una foto del vehículo y del logo empezamos. Te contestamos en menos de 24 horas laborables."
+    },
+    {
+     "title": "Diseño sobre la plantilla de tu modelo",
+     "text": "Dibujamos la rotulación sobre la plantilla real de tu furgoneta o coche, con las puertas, ventanas y tiradores en su sitio. Lo ves antes de aprobar: laterales, trasera y frontal."
+    },
+    {
+     "title": "Corte, impresión y laminado en el taller",
+     "text": "Vinilos de corte de larga duración y, para impresión, vinilo fundido con laminado UV que aguanta el sol de Córdoba sin apagarse. Todo preparado antes de que traigas el vehículo."
+    },
+    {
+     "title": "Rotulación y entrega",
+     "text": "Traes el vehículo limpio por la mañana y, según el trabajo, lo recoges ese mismo día o en 2-3 días. Te explicamos cómo lavarlo los primeros días y te damos la garantía por escrito."
+    }
+   ],
+   "prices": [
+    {
+     "concept": "Rotulación parcial de furgoneta pequeña (logo, teléfono, web, 3 caras)",
+     "range": "240 – 490 €",
+     "unit": "vehículo",
+     "note": "Vinilo de corte. Kangoo, Berlingo, Caddy, Partner…"
+    },
+    {
+     "concept": "Rotulación parcial de furgoneta grande (Transit, Sprinter, Ducato)",
+     "range": "380 – 780 €",
+     "unit": "vehículo"
+    },
+    {
+     "concept": "Media rotulación con impresión digital (laterales + trasera)",
+     "range": "650 – 1.300 €",
+     "unit": "vehículo"
+    },
+    {
+     "concept": "Rotulación integral de furgoneta",
+     "range": "1.500 – 2.800 €",
+     "unit": "vehículo",
+     "note": "Vinilo fundido laminado, cubre toda la carrocería."
+    },
+    {
+     "concept": "Coche comercial (logo y teléfono en puertas y trasera)",
+     "range": "160 – 380 €",
+     "unit": "vehículo"
+    },
+    {
+     "concept": "Caja de camión o remolque (impresión digital)",
+     "range": "380 – 850 €",
+     "unit": "cara",
+     "note": "Según tamaño de la caja."
+    },
+    {
+     "concept": "Retirada de rotulación antigua",
+     "range": "120 – 380 €",
+     "unit": "vehículo",
+     "note": "Según años del vinilo y superficie."
+    }
+   ],
+   "priceNote": "Precios orientativos con IVA, para que vayas con una idea. El precio real depende de las medidas exactas, el material, la altura de montaje y la distancia. Te lo damos cerrado, sin «a partir de», en 48 horas. En flotas de 3 o más vehículos aplicamos descuento.",
+   "duration": "Diseño en 48 horas. Rotulación parcial en 1 día; media rotulación en 1-2 días; integral en 2-3 días. Con cita previa: el vehículo entra por la mañana.",
+   "faqs": [
+    {
+     "q": "¿Cuánto cuesta rotular una furgoneta?",
+     "a": "Una rotulación parcial (logotipo, teléfono, web y servicios en los dos laterales y la trasera) cuesta entre 240 y 490 € en una furgoneta pequeña y entre 380 y 780 € en una grande. Con impresión digital de fotos, entre 650 y 1.300 €. Integral, de 1.500 a 2.800 €."
+    },
+    {
+     "q": "¿Cuánto dura el vinilo?",
+     "a": "El vinilo de corte de larga duración que usamos, de 7 a 10 años. La impresión digital laminada, de 5 a 7 años sin apagarse, incluso con el sol de aquí. Lo que se levanta a los dos años es vinilo barato o mal aplicado."
+    },
+    {
+     "q": "¿Daña la pintura?",
+     "a": "No. Al contrario: la protege. Cuando se retira (con calor y con cuidado) la pintura de debajo está como nueva. Solo hay riesgo si la pintura ya estaba repintada o dañada, y eso lo miramos antes."
+    },
+    {
+     "q": "¿Puedo lavar el vehículo en el túnel de lavado?",
+     "a": "Sí, pasados 5-7 días de la rotulación. Recomendamos evitar los rodillos muy duros y la hidrolimpiadora a menos de 30 cm de los bordes del vinilo."
+    },
+    {
+     "q": "¿Hacéis flotas?",
+     "a": "Sí, y es donde más se nota trabajar con un taller: guardamos la plantilla de tu diseño y cada vehículo nuevo que compres se rotula igual en un día. Hemos rotulado flotas de instalaciones, reparto, alquiler de maquinaria y transporte sanitario."
+    },
+    {
+     "q": "No tengo logotipo, ¿me lo hacéis?",
+     "a": "Sí. Lo diseñamos contigo y te lo entregamos en vectorial para que lo uses también en tarjetas, ropa y web."
+    }
+   ],
+   "localAngle": "Muchas de las furgonetas que ves trabajando en {loc} pasaron por nuestro taller: instaladores, reparto de alimentación, servicios agrícolas, transporte. Estás a un rato en coche de La Carlota; entras por la mañana y sales rotulado.",
+   "photo": "vredestein",
+   "gallery": [
+    "arit",
+    "camionCarlotena",
+    "agrizoo",
+    "husqvarna",
+    "chaparro",
+    "recambios",
+    "zafra",
+    "carlotenaBebidas"
+   ],
+   "subs": [
+    {
+     "slug": "furgonetas",
+     "name": "Rotulación de furgonetas",
+     "title": "Rotulación de furgonetas en Córdoba · Parcial, impresión e integral",
+     "h1": "Rotulación de furgonetas",
+     "meta": "Rotulamos tu furgoneta de trabajo en La Carlota: desde el logotipo y el teléfono con vinilo de corte hasta la rotulación integral con impresión digital laminada. Desde 240 €.",
+     "intro": [
+      "La furgoneta es la herramienta que más ve la gente. Rotularla bien es la diferencia entre «una furgoneta blanca» y «la de los de las instalaciones». Trabajamos con instaladores, fontaneros, electricistas, jardineros, reparto y servicios agrícolas de toda la provincia.",
+      "Tres niveles: parcial (logotipo, teléfono, web, servicios), media (laterales y trasera con impresión a todo color) e integral (toda la carrocería). Diseñamos sobre la plantilla exacta de tu modelo."
+     ],
+     "bullets": [
+      "Diseño sobre plantilla real del modelo (Kangoo, Berlingo, Transit, Sprinter, Ducato, Vito…).",
+      "Vinilo de corte de larga duración o impresión digital laminada.",
+      "Trasera con teléfono grande, que es lo que se lee en un semáforo.",
+      "Entrada por la mañana, salida el mismo día en parciales."
+     ],
+     "prices": [
+      {
+       "concept": "Parcial furgoneta pequeña",
+       "range": "240 – 490 €",
+       "unit": "vehículo"
+      },
+      {
+       "concept": "Parcial furgoneta grande",
+       "range": "380 – 780 €",
+       "unit": "vehículo"
+      },
+      {
+       "concept": "Media rotulación impresa",
+       "range": "650 – 1.300 €",
+       "unit": "vehículo"
+      },
+      {
+       "concept": "Integral",
+       "range": "1.500 – 2.800 €",
+       "unit": "vehículo"
+      }
+     ],
+     "faqs": [
+      {
+       "q": "¿Qué tengo que traer?",
+       "a": "El vehículo limpio (lavado el día anterior, sin cera), y ya. El diseño lo tienes aprobado antes."
+      }
+     ],
+     "photo": "agrizoo"
+    },
+    {
+     "slug": "flotas",
+     "name": "Rotulación de flotas",
+     "title": "Rotulación de flotas de vehículos en Córdoba · Misma imagen, plantilla guardada",
+     "h1": "Rotulación de flotas",
+     "meta": "Rotulación de flotas de furgonetas, coches y camiones con la misma imagen en todos: plantilla guardada, precio por unidad y altas nuevas en un día. Empresas de instalaciones, reparto, alquiler y transporte.",
+     "intro": [
+      "Una flota rotulada igual multiplica la marca: cinco furgonetas iguales por la provincia parecen veinte. Y cuando compras un vehículo nuevo, en un día sale igual que los demás porque la plantilla ya está hecha.",
+      "Trabajamos con empresas de instalaciones, reparto, alquiler de maquinaria, servicios agrícolas y transporte sanitario. Planificamos las citas para que nunca tengas la flota parada."
+     ],
+     "bullets": [
+      "Manual de rotulación de tu flota: qué va en cada modelo y dónde.",
+      "Precio por unidad con descuento desde 3 vehículos.",
+      "Citas escalonadas: nunca más de un vehículo parado.",
+      "Plantilla guardada para altas futuras y reposiciones."
+     ],
+     "prices": [
+      {
+       "concept": "Parcial por vehículo, flota de 3 a 5",
+       "range": "210 – 440 €",
+       "unit": "vehículo"
+      },
+      {
+       "concept": "Parcial por vehículo, flota de más de 5",
+       "range": "190 – 400 €",
+       "unit": "vehículo"
+      },
+      {
+       "concept": "Manual de rotulación de flota",
+       "range": "incluido",
+       "unit": ""
+      }
+     ],
+     "faqs": [
+      {
+       "q": "¿Y si tengo modelos distintos?",
+       "a": "Adaptamos el diseño a cada modelo manteniendo las proporciones y la posición de los elementos. Se nota que son de la misma empresa aunque una sea una Kangoo y otra una Sprinter."
+      }
+     ],
+     "photo": "arit"
+    },
+    {
+     "slug": "camiones-y-remolques",
+     "name": "Camiones, cajas y remolques",
+     "title": "Rotulación de camiones y remolques en Córdoba · Cajas, lonas y semirremolques",
+     "h1": "Rotulación de camiones, cajas y remolques",
+     "meta": "Rotulamos cajas de camión, furgones frigoríficos, remolques y semirremolques con impresión digital de gran formato o vinilo de corte. Superficies de hasta 13 m de largo.",
+     "intro": [
+      "La caja de un camión es la valla publicitaria más grande que va a tener tu empresa: 7 u 8 metros cuadrados por cara, en la autovía, en los polígonos y delante de tus clientes. La rotulamos con impresión digital de gran formato o vinilo de corte, según el diseño.",
+      "Cajas, furgones frigoríficos (con vinilo apto para paneles de poliéster), remolques de reparto y semirremolques. Lo hacemos en nuestra nave, con el vehículo a cubierto."
+     ],
+     "bullets": [
+      "Impresión digital laminada de gran formato, sin juntas visibles.",
+      "Vinilos específicos para paneles de poliéster (frigoríficos) y lonas de camión.",
+      "Puertas traseras: el sitio que más se lee en carretera.",
+      "Rotulación de cabina a juego."
+     ],
+     "prices": [
+      {
+       "concept": "Caja de camión, por cara (impresión digital)",
+       "range": "380 – 850 €",
+       "unit": "cara"
+      },
+      {
+       "concept": "Puertas traseras",
+       "range": "220 – 480 €",
+       "unit": "conjunto"
+      },
+      {
+       "concept": "Remolque de reparto (3 caras)",
+       "range": "450 – 950 €",
+       "unit": "remolque"
+      }
+     ],
+     "faqs": [
+      {
+       "q": "¿Rotuláis lonas de camión?",
+       "a": "Sí, con vinilo específico para lona de PVC o con impresión directa según el caso. Aguanta el plegado y la tensión de las lonas correderas."
+      }
+     ],
+     "photo": "camionCarlotena"
+    },
+    {
+     "slug": "turismos",
+     "name": "Coches comerciales",
+     "title": "Rotulación de coches comerciales en Córdoba · Logotipo y teléfono, discreto o a todo color",
+     "h1": "Rotulación de coches comerciales",
+     "meta": "Rotulación de turismos de empresa: desde el logotipo y el teléfono en puertas y luna trasera hasta rotulación parcial a todo color. Vinilo que se retira sin dejar marca cuando vendas el coche.",
+     "intro": [
+      "Para comerciales, técnicos, agentes y autónomos que van en coche: una rotulación discreta (logotipo en puertas, teléfono y web en la luna trasera) que se ve sin convertir el coche en un anuncio, o una parcial a todo color si quieres impacto.",
+      "Usamos vinilos que se retiran limpiamente para que el día que vendas el coche no quede ni marca."
+     ],
+     "bullets": [
+      "Logotipo en puertas delanteras y luna trasera con vinilo de corte.",
+      "Microperforado en luna trasera: se ve desde fuera, se ve a través desde dentro.",
+      "Rotulación parcial a todo color con impresión laminada.",
+      "Retirada limpia al vender el vehículo."
+     ],
+     "prices": [
+      {
+       "concept": "Logotipo + teléfono en puertas y luna trasera",
+       "range": "160 – 380 €",
+       "unit": "vehículo"
+      },
+      {
+       "concept": "Parcial a todo color",
+       "range": "450 – 950 €",
+       "unit": "vehículo"
+      }
+     ],
+     "faqs": [
+      {
+       "q": "¿Puedo rotular la luna trasera?",
+       "a": "Sí, con vinilo microperforado: desde fuera se ve el diseño y desde dentro ves a través. Es legal siempre que no tape las lunas delanteras."
+      }
+     ],
+     "photo": "carlotenaBebidas"
+    }
+   ]
+  },
+  {
+   "slug": "vallas-y-monopostes",
+   "name": "Vallas y monopostes",
+   "short": "Vallas y monopostes",
+   "label": "Vallas publicitarias y monopostes",
+   "icon": "valla",
+   "oldPath": "/trabajos-realizados/vallas/",
+   "title": "Vallas publicitarias y monopostes en Córdoba · Estructura, panel y montaje",
+   "h1": "Vallas publicitarias, monopostes y tótems",
+   "meta": "Vallas publicitarias, carteles de obra, monopostes de carretera y gasolinera, tótems y paneles informativos en Córdoba, Écija y provincia. Estructura de acero fabricada en nuestro taller, montaje con camión grúa.",
+   "claim": "Para que te vean desde la autovía, desde la rotonda o desde la otra punta del polígono.",
+   "intro": [
+    "Una valla o un monoposte no es un rótulo grande: es una estructura de acero que tiene que aguantar el viento de la provincia, una cimentación calculada y, casi siempre, un permiso. Por eso lo hacemos entero nosotros: la estructura se suelda en nuestro taller, la cimentación se ejecuta con la zapata que corresponde y el montaje se hace con camión grúa.",
+    "Hemos montado vallas de promociones inmobiliarias en La Carlota y Écija, monopostes de áreas de servicio en la A-4, tótems de fábricas, paneles turísticos para ayuntamientos y carteles de obra por toda la zona. Desde 1993."
+   ],
+   "bullets": [
+    "Vallas publicitarias de 3 × 2 a 8 × 3 m con estructura galvanizada y panel impreso o lona.",
+    "Carteles de obra y promoción inmobiliaria sobre postes.",
+    "Monopostes de 4 a 15 m para carretera, polígono y estaciones de servicio, con o sin luz.",
+    "Monopostes de gasolinera con precios LED.",
+    "Tótems corporativos de entrada a fábricas, urbanizaciones y centros comerciales.",
+    "Paneles informativos y directorios para ayuntamientos y polígonos."
+   ],
+   "steps": [
+    {
+     "title": "Ubicación y medidas",
+     "text": "Nos dices dónde va (una foto y la ubicación en el mapa nos vale) y qué tamaño necesitas. Te decimos si hace falta permiso y de quién: ayuntamiento, Carreteras o Diputación."
+    },
+    {
+     "title": "Proyecto y presupuesto cerrado",
+     "text": "Diseño de la gráfica, cálculo de la estructura y la cimentación según el viento de la zona, y presupuesto con todo: estructura, panel, cimentación, montaje y permisos."
+    },
+    {
+     "title": "Fabricación en el taller",
+     "text": "Soldamos la estructura en nuestra nave de La Carlota, la galvanizamos o imprimamos y pintamos, e imprimimos la gráfica en material de exterior con protección UV."
+    },
+    {
+     "title": "Cimentación y montaje con grúa",
+     "text": "Ejecutamos la zapata, dejamos fraguar, y montamos con camión grúa o plataforma. Si lleva luz, conectamos y dejamos programador. Cambios de gráfica futuros, en una mañana."
+    }
+   ],
+   "prices": [
+    {
+     "concept": "Cartel de obra 2 × 1 m sobre postes",
+     "range": "260 – 560 €",
+     "unit": "unidad",
+     "note": "Panel de Dibond o PVC impreso, postes galvanizados, hincado o con zapata."
+    },
+    {
+     "concept": "Valla publicitaria 3 × 2 m, estructura y panel",
+     "range": "950 – 1.900 €",
+     "unit": "unidad"
+    },
+    {
+     "concept": "Valla publicitaria 8 × 3 m, estructura y lona",
+     "range": "3.600 – 7.200 €",
+     "unit": "unidad",
+     "note": "Con cimentación. Cambio de lona posterior: 350 – 700 €."
+    },
+    {
+     "concept": "Monoposte de 4 a 6 m con cajón de doble cara",
+     "range": "3.200 – 8.500 €",
+     "unit": "unidad",
+     "note": "Con luz LED: +900 – 2.000 €."
+    },
+    {
+     "concept": "Monoposte de gasolinera con precios LED",
+     "range": "9.500 – 22.000 €",
+     "unit": "unidad",
+     "note": "Según altura, número de precios y marca."
+    },
+    {
+     "concept": "Tótem corporativo de 2 a 3 m",
+     "range": "1.600 – 4.800 €",
+     "unit": "unidad"
+    },
+    {
+     "concept": "Panel informativo o turístico",
+     "range": "420 – 1.300 €",
+     "unit": "unidad"
+    }
+   ],
+   "priceNote": "Precios orientativos con IVA, para que vayas con una idea. El precio real depende de las medidas exactas, el material, la altura de montaje y la distancia. Te lo damos cerrado, sin «a partir de», en 48 horas. Tasas municipales y de Carreteras aparte.",
+   "duration": "Carteles de obra: 5-7 días. Vallas: 2-3 semanas. Monopostes y tótems: 3-5 semanas más el plazo del permiso, que gestionamos contigo.",
+   "faqs": [
+    {
+     "q": "¿Hace falta permiso para poner una valla publicitaria?",
+     "a": "Casi siempre. En suelo urbano lo da el ayuntamiento; junto a carreteras, la Administración titular de la vía (Carreteras del Estado, Junta o Diputación), y fuera de tramo urbano la publicidad visible desde la carretera está muy limitada. Te decimos antes de presupuestar qué se puede poner en tu ubicación y preparamos la documentación técnica."
+    },
+    {
+     "q": "¿Cuánto cuesta un monoposte?",
+     "a": "Un monoposte de 5 m con cajón de doble cara de 3 × 2 m, con cimentación y montaje, entre 3.200 y 8.500 €; con iluminación LED, entre 900 y 2.000 € más. Los de gasolinera con precios LED, desde 9.500 €."
+    },
+    {
+     "q": "¿Aguanta el viento?",
+     "a": "Calculamos la estructura y la zapata para la carga de viento de la zona, con margen. Las vallas de 8 × 3 m llevan zapata de hormigón armado y estructura de perfil galvanizado. Llevamos treinta años montando entre Córdoba y Sevilla y sabemos lo que sopla."
+    },
+    {
+     "q": "¿Podéis cambiar solo la gráfica de una valla que ya tengo?",
+     "a": "Sí. Cambiamos la lona o el panel aprovechando la estructura, revisamos anclajes y tensores, y en una mañana está. También reparamos y repintamos estructuras antiguas."
+    },
+    {
+     "q": "¿Hacéis carteles para promociones de viviendas?",
+     "a": "Es de lo que más hacemos en la zona: cartel de obra con la infografía, datos de la promotora y teléfono, y cuando avanza la obra, la valla de venta. Con los planos y la infografía de la promotora lo tenemos en una semana."
+    }
+   ],
+   "localAngle": "En {loc} y su término municipal hemos montado carteles de obra, vallas de promoción y monopostes de negocios de carretera. Sabemos qué pide el ayuntamiento y qué exige Carreteras en los accesos.",
+   "photo": "vallaNueva",
+   "gallery": [
+    "monoposteHotel",
+    "totemCarlotena",
+    "gasolinera",
+    "vallaVillas",
+    "vallaRuiz",
+    "paneles",
+    "vallaPromocion",
+    "soldando"
+   ],
+   "subs": [
+    {
+     "slug": "vallas-publicitarias",
+     "name": "Vallas publicitarias",
+     "title": "Vallas publicitarias en Córdoba · De 3×2 a 8×3 m con estructura y montaje",
+     "h1": "Vallas publicitarias",
+     "meta": "Vallas publicitarias con estructura de acero galvanizado, panel rígido o lona impresa, cimentación y montaje. Para carretera, polígono, solares y promociones. Desde 950 €.",
+     "intro": [
+      "La valla clásica: estructura de acero, panel o lona con tu gráfica y una ubicación que se vea. Fabricamos la estructura en el taller y la montamos con grúa; la gráfica se cambia cuando quieras.",
+      "Formatos habituales de 3 × 2, 4 × 3 y 8 × 3 m, y a medida."
+     ],
+     "bullets": [
+      "Estructura de perfil galvanizado o pintado.",
+      "Panel de Dibond impreso o lona frontlit con bastidor.",
+      "Cimentación con zapata de hormigón.",
+      "Cambio de gráfica en una mañana."
+     ],
+     "prices": [
+      {
+       "concept": "Valla 3 × 2 m",
+       "range": "950 – 1.900 €",
+       "unit": "unidad"
+      },
+      {
+       "concept": "Valla 4 × 3 m",
+       "range": "1.700 – 3.400 €",
+       "unit": "unidad"
+      },
+      {
+       "concept": "Valla 8 × 3 m",
+       "range": "3.600 – 7.200 €",
+       "unit": "unidad"
+      },
+      {
+       "concept": "Cambio de lona 8 × 3 m",
+       "range": "350 – 700 €",
+       "unit": "unidad"
+      }
+     ],
+     "faqs": [
+      {
+       "q": "¿Panel o lona?",
+       "a": "Hasta 4 × 3 m, panel rígido: dura más y no se mueve con el viento. En 8 × 3, lona con bastidor: pesa menos, se cambia más fácil y sale más barata."
+      }
+     ],
+     "photo": "vallaRuiz"
+    },
+    {
+     "slug": "monopostes",
+     "name": "Monopostes",
+     "title": "Monopostes publicitarios en Córdoba · Carretera, polígono y gasolineras",
+     "h1": "Monopostes publicitarios",
+     "meta": "Monopostes de 4 a 15 m con cajón luminoso de doble cara para carretera, polígono, áreas de servicio y gasolineras (con precios LED). Estructura calculada, cimentación y montaje con grúa.",
+     "intro": [
+      "El monoposte es el rótulo de los negocios de carretera: se ve a un kilómetro y dice «aquí». Restaurantes, hoteles, concesionarios, gasolineras, naves de polígono. Lo fabricamos entero: fuste de acero, cajón luminoso de doble cara, cimentación y montaje con camión grúa.",
+      "Para estaciones de servicio hacemos el monoposte de precios con módulos LED y los paneles de servicios (cafetería, lavado, tienda)."
+     ],
+     "bullets": [
+      "Alturas de 4 a 15 m según distancia de lectura.",
+      "Cajón luminoso LED de doble cara, o paneles opacos.",
+      "Precios LED para gasolineras, cambio desde mando o app.",
+      "Cálculo estructural y cimentación incluidos."
+     ],
+     "prices": [
+      {
+       "concept": "Monoposte 4-6 m con cajón doble cara",
+       "range": "3.200 – 8.500 €",
+       "unit": "unidad"
+      },
+      {
+       "concept": "Iluminación LED del cajón",
+       "range": "900 – 2.000 €",
+       "unit": "extra"
+      },
+      {
+       "concept": "Monoposte de gasolinera con precios LED",
+       "range": "9.500 – 22.000 €",
+       "unit": "unidad"
+      }
+     ],
+     "faqs": [
+      {
+       "q": "¿Cuánto tarda el permiso?",
+       "a": "En suelo urbano, de 1 a 2 meses de media en los ayuntamientos de la provincia. Junto a carreteras del Estado, más. Empezamos la tramitación el primer día para que la fabricación y el permiso vayan en paralelo."
+      }
+     ],
+     "photo": "monoposteHotel"
+    },
+    {
+     "slug": "totems-y-paneles",
+     "name": "Tótems y paneles informativos",
+     "title": "Tótems corporativos y paneles informativos en Córdoba · Fábricas, urbanizaciones y ayuntamientos",
+     "h1": "Tótems corporativos y paneles informativos",
+     "meta": "Tótems de entrada para fábricas, empresas y urbanizaciones, directorios de polígono y paneles turísticos e informativos para ayuntamientos. Diseño, fabricación en acero y aluminio, y montaje.",
+     "intro": [
+      "El tótem es el rótulo de entrada: a la fábrica, a la urbanización, al polígono. Una pieza vertical de acero o aluminio con tu marca, iluminada o no, que dice que has llegado.",
+      "Para ayuntamientos y mancomunidades fabricamos paneles informativos y turísticos (rutas, patrimonio, normas de uso) en materiales que aguantan sol, lluvia y vandalismo: aluminio, vitrificado o Dibond con laminado antigrafiti."
+     ],
+     "bullets": [
+      "Tótems de 2 a 4 m en acero lacado, corten o aluminio.",
+      "Con iluminación LED interior o focos.",
+      "Paneles turísticos con laminado antigrafiti y anti-UV.",
+      "Directorios de polígono y de urbanización."
+     ],
+     "prices": [
+      {
+       "concept": "Tótem corporativo 2-3 m",
+       "range": "1.600 – 4.800 €",
+       "unit": "unidad"
+      },
+      {
+       "concept": "Panel informativo 1 × 1,5 m sobre postes",
+       "range": "420 – 1.300 €",
+       "unit": "unidad"
+      },
+      {
+       "concept": "Directorio de polígono",
+       "range": "1.200 – 3.500 €",
+       "unit": "unidad"
+      }
+     ],
+     "faqs": [
+      {
+       "q": "¿Trabajáis con ayuntamientos?",
+       "a": "Sí, hemos hecho paneles y señalización para ayuntamientos de la zona. Emitimos factura con los requisitos de la administración y nos adaptamos a los pliegos."
+      }
+     ],
+     "photo": "totemCarlotena"
+    }
+   ]
+  },
+  {
+   "slug": "senalizacion",
+   "name": "Señalización",
+   "short": "Señalización",
+   "label": "Señalización y señalética",
+   "icon": "senal",
+   "oldPath": "/trabajos-realizados/senalizacion/",
+   "title": "Señalización y señalética en Córdoba · Placas, directorios, seguridad y vial",
+   "h1": "Señalización y señalética",
+   "meta": "Señalética corporativa (placas, directorios, puertas), señalización de seguridad y evacuación para naves y oficinas, y señalización vial y direccional. Fabricada en La Carlota, instalada en toda la provincia.",
+   "claim": "Que la gente sepa dónde está, adónde va y por dónde sale. Desde una placa de puerta hasta una nave entera.",
+   "intro": [
+    "La señalización es el rótulo que no se ve hasta que falta: la placa de la consulta, el directorio de la planta, la salida de emergencia, la flecha en el suelo de la nave. Cuando está bien hecha, nadie pregunta; cuando falta, la inspección te lo recuerda.",
+    "Hacemos señalética corporativa para clínicas, oficinas, hoteles y edificios públicos; señalización de seguridad y evacuación conforme a normativa para naves, talleres y comercios; y señalización vial y direccional para ayuntamientos, polígonos, urbanizaciones y empresas con recinto."
+   ],
+   "bullets": [
+    "Placas de puerta, directorios de planta y de edificio, rotulación de despachos.",
+    "Placas de fachada con separadores: metacrilato, aluminio, acero inoxidable, latón.",
+    "Señalización de seguridad y evacuación: fotoluminiscente, PRL, extintores, salidas.",
+    "Marcaje de suelo en naves: vías de evacuación, zonas de carretillas, pasillos.",
+    "Señalización vial homologada y direccional sobre poste.",
+    "Vinilos de puertas de cristal (bandas de seguridad obligatorias)."
+   ],
+   "steps": [
+    {
+     "title": "Nos cuentas qué necesitas",
+     "text": "Por WhatsApp o con el formulario: qué tipo de rótulo, medidas aproximadas, dónde va y una foto del sitio. Con eso ya podemos trabajar. Te contestamos en menos de 24 horas laborables."
+    },
+    {
+     "title": "Boceto y presupuesto cerrado",
+     "text": "En 48 horas tienes un boceto sobre la foto de tu fachada o vehículo y un presupuesto con materiales, medidas, plazo de fabricación, montaje y, si hacen falta, los permisos. Sin sorpresas después."
+    },
+    {
+     "title": "Lo fabricamos en nuestro taller de La Carlota",
+     "text": "Corte, soldadura, pintura, LED, impresión y laminado: todo lo hacemos nosotros, en nuestras instalaciones. No subcontratamos la fabricación, por eso controlamos el plazo y el acabado. Te mandamos una foto antes de salir del taller."
+    },
+    {
+     "title": "Montaje y puesta en marcha",
+     "text": "Nuestro equipo monta el rótulo con los medios que hagan falta: plataforma elevadora, camión grúa o andamio. Conectamos la iluminación, limpiamos y te lo dejamos funcionando. Garantía por escrito."
+    }
+   ],
+   "prices": [
+    {
+     "concept": "Placa de puerta 15 × 15 cm (metacrilato o aluminio)",
+     "range": "26 – 65 €",
+     "unit": "unidad"
+    },
+    {
+     "concept": "Placa de fachada 30 × 40 cm con separadores",
+     "range": "95 – 240 €",
+     "unit": "unidad",
+     "note": "Metacrilato con vinilo al dorso, aluminio o inox."
+    },
+    {
+     "concept": "Directorio de planta o de edificio",
+     "range": "160 – 480 €",
+     "unit": "unidad"
+    },
+    {
+     "concept": "Señal de seguridad fotoluminiscente (PVC)",
+     "range": "9 – 28 €",
+     "unit": "unidad"
+    },
+    {
+     "concept": "Marcaje de suelo de nave",
+     "range": "16 – 38 €",
+     "unit": "m²"
+    },
+    {
+     "concept": "Señal direccional sobre poste",
+     "range": "260 – 650 €",
+     "unit": "unidad"
+    },
+    {
+     "concept": "Pack de señalización de seguridad de una nave",
+     "range": "650 – 2.200 €",
+     "unit": "nave",
+     "note": "Según superficie. Con plano de señalización."
+    }
+   ],
+   "priceNote": "Precios orientativos con IVA, para que vayas con una idea. El precio real depende de las medidas exactas, el material, la altura de montaje y la distancia. Te lo damos cerrado, sin «a partir de», en 48 horas.",
+   "duration": "Placas y señales de catálogo: 3-5 días. Señalética corporativa a medida: 7-10 días. Proyectos completos de edificio o nave: 2-3 semanas.",
+   "faqs": [
+    {
+     "q": "¿Qué señalización de seguridad es obligatoria en una nave o local?",
+     "a": "Salidas y recorridos de evacuación, extintores y medios contra incendios, riesgos específicos (PRL) y, en locales con público, las señales del plan de autoprotección. Hacemos el plano de señalización con tu técnico de prevención y fabricamos e instalamos todo."
+    },
+    {
+     "q": "¿Hacéis las placas de las consultas y despachos?",
+     "a": "Sí, con el mismo estilo para todo el edificio: puertas, directorios, aseos, plantas. En metacrilato, aluminio o acero, con o sin braille."
+    },
+    {
+     "q": "¿Señalización vial homologada?",
+     "a": "Fabricamos señales viales con reflectante homologado y postes normalizados para ayuntamientos, polígonos y recintos privados (aparcamientos, fábricas, urbanizaciones)."
+    },
+    {
+     "q": "¿Las bandas en las puertas de cristal son obligatorias?",
+     "a": "Sí, el Código Técnico exige señalizar las superficies acristaladas que puedan confundirse con puertas o pasos, a dos alturas. Las hacemos en vinilo ácido o con tu logotipo."
+    }
+   ],
+   "localAngle": "En {loc} hemos señalizado consultas, oficinas, naves y recintos. Una visita, un plano y en dos semanas está todo puesto.",
+   "photo": "senalVial",
+   "gallery": [
+    "placaDental",
+    "emergencia",
+    "laredo",
+    "evacuacion",
+    "placaPlenaforma",
+    "tintoreria"
+   ],
+   "subs": [
+    {
+     "slug": "senaletica-corporativa",
+     "name": "Señalética corporativa",
+     "title": "Señalética corporativa en Córdoba · Placas, directorios y rotulación de oficinas",
+     "h1": "Señalética corporativa para edificios y oficinas",
+     "meta": "Placas de puerta, directorios, placas de fachada y rotulación interior con la imagen de tu empresa, para clínicas, oficinas, hoteles y edificios públicos.",
+     "intro": [
+      "Un edificio bien señalizado se recorre sin preguntar. Diseñamos la señalética completa con tu imagen: placas de fachada, directorio de entrada, directorios de planta, placas de puerta, aseos, pictogramas.",
+      "Materiales: metacrilato, aluminio, acero inoxidable, latón, madera. Con braille y altorrelieve cuando la accesibilidad lo pide."
+     ],
+     "bullets": [
+      "Sistema completo con el mismo diseño.",
+      "Placas intercambiables para despachos que cambian de nombre.",
+      "Braille y altorrelieve.",
+      "Montaje con separadores, adhesivo estructural o empotrado."
+     ],
+     "prices": [
+      {
+       "concept": "Placa de puerta 15 × 15 cm",
+       "range": "26 – 65 €",
+       "unit": "unidad"
+      },
+      {
+       "concept": "Placa de fachada 30 × 40 cm con separadores",
+       "range": "95 – 240 €",
+       "unit": "unidad"
+      },
+      {
+       "concept": "Directorio",
+       "range": "160 – 480 €",
+       "unit": "unidad"
+      }
+     ],
+     "faqs": [
+      {
+       "q": "¿Podéis hacer una placa igual que las que ya tengo?",
+       "a": "Sí: nos mandas una foto con una medida y reproducimos material, tipografía y acabado."
+      }
+     ],
+     "photo": "placaDental"
+    },
+    {
+     "slug": "seguridad-y-evacuacion",
+     "name": "Señalización de seguridad y evacuación",
+     "title": "Señalización de seguridad y evacuación en Córdoba · Naves, talleres y locales",
+     "h1": "Señalización de seguridad y evacuación",
+     "meta": "Señales fotoluminiscentes de evacuación, extintores, PRL y marcaje de suelo para naves, talleres, almacenes y locales. Plano de señalización, fabricación e instalación.",
+     "intro": [
+      "La que exige la normativa y la que evita accidentes: salidas, recorridos de evacuación, extintores, riesgos, obligaciones, prohibiciones, zonas de carretillas. Fotoluminiscente donde toca y de vinilo o PVC donde no.",
+      "Trabajamos con tu servicio de prevención: hacemos el plano de señalización, fabricamos, instalamos y te dejamos el listado para la inspección."
+     ],
+     "bullets": [
+      "Señales fotoluminiscentes clase A y B.",
+      "Marcaje de suelo con pintura o vinilo antideslizante.",
+      "Señalización de extintores, BIE y cuadros eléctricos.",
+      "Plano de señalización para la inspección."
+     ],
+     "prices": [
+      {
+       "concept": "Señal fotoluminiscente",
+       "range": "9 – 28 €",
+       "unit": "unidad"
+      },
+      {
+       "concept": "Marcaje de suelo",
+       "range": "16 – 38 €",
+       "unit": "m²"
+      },
+      {
+       "concept": "Pack nave completa",
+       "range": "650 – 2.200 €",
+       "unit": "nave"
+      }
+     ],
+     "faqs": [
+      {
+       "q": "¿Cada cuánto se renueva?",
+       "a": "Las señales fotoluminiscentes pierden carga con los años; se recomienda revisarlas cada 5 años y sustituir las que ya no destacan en oscuridad. Lo comprobamos en la visita."
+      }
+     ],
+     "photo": "emergencia"
+    },
+    {
+     "slug": "vial-y-direccional",
+     "name": "Señalización vial y direccional",
+     "title": "Señalización vial y direccional en Córdoba · Ayuntamientos, polígonos y recintos",
+     "h1": "Señalización vial y direccional",
+     "meta": "Señales viales homologadas, direccionales sobre poste, señalización de aparcamientos y recintos privados para ayuntamientos, polígonos industriales, urbanizaciones y empresas.",
+     "intro": [
+      "Señales de tráfico con reflectante homologado, direccionales de empresa («Hotel a 300 m»), señalización de aparcamientos, entradas de fábricas y recintos. Para ayuntamientos, polígonos, urbanizaciones y empresas con instalaciones grandes.",
+      "Fabricamos sobre chapa de aluminio o acero galvanizado con reflectante de clase 1 o 2, postes normalizados y anclaje con zapata o base."
+     ],
+     "bullets": [
+      "Reflectante homologado clase 1 y 2.",
+      "Postes galvanizados y bases normalizadas.",
+      "Direccionales de empresa y de establecimientos.",
+      "Señalización de aparcamientos y recintos privados."
+     ],
+     "prices": [
+      {
+       "concept": "Señal vial homologada con poste",
+       "range": "160 – 420 €",
+       "unit": "unidad"
+      },
+      {
+       "concept": "Direccional de empresa sobre poste",
+       "range": "260 – 650 €",
+       "unit": "unidad"
+      }
+     ],
+     "faqs": [
+      {
+       "q": "¿Puedo poner una señal de mi negocio en la carretera?",
+       "a": "Solo con autorización del titular de la vía y en los formatos que permite (señalización de servicios). Te decimos qué se puede pedir y lo tramitamos."
+      }
+     ],
+     "photo": "laredo"
+    }
+   ]
+  },
+  {
+   "slug": "impresion-digital",
+   "name": "Impresión digital",
+   "short": "Impresión digital",
+   "label": "Impresión digital: lonas y vinilos",
+   "icon": "impresion",
+   "oldPath": "/trabajos-realizados/digital/",
+   "title": "Impresión digital en Córdoba · Lonas, vinilos de escaparate y decoración",
+   "h1": "Impresión digital: lonas, vinilos y escaparates",
+   "meta": "Impresión digital de gran formato en La Carlota: lonas publicitarias, vinilos de escaparate, vinilo ácido, microperforado, decoración de paredes, roll-ups y photocalls. Impreso, laminado y colocado por nosotros.",
+   "claim": "Lo más rápido para vestir un escaparate, una fachada o un evento. Impreso hoy, colocado mañana.",
+   "intro": [
+    "La impresión digital es el rótulo rápido: una lona en la fachada de la obra, el escaparate de la temporada, el vinilo que convierte una pared blanca en tu marca, el photocall del evento del sábado. Imprimimos en gran formato con tintas de exterior, laminamos y colocamos.",
+    "Escaparates de tiendas, heladerías y peluquerías; mamparas de oficina con vinilo ácido; paredes de restaurantes y gimnasios; lonas de obra y de eventos; gasolineras y concesionarios. Y si no tienes el diseño, lo hacemos."
+   ],
+   "bullets": [
+    "Lonas frontlit, backlight y microperforadas (mesh) con ollaos o dobladillo.",
+    "Vinilo impreso y laminado para escaparates, paredes, mostradores y mobiliario.",
+    "Vinilo ácido (esmerilado) para privacidad en cristales y mamparas.",
+    "Microperforado: se ve desde fuera, se ve a través desde dentro.",
+    "Vinilo de corte para textos, horarios y logotipos en cristal.",
+    "Roll-ups, displays, photocalls y cartelería rígida (Dibond, PVC, cartón pluma)."
+   ],
+   "steps": [
+    {
+     "title": "Nos mandas medidas y diseño (o lo hacemos)",
+     "text": "Medidas del cristal, la pared o la lona, y el archivo si lo tienes. Si no, nos mandas el logotipo y las ideas y lo diseñamos. Te contestamos en menos de 24 horas laborables."
+    },
+    {
+     "title": "Prueba de color y presupuesto",
+     "text": "Te enviamos el montaje sobre la foto del sitio y, si el color es crítico, una prueba impresa. Presupuesto cerrado con colocación."
+    },
+    {
+     "title": "Impresión y laminado",
+     "text": "Imprimimos en nuestro taller con tintas de exterior y laminamos (mate, brillo o antideslizante). Lo habitual: impreso en 24-48 horas."
+    },
+    {
+     "title": "Colocación",
+     "text": "Nuestro equipo lo coloca: escaparates, paredes, fachadas con plataforma, estructuras de lona. Sin burbujas, sin arrugas, con los cortes a cuchilla en su sitio."
+    }
+   ],
+   "prices": [
+    {
+     "concept": "Lona frontlit 440 g impresa con ollaos",
+     "range": "15 – 26 €",
+     "unit": "m²",
+     "note": "Colocación aparte según altura y sistema."
+    },
+    {
+     "concept": "Lona microperforada (mesh) para andamios y vallas",
+     "range": "19 – 32 €",
+     "unit": "m²"
+    },
+    {
+     "concept": "Vinilo impreso laminado, colocado",
+     "range": "38 – 65 €",
+     "unit": "m²"
+    },
+    {
+     "concept": "Vinilo ácido (esmerilado) colocado",
+     "range": "32 – 58 €",
+     "unit": "m²",
+     "note": "Con formas o logotipo recortado: en la parte alta."
+    },
+    {
+     "concept": "Vinilo microperforado en escaparate, colocado",
+     "range": "48 – 80 €",
+     "unit": "m²"
+    },
+    {
+     "concept": "Vinilo de pared (decoración de interior), colocado",
+     "range": "42 – 75 €",
+     "unit": "m²"
+    },
+    {
+     "concept": "Roll-up 85 × 200 cm con estructura",
+     "range": "98 – 165 €",
+     "unit": "unidad"
+    },
+    {
+     "concept": "Photocall 3 × 2 m con estructura",
+     "range": "380 – 750 €",
+     "unit": "unidad"
+    }
+   ],
+   "priceNote": "Precios orientativos con IVA, para que vayas con una idea. El precio real depende de las medidas exactas, el material, la altura de montaje y la distancia. Te lo damos cerrado, sin «a partir de», en 48 horas.",
+   "duration": "Impresión en 24-72 horas. Colocación de escaparates y paredes en el mismo día o al siguiente. Con urgencia real (apertura, evento), dínoslo y lo movemos.",
+   "faqs": [
+    {
+     "q": "¿Cuánto cuesta rotular un escaparate?",
+     "a": "Un escaparate de 3 × 2 m con vinilo impreso laminado y colocado sale entre 230 y 400 €. Con vinilo ácido y logotipo recortado, entre 200 y 350 €. Con microperforado (para no perder luz dentro), entre 290 y 480 €."
+    },
+    {
+     "q": "¿Cuánto dura un vinilo de escaparate al sol?",
+     "a": "El vinilo impreso laminado con protección UV, de 3 a 5 años en orientación sur. El vinilo ácido y el de corte de larga duración, de 7 a 10. Los escaparates de temporada se hacen con vinilo removible que se quita en minutos."
+    },
+    {
+     "q": "¿Se ve desde dentro con el microperforado?",
+     "a": "Sí. Desde fuera se ve la imagen a todo color; desde dentro ves la calle como a través de una malla fina. Es lo que se pone en escaparates de tiendas, oficinas y lunas traseras de vehículos."
+    },
+    {
+     "q": "¿Hacéis lonas para andamios y obras?",
+     "a": "Sí, lonas microperforadas para que el viento pase, con la imagen de la promoción o de la empresa, ollaos cada 50 cm y refuerzo perimetral. También lonas de cerramiento de vallas de obra."
+    },
+    {
+     "q": "¿Podéis venir a medir?",
+     "a": "En Córdoba y Écija, sí, y sin compromiso si el trabajo lo merece. Para trabajos pequeños, con una foto con un metro extendido nos vale."
+    }
+   ],
+   "localAngle": "En {loc} vestimos escaparates de comercios del centro, oficinas y locales nuevos. Impreso en La Carlota hoy, colocado en {loc} mañana.",
+   "photo": "helados",
+   "gallery": [
+    "peluqueria",
+    "mapaVinilo",
+    "party",
+    "plataforma",
+    "orocenter",
+    "canario",
+    "agio",
+    "photocall"
+   ],
+   "subs": [
+    {
+     "slug": "vinilos-de-escaparate",
+     "name": "Vinilos de escaparate",
+     "title": "Vinilos de escaparate en Córdoba · Impresos, ácido y microperforado",
+     "h1": "Vinilos de escaparate",
+     "meta": "Vestimos tu escaparate: vinilo impreso a todo color, ácido esmerilado con tu logotipo o microperforado para ver desde dentro. Horarios, promociones y temporada. Colocado por nosotros.",
+     "intro": [
+      "El escaparate es tu rótulo a la altura de los ojos. Un vinilo bien puesto lo convierte en marca: imagen a todo color, logotipo esmerilado, horario y servicios, o la campaña de la temporada.",
+      "Impreso, ácido, microperforado o de corte, según lo que necesites ver desde dentro y cuánto quieras que dure."
+     ],
+     "bullets": [
+      "Impreso laminado a todo color.",
+      "Ácido esmerilado con logotipos recortados.",
+      "Microperforado: privacidad e imagen sin perder luz.",
+      "Removibles para campañas de temporada."
+     ],
+     "prices": [
+      {
+       "concept": "Vinilo impreso laminado colocado",
+       "range": "38 – 65 €",
+       "unit": "m²"
+      },
+      {
+       "concept": "Vinilo ácido colocado",
+       "range": "32 – 58 €",
+       "unit": "m²"
+      },
+      {
+       "concept": "Microperforado colocado",
+       "range": "48 – 80 €",
+       "unit": "m²"
+      },
+      {
+       "concept": "Horario + logotipo en vinilo de corte",
+       "range": "45 – 120 €",
+       "unit": "puerta"
+      }
+     ],
+     "faqs": [
+      {
+       "q": "¿Por dentro o por fuera del cristal?",
+       "a": "Por fuera dura menos pero se ve mejor. Por dentro (impresión espejo) aguanta más y no lo rayan, pero pierde algo de color con cristales tintados. Te lo decimos según tu escaparate."
+      }
+     ],
+     "photo": "helados"
+    },
+    {
+     "slug": "lonas-publicitarias",
+     "name": "Lonas publicitarias",
+     "title": "Lonas publicitarias en Córdoba · Fachadas, obras, eventos y vallas",
+     "h1": "Lonas publicitarias",
+     "meta": "Lonas impresas de gran formato para fachadas, andamios, vallas de obra, eventos y ferias: frontlit, backlight y microperforada, con ollaos y colocación. Impresas en 24-48 h.",
+     "intro": [
+      "La lona es el formato grande y rápido: tapar un andamio con la imagen de la promoción, anunciar la apertura en la fachada, vestir la carpa de la feria. Imprimimos en 24-48 horas y colocamos con plataforma si hace falta.",
+      "Frontlit para fachadas y vallas, microperforada para andamios y zonas de viento, backlight para cajones luminosos."
+     ],
+     "bullets": [
+      "Lona frontlit 440-510 g con ollaos y dobladillo soldado.",
+      "Microperforada para andamios y vallas expuestas al viento.",
+      "Bastidores de aluminio para lonas permanentes.",
+      "Colocación con plataforma o desde el andamio."
+     ],
+     "prices": [
+      {
+       "concept": "Lona frontlit impresa con ollaos",
+       "range": "15 – 26 €",
+       "unit": "m²"
+      },
+      {
+       "concept": "Lona microperforada",
+       "range": "19 – 32 €",
+       "unit": "m²"
+      },
+      {
+       "concept": "Colocación en fachada",
+       "range": "90 – 350 €",
+       "unit": "lona",
+       "note": "Según altura y medios."
+      }
+     ],
+     "faqs": [
+      {
+       "q": "¿Cuánto dura una lona en la calle?",
+       "a": "Una lona frontlit de calidad, de 2 a 4 años al sol sin romperse; la tinta empieza a apagarse a partir del tercer año. Para permanente, mejor cajón luminoso o panel."
+      }
+     ],
+     "photo": "plataforma"
+    },
+    {
+     "slug": "decoracion-de-interiores",
+     "name": "Decoración de interiores con vinilo",
+     "title": "Vinilos decorativos para paredes y oficinas en Córdoba · Restaurantes, gimnasios, clínicas",
+     "h1": "Decoración de interiores con vinilo impreso",
+     "meta": "Convertimos paredes, mamparas y mobiliario en tu marca: vinilo impreso de pared, murales, vinilo ácido en mamparas de oficina y decoración de locales. Diseño, impresión y colocación.",
+     "intro": [
+      "Una pared blanca es un lienzo. Con vinilo impreso de pared se convierte en un mural, en tu logotipo a tres metros, en la carta del restaurante, en la fotografía que da personalidad a la sala. Y en oficinas y clínicas, el vinilo ácido en las mamparas da privacidad sin quitar luz.",
+      "Restaurantes, gimnasios, clínicas dentales, tiendas, oficinas, escuelas infantiles. Diseñamos con tus fotos o con banco de imágenes, imprimimos y colocamos."
+     ],
+     "bullets": [
+      "Vinilo de pared mate texturizado, sin brillos.",
+      "Murales fotográficos a medida de la pared.",
+      "Vinilo ácido en mamparas con logotipo recortado.",
+      "Rotulación de mobiliario, puertas y mostradores."
+     ],
+     "prices": [
+      {
+       "concept": "Vinilo de pared impreso colocado",
+       "range": "42 – 75 €",
+       "unit": "m²"
+      },
+      {
+       "concept": "Vinilo ácido en mampara colocado",
+       "range": "32 – 58 €",
+       "unit": "m²"
+      },
+      {
+       "concept": "Mural de 4 × 2,5 m colocado",
+       "range": "480 – 850 €",
+       "unit": "completo"
+      }
+     ],
+     "faqs": [
+      {
+       "q": "¿Sobre qué paredes se puede poner?",
+       "a": "Sobre pintura plástica lisa o con poco gotelé, cristal, madera lacada, metal. Sobre gotelé grueso o paredes recién pintadas (menos de 3 semanas) no lo recomendamos."
+      }
+     ],
+     "photo": "mapaVinilo"
+    },
+    {
+     "slug": "displays-y-eventos",
+     "name": "Roll-ups, photocalls y eventos",
+     "title": "Roll-ups, photocalls y cartelería para eventos en Córdoba",
+     "h1": "Roll-ups, photocalls y cartelería para eventos",
+     "meta": "Todo lo impreso para tu evento, feria o presentación: roll-ups, photocalls con estructura, banderas, carteles rígidos y lonas de carpa. Impreso en 24-48 h en La Carlota.",
+     "intro": [
+      "Para la feria, la inauguración, el congreso, la boda o la presentación: roll-ups que se montan en un minuto, photocalls con estructura, banderas de mástil, carteles rígidos y lonas de carpa. Impreso en 24-48 horas.",
+      "Si el evento es en la provincia o Córdoba, también lo montamos."
+     ],
+     "bullets": [
+      "Roll-up 85 × 200 y 100 × 200 con bolsa.",
+      "Photocall con estructura plegable de aluminio.",
+      "Banderas de mástil y de playa (fly banner).",
+      "Carteles en Dibond, PVC y cartón pluma."
+     ],
+     "prices": [
+      {
+       "concept": "Roll-up 85 × 200 cm",
+       "range": "98 – 165 €",
+       "unit": "unidad"
+      },
+      {
+       "concept": "Photocall 3 × 2 m con estructura",
+       "range": "380 – 750 €",
+       "unit": "unidad"
+      },
+      {
+       "concept": "Bandera de mástil 1 × 3 m",
+       "range": "85 – 160 €",
+       "unit": "unidad"
+      },
+      {
+       "concept": "Cartel rígido en Dibond",
+       "range": "45 – 80 €",
+       "unit": "m²"
+      }
+     ],
+     "faqs": [
+      {
+       "q": "¿Para mañana?",
+       "a": "Si nos mandas el archivo listo antes de mediodía, roll-ups y carteles pueden estar al día siguiente. Llama y lo confirmamos."
+      }
+     ],
+     "photo": "photocall"
+    }
+   ]
+  },
+  {
+   "slug": "neon-y-led",
+   "name": "Neón y LED",
+   "short": "Neón y LED",
+   "label": "Neón y LED",
+   "icon": "neon",
+   "oldPath": "/trabajos-realizados/neon-leds/",
+   "title": "Neón LED y neón de cristal en Córdoba · Rótulos, logotipos y frases luminosas",
+   "h1": "Neón LED y neón de cristal",
+   "meta": "Rótulos de neón LED flexible y neón de cristal para bares, restaurantes, tiendas, gimnasios y eventos en Córdoba, Écija y provincia. También iluminación LED y reparación de rótulos luminosos. Taller propio desde 1993.",
+   "claim": "La luz que hace la foto. Logotipos y frases de neón para locales que quieren que se hable de ellos.",
+   "intro": [
+    "El neón ha vuelto, y ha vuelto en LED: la misma luz continua y de color, sin cristal, sin alto voltaje y con un consumo mínimo. Es el rótulo de los bares de copas, los restaurantes, las peluquerías, los gimnasios y las tiendas que quieren que los clientes se hagan la foto en la pared.",
+    "Fabricamos neón LED flexible sobre base de metacrilato o directamente en pared, en cualquier color y con la forma de tu logotipo o tu frase. Y seguimos trabajando el neón de cristal tradicional para quien quiere el auténtico, además de reparar y convertir a LED rótulos luminosos de cualquier tipo."
+   ],
+   "bullets": [
+    "Neón LED flexible con la forma de tu logotipo o texto, sobre metacrilato transparente o de color.",
+    "Neón de cristal tradicional soplado, para interiores y restauraciones.",
+    "Letras corpóreas con LED frontal o halo (ver luminosos).",
+    "Iluminación LED de rótulos existentes: sustitución de fluorescentes y neón antiguo.",
+    "Fuentes, reguladores de intensidad y programadores.",
+    "Reparación de rótulos luminosos, aunque no sean nuestros."
+   ],
+   "steps": [
+    {
+     "title": "Nos cuentas qué necesitas",
+     "text": "Por WhatsApp o con el formulario: qué tipo de rótulo, medidas aproximadas, dónde va y una foto del sitio. Con eso ya podemos trabajar. Te contestamos en menos de 24 horas laborables."
+    },
+    {
+     "title": "Boceto y presupuesto cerrado",
+     "text": "En 48 horas tienes un boceto sobre la foto de tu fachada o vehículo y un presupuesto con materiales, medidas, plazo de fabricación, montaje y, si hacen falta, los permisos. Sin sorpresas después."
+    },
+    {
+     "title": "Lo fabricamos en nuestro taller de La Carlota",
+     "text": "Corte, soldadura, pintura, LED, impresión y laminado: todo lo hacemos nosotros, en nuestras instalaciones. No subcontratamos la fabricación, por eso controlamos el plazo y el acabado. Te mandamos una foto antes de salir del taller."
+    },
+    {
+     "title": "Montaje y puesta en marcha",
+     "text": "Nuestro equipo monta el rótulo con los medios que hagan falta: plataforma elevadora, camión grúa o andamio. Conectamos la iluminación, limpiamos y te lo dejamos funcionando. Garantía por escrito."
+    }
+   ],
+   "prices": [
+    {
+     "concept": "Neón LED, logotipo o frase de 60 × 30 cm",
+     "range": "260 – 520 €",
+     "unit": "unidad",
+     "note": "Sobre metacrilato transparente, con fuente y regulador."
+    },
+    {
+     "concept": "Neón LED, 1 × 0,5 m",
+     "range": "520 – 1.050 €",
+     "unit": "unidad"
+    },
+    {
+     "concept": "Neón LED por metro lineal de tubo (trazo)",
+     "range": "45 – 80 €",
+     "unit": "m",
+     "note": "Para presupuestar formas complejas."
+    },
+    {
+     "concept": "Neón de cristal tradicional",
+     "range": "95 – 170 €",
+     "unit": "m",
+     "note": "Incluye transformador. Solo interior o bajo cubierta."
+    },
+    {
+     "concept": "Convertir un rótulo de neón o fluorescente a LED",
+     "range": "160 – 550 €",
+     "unit": "rótulo"
+    },
+    {
+     "concept": "Reparación: cambio de fuente o transformador",
+     "range": "65 – 160 €",
+     "unit": "intervención"
+    }
+   ],
+   "priceNote": "Precios orientativos con IVA, para que vayas con una idea. El precio real depende de las medidas exactas, el material, la altura de montaje y la distancia. Te lo damos cerrado, sin «a partir de», en 48 horas.",
+   "duration": "Neón LED: 7-12 días laborables. Neón de cristal: 10-15 días. Reparaciones: normalmente en la misma semana.",
+   "faqs": [
+    {
+     "q": "¿Neón LED o neón de cristal?",
+     "a": "Para el 95 % de los casos, LED: se ve igual, no se rompe, consume una décima parte, se regula de intensidad y no necesita alto voltaje. El neón de cristal lo hacemos para quien quiere el auténtico (bares vintage, colecciones, restauraciones) y solo en interior."
+    },
+    {
+     "q": "¿Cuánto cuesta un cartel de neón para un bar?",
+     "a": "Una frase o logotipo de 60 × 30 cm en neón LED, con fuente y regulador, entre 260 y 520 €. De 1 × 0,5 m, entre 520 y 1.050 €. Depende sobre todo de los metros de trazo: cuanto más texto, más metros."
+    },
+    {
+     "q": "¿Se puede poner en exterior?",
+     "a": "El neón LED, sí, con la protección IP adecuada y la fuente resguardada. El de cristal, solo bajo cubierta."
+    },
+    {
+     "q": "¿Cuánto consume?",
+     "a": "Un neón LED de un metro de trazo consume unos 8-10 W: menos que una bombilla LED de casa. Un cartel entero, lo que un cargador de portátil."
+    },
+    {
+     "q": "Mi rótulo de neón antiguo ya no enciende, ¿lo arregláis?",
+     "a": "Sí. Lo revisamos: suele ser el transformador o un tubo. Si compensa, lo reparamos; si no, lo convertimos a LED manteniendo el aspecto."
+    }
+   ],
+   "localAngle": "En {loc} el neón LED es lo que piden los bares y restaurantes nuevos y las tiendas que abren en el centro. Lo fabricamos en La Carlota y lo colgamos en una tarde.",
+   "photo": "plenaforma",
+   "gallery": [
+    "neon",
+    "letraA",
+    "letraS",
+    "hVerde",
+    "dafisa",
+    "carmenNoche"
+   ],
+   "subs": [
+    {
+     "slug": "neon-led",
+     "name": "Neón LED flexible",
+     "title": "Rótulos de neón LED en Córdoba · Logotipos y frases luminosas para locales",
+     "h1": "Rótulos de neón LED",
+     "meta": "Neón LED flexible con la forma de tu logotipo o frase, en cualquier color, sobre metacrilato o en pared. Para bares, restaurantes, peluquerías, gimnasios, tiendas y eventos. Desde 260 €.",
+     "intro": [
+      "El neón LED es un tubo flexible de silicona con LED continuo dentro: se dobla con la forma de tu logotipo o de tu frase y da la luz continua del neón sin cristal ni alto voltaje. En cualquier color, regulable, para interior y exterior.",
+      "Lo montamos sobre una base de metacrilato transparente (para colgar o atornillar) o directamente en la pared con clips invisibles."
+     ],
+     "bullets": [
+      "Cualquier color, incluido blanco cálido y RGB.",
+      "Base de metacrilato transparente, negra o de color, o montaje directo en pared.",
+      "Regulador de intensidad y programador incluidos.",
+      "Apto para exterior con protección IP65."
+     ],
+     "prices": [
+      {
+       "concept": "Logotipo o frase 60 × 30 cm",
+       "range": "260 – 520 €",
+       "unit": "unidad"
+      },
+      {
+       "concept": "Logotipo o frase 1 × 0,5 m",
+       "range": "520 – 1.050 €",
+       "unit": "unidad"
+      },
+      {
+       "concept": "Por metro de trazo",
+       "range": "45 – 80 €",
+       "unit": "m"
+      }
+     ],
+     "faqs": [
+      {
+       "q": "¿Se puede hacer con letra manuscrita?",
+       "a": "Sí, es lo más habitual. Usamos tipografías de trazo continuo o adaptamos la tuya para que el tubo pueda seguirla sin cortes."
+      }
+     ],
+     "photo": "plenaforma"
+    },
+    {
+     "slug": "neon-de-cristal",
+     "name": "Neón de cristal",
+     "title": "Neón de cristal tradicional en Córdoba · Fabricación, restauración y reparación",
+     "h1": "Neón de cristal tradicional",
+     "meta": "Neón de cristal soplado auténtico para interiores, decoración y restauración de rótulos antiguos. Fabricación, transformadores y reparación. Uno de los pocos talleres de la provincia que sigue haciéndolo.",
+     "intro": [
+      "El neón de verdad: tubo de cristal soplado, gas y transformador. Para quien quiere el brillo y el zumbido auténticos en un bar vintage, una colección o la restauración de un rótulo con historia.",
+      "Lo trabajamos desde los años 90 y seguimos reparando y restaurando rótulos de neón de la provincia."
+     ],
+     "bullets": [
+      "Tubo de cristal soplado a medida.",
+      "Colores clásicos: rojo neón, azul argón, blanco, verde.",
+      "Restauración de rótulos antiguos.",
+      "Solo interior o bajo cubierta."
+     ],
+     "prices": [
+      {
+       "concept": "Neón de cristal",
+       "range": "95 – 170 €",
+       "unit": "m"
+      },
+      {
+       "concept": "Restauración de rótulo antiguo",
+       "range": "presupuesto a medida",
+       "unit": ""
+      }
+     ],
+     "faqs": [
+      {
+       "q": "¿Es peligroso?",
+       "a": "Funciona con alto voltaje, por eso lo instalamos con transformador electrónico homologado, protecciones y fuera del alcance. Bien instalado es seguro, pero para exterior y locales con público recomendamos LED."
+      }
+     ],
+     "photo": "neon"
+    },
+    {
+     "slug": "iluminacion-y-reparacion",
+     "name": "Iluminación LED y reparación de rótulos",
+     "title": "Reparación de rótulos luminosos en Córdoba · Paso a LED, fuentes y mantenimiento",
+     "h1": "Reparación de rótulos luminosos y paso a LED",
+     "meta": "Tu rótulo luminoso no enciende, parpadea o consume demasiado: lo reparamos o lo pasamos a LED aprovechando el cajón. Aunque no lo hayamos hecho nosotros. Mantenimiento de rótulos de empresas y cadenas.",
+     "intro": [
+      "Un rótulo apagado dice «cerrado». Reparamos rótulos luminosos de cualquier tipo y fabricante: fuentes de alimentación, transformadores, tubos, módulos LED, frontales rotos. Y cuando el rótulo es de fluorescentes o neón antiguo, lo pasamos a LED aprovechando el cajón: queda nuevo, consume un 70 % menos y no vuelve a parpadear.",
+      "Para empresas con varios locales hacemos mantenimiento programado."
+     ],
+     "bullets": [
+      "Diagnóstico en la primera visita.",
+      "Cambio de fuentes, transformadores y módulos.",
+      "Conversión completa a LED.",
+      "Mantenimiento programado para cadenas y franquicias."
+     ],
+     "prices": [
+      {
+       "concept": "Cambio de fuente o transformador",
+       "range": "65 – 160 €",
+       "unit": "intervención"
+      },
+      {
+       "concept": "Conversión a LED",
+       "range": "160 – 550 €",
+       "unit": "rótulo"
+      },
+      {
+       "concept": "Cambio de frontal de metacrilato",
+       "range": "90 – 160 €",
+       "unit": "m²"
+      }
+     ],
+     "faqs": [
+      {
+       "q": "¿Reparáis rótulos que no son vuestros?",
+       "a": "Sí. Da igual quién lo hiciera: si tiene arreglo, lo arreglamos; si no, te decimos cuánto costaría hacerlo nuevo."
+      }
+     ],
+     "photo": "letraA"
+    }
+   ]
+  }
+ ],
+ "commonSteps": [
+  {
+   "title": "Nos cuentas qué necesitas",
+   "text": "Por WhatsApp o con el formulario: qué tipo de rótulo, medidas aproximadas, dónde va y una foto del sitio. Con eso ya podemos trabajar. Te contestamos en menos de 24 horas laborables."
+  },
+  {
+   "title": "Boceto y presupuesto cerrado",
+   "text": "En 48 horas tienes un boceto sobre la foto de tu fachada o vehículo y un presupuesto con materiales, medidas, plazo de fabricación, montaje y, si hacen falta, los permisos. Sin sorpresas después."
+  },
+  {
+   "title": "Lo fabricamos en nuestro taller de La Carlota",
+   "text": "Corte, soldadura, pintura, LED, impresión y laminado: todo lo hacemos nosotros, en nuestras instalaciones. No subcontratamos la fabricación, por eso controlamos el plazo y el acabado. Te mandamos una foto antes de salir del taller."
+  },
+  {
+   "title": "Montaje y puesta en marcha",
+   "text": "Nuestro equipo monta el rótulo con los medios que hagan falta: plataforma elevadora, camión grúa o andamio. Conectamos la iluminación, limpiamos y te lo dejamos funcionando. Garantía por escrito."
+  }
+ ],
+ "localities": [
+  {
+   "slug": "la-carlota",
+   "name": "La Carlota",
+   "province": "Córdoba",
+   "population": 14300,
+   "km": 0,
+   "minutes": 0,
+   "zona": "Provincia de Córdoba",
+   "angle": "Es nuestro pueblo: el taller está en el Polígono Gallardo, junto a la A-4. Aquí hemos rotulado desde la fábrica de La Carloteña hasta las promociones de viviendas de la Nueva Carlota, las gasolineras y áreas de servicio de la autovía, los comercios de la Avenida Carlos III y las señales de las rotondas. Con 14.000 habitantes repartidos en diez aldeas (Aldea Quintana, La Chica Carlota, El Arrecife, Fuencubierta, Los Algarbes…), hay negocio de carretera, industria agroalimentaria y comercio de pueblo.",
+   "zones": [
+    "Polígono Industrial Gallardo",
+    "Avenida de Carlos III",
+    "Área de servicio de la A-4"
+   ],
+   "typical": [
+    "rotulos-luminosos",
+    "rotulacion-vehiculos",
+    "vallas-y-monopostes",
+    "letras-corporeas"
+   ],
+   "nearby": [
+    "la-victoria",
+    "guadalcazar",
+    "fuente-palmera",
+    "la-luisiana",
+    "ecija",
+    "cordoba"
+   ],
+   "phase": 1
+  },
+  {
+   "slug": "la-victoria",
+   "name": "La Victoria",
+   "province": "Córdoba",
+   "population": 2400,
+   "km": 12,
+   "minutes": 12,
+   "zona": "Provincia de Córdoba",
+   "angle": "Pueblo pequeño de la provincia con cooperativa, comercio local y talleres. Desde La Carlota estamos en doce minutos: para un rótulo de fachada, una furgoneta o las placas de un negocio nuevo no hace falta ir a Córdoba.",
+   "typical": [
+    "letras-corporeas",
+    "rotulacion-vehiculos",
+    "impresion-digital"
+   ],
+   "nearby": [
+    "la-carlota",
+    "guadalcazar",
+    "santaella",
+    "la-rambla"
+   ],
+   "phase": 1
+  },
+  {
+   "slug": "guadalcazar",
+   "name": "Guadalcázar",
+   "province": "Córdoba",
+   "population": 1600,
+   "km": 12,
+   "minutes": 12,
+   "zona": "Provincia de Córdoba",
+   "angle": "Hicimos los paneles informativos turísticos del ayuntamiento (Torre Mocha, el Abrevadero, el Lavadero). Pueblo agrícola con comercio de proximidad y explotaciones que rotulan sus vehículos y naves.",
+   "typical": [
+    "senalizacion",
+    "rotulacion-vehiculos",
+    "letras-corporeas"
+   ],
+   "nearby": [
+    "la-carlota",
+    "la-victoria",
+    "almodovar-del-rio",
+    "posadas"
+   ],
+   "phase": 1
+  },
+  {
+   "slug": "fuente-palmera",
+   "name": "Fuente Palmera",
+   "province": "Córdoba",
+   "population": 10500,
+   "km": 16,
+   "minutes": 18,
+   "zona": "Provincia de Córdoba",
+   "angle": "La Colonia de Fuente Palmera es la capital andaluza del traje de novia: decenas de talleres y tiendas de moda nupcial que viven del escaparate, del rótulo y de la imagen. Además, industria agroalimentaria, cooperativas y comercio repartido en sus aldeas (Fuente Carreteros, Ochavillo, Villalón…).",
+   "typical": [
+    "impresion-digital",
+    "rotulos-luminosos",
+    "letras-corporeas",
+    "rotulacion-vehiculos"
+   ],
+   "nearby": [
+    "la-carlota",
+    "palma-del-rio",
+    "ecija",
+    "posadas",
+    "hornachuelos"
+   ],
+   "phase": 1
+  },
+  {
+   "slug": "la-luisiana",
+   "name": "La Luisiana",
+   "province": "Sevilla",
+   "population": 4500,
+   "km": 15,
+   "minutes": 14,
+   "zona": "Provincia de Sevilla",
+   "angle": "Al otro lado del límite provincial, pero a un cuarto de hora del taller. Pueblo carolino como el nuestro, con negocios de carretera en la antigua N-IV, cooperativa y comercio local.",
+   "typical": [
+    "rotulos-luminosos",
+    "rotulacion-vehiculos",
+    "vallas-y-monopostes"
+   ],
+   "nearby": [
+    "la-carlota",
+    "ecija",
+    "fuentes-de-andalucia"
+   ],
+   "phase": 1
+  },
+  {
+   "slug": "cordoba",
+   "name": "Córdoba",
+   "province": "Córdoba",
+   "population": 322000,
+   "km": 30,
+   "minutes": 25,
+   "zona": "Córdoba capital",
+   "angle": "A 25 minutos por la A-4. En la capital trabajamos sobre todo en los polígonos (Las Quemadas, Chinales, La Torrecilla, Amargacena, Pedroches), en los concesionarios y naves de la carretera de Palma del Río, y en comercio de barrio y centro. En el casco histórico y el entorno de la Mezquita la ordenanza de rótulos es estricta (tamaños, materiales, iluminación): la conocemos y preparamos la documentación para la Gerencia de Urbanismo.",
+   "zones": [
+    "Polígono Las Quemadas",
+    "Polígono de Chinales",
+    "Polígono La Torrecilla",
+    "Polígono Amargacena",
+    "Polígono de Pedroches",
+    "Carretera de Palma del Río",
+    "Centro y casco histórico"
+   ],
+   "typical": [
+    "letras-corporeas",
+    "rotulos-luminosos",
+    "rotulacion-vehiculos",
+    "senalizacion",
+    "impresion-digital"
+   ],
+   "nearby": [
+    "la-carlota",
+    "almodovar-del-rio",
+    "villafranca-de-cordoba",
+    "fernan-nunez",
+    "el-carpio"
+   ],
+   "phase": 1
+  },
+  {
+   "slug": "posadas",
+   "name": "Posadas",
+   "province": "Córdoba",
+   "population": 7200,
+   "km": 25,
+   "minutes": 25,
+   "zona": "Provincia de Córdoba",
+   "angle": "Pueblo de la vega con polígono, comercio en el centro y negocios de carretera en la A-431. Se piden rótulos de fachada, furgonetas de instaladores y cartelería de promociones.",
+   "typical": [
+    "rotulos-luminosos",
+    "rotulacion-vehiculos",
+    "letras-corporeas"
+   ],
+   "nearby": [
+    "almodovar-del-rio",
+    "palma-del-rio",
+    "hornachuelos",
+    "guadalcazar",
+    "la-carlota"
+   ],
+   "phase": 1
+  },
+  {
+   "slug": "almodovar-del-rio",
+   "name": "Almodóvar del Río",
+   "province": "Córdoba",
+   "population": 8000,
+   "km": 28,
+   "minutes": 28,
+   "zona": "Provincia de Córdoba",
+   "angle": "El castillo trae turismo, y el turismo trae hostelería, alojamientos y comercio que necesitan rótulo, señalización y cartelería. Además, polígono industrial y agricultura de vega.",
+   "typical": [
+    "rotulos-luminosos",
+    "senalizacion",
+    "impresion-digital"
+   ],
+   "nearby": [
+    "posadas",
+    "cordoba",
+    "guadalcazar",
+    "la-carlota"
+   ],
+   "phase": 1
+  },
+  {
+   "slug": "palma-del-rio",
+   "name": "Palma del Río",
+   "province": "Córdoba",
+   "population": 20400,
+   "km": 38,
+   "minutes": 35,
+   "zona": "Provincia de Córdoba",
+   "angle": "La capital de la naranja: cooperativas, centrales hortofrutícolas y transportistas con flotas que rotular, además de un centro comercial abierto con muchas tiendas de calle. Trabajamos en el Polígono El Garrotal y en el centro.",
+   "zones": [
+    "Polígono El Garrotal",
+    "Centro comercial abierto"
+   ],
+   "typical": [
+    "rotulacion-vehiculos",
+    "rotulos-luminosos",
+    "letras-corporeas",
+    "vallas-y-monopostes"
+   ],
+   "nearby": [
+    "fuente-palmera",
+    "posadas",
+    "hornachuelos",
+    "ecija",
+    "lora-del-rio"
+   ],
+   "phase": 1
+  },
+  {
+   "slug": "hornachuelos",
+   "name": "Hornachuelos",
+   "province": "Córdoba",
+   "population": 4400,
+   "km": 45,
+   "minutes": 42,
+   "zona": "Provincia de Córdoba",
+   "angle": "Puerta del parque natural: alojamientos rurales, restaurantes y empresas de turismo activo que necesitan señalización direccional, rótulos y paneles. También la central de Almodóvar y sus contratas.",
+   "typical": [
+    "senalizacion",
+    "rotulos-luminosos",
+    "vallas-y-monopostes"
+   ],
+   "nearby": [
+    "posadas",
+    "palma-del-rio",
+    "fuente-palmera"
+   ],
+   "phase": 1
+  },
+  {
+   "slug": "santaella",
+   "name": "Santaella",
+   "province": "Córdoba",
+   "population": 4600,
+   "km": 22,
+   "minutes": 22,
+   "zona": "Provincia de Córdoba",
+   "angle": "Pueblo agrícola y de la aldea de La Montiela, con cooperativa, almazaras y explotaciones que rotulan naves y vehículos. Comercio de proximidad en el centro.",
+   "typical": [
+    "rotulacion-vehiculos",
+    "letras-corporeas",
+    "impresion-digital"
+   ],
+   "nearby": [
+    "la-victoria",
+    "la-rambla",
+    "montalban",
+    "la-carlota",
+    "ecija"
+   ],
+   "phase": 1
+  },
+  {
+   "slug": "la-rambla",
+   "name": "La Rambla",
+   "province": "Córdoba",
+   "population": 7400,
+   "km": 22,
+   "minutes": 22,
+   "zona": "Provincia de Córdoba",
+   "angle": "La ciudad de la cerámica: decenas de alfares y fábricas de cerámica con tienda, exposición y furgonetas de reparto. Cada una necesita rótulo de nave, vinilos de exposición y vehículos rotulados.",
+   "typical": [
+    "rotulos-luminosos",
+    "rotulacion-vehiculos",
+    "impresion-digital",
+    "letras-corporeas"
+   ],
+   "nearby": [
+    "montilla",
+    "fernan-nunez",
+    "santaella",
+    "la-victoria",
+    "montemayor"
+   ],
+   "phase": 1
+  },
+  {
+   "slug": "fernan-nunez",
+   "name": "Fernán Núñez",
+   "province": "Córdoba",
+   "population": 9600,
+   "km": 30,
+   "minutes": 28,
+   "zona": "Provincia de Córdoba",
+   "angle": "Pueblo grande de la provincia con polígono, comercio de calle y empresas de servicios. A media hora por la A-45 o por la carretera de La Rambla.",
+   "typical": [
+    "rotulos-luminosos",
+    "letras-corporeas",
+    "rotulacion-vehiculos"
+   ],
+   "nearby": [
+    "montemayor",
+    "la-rambla",
+    "montilla",
+    "cordoba"
+   ],
+   "phase": 1
+  },
+  {
+   "slug": "montemayor",
+   "name": "Montemayor",
+   "province": "Córdoba",
+   "population": 3800,
+   "km": 30,
+   "minutes": 30,
+   "zona": "Provincia de Córdoba",
+   "angle": "Pueblo de la provincia junto a la A-45 con negocios de carretera, agricultura y comercio local.",
+   "typical": [
+    "vallas-y-monopostes",
+    "rotulos-luminosos",
+    "rotulacion-vehiculos"
+   ],
+   "nearby": [
+    "fernan-nunez",
+    "montilla",
+    "la-rambla"
+   ],
+   "phase": 1
+  },
+  {
+   "slug": "montilla",
+   "name": "Montilla",
+   "province": "Córdoba",
+   "population": 22300,
+   "km": 40,
+   "minutes": 35,
+   "zona": "Provincia de Córdoba",
+   "angle": "Bodegas, tonelerías, industria del vino y del aceite, un centro comercial muy activo y el Polígono Llanos de Jarata. En Montilla se rotulan naves, bodegas con visita turística, tiendas del centro y flotas de reparto.",
+   "zones": [
+    "Polígono Llanos de Jarata",
+    "Centro"
+   ],
+   "typical": [
+    "letras-corporeas",
+    "rotulos-luminosos",
+    "rotulacion-vehiculos",
+    "senalizacion"
+   ],
+   "nearby": [
+    "aguilar-de-la-frontera",
+    "la-rambla",
+    "fernan-nunez",
+    "montemayor",
+    "puente-genil"
+   ],
+   "phase": 1
+  },
+  {
+   "slug": "aguilar-de-la-frontera",
+   "name": "Aguilar de la Frontera",
+   "province": "Córdoba",
+   "population": 13300,
+   "km": 45,
+   "minutes": 40,
+   "zona": "Provincia de Córdoba",
+   "angle": "Bodegas, almazaras, industria auxiliar y comercio en torno a la plaza de San José. Polígono junto a la A-45 con naves que necesitan rótulo grande y monoposte.",
+   "typical": [
+    "rotulos-luminosos",
+    "vallas-y-monopostes",
+    "letras-corporeas",
+    "rotulacion-vehiculos"
+   ],
+   "nearby": [
+    "montilla",
+    "puente-genil",
+    "lucena",
+    "montalban"
+   ],
+   "phase": 1
+  },
+  {
+   "slug": "puente-genil",
+   "name": "Puente Genil",
+   "province": "Córdoba",
+   "population": 30000,
+   "km": 55,
+   "minutes": 45,
+   "zona": "Provincia de Córdoba",
+   "angle": "Industria del membrillo, del aceite y metalúrgica, polígonos grandes (San Pancracio, Huerto del Francés) y un comercio de calle amplio. Ciudad con mucha empresa que rotula naves, flotas y fachadas.",
+   "zones": [
+    "Polígono San Pancracio",
+    "Polígono Huerto del Francés"
+   ],
+   "typical": [
+    "letras-corporeas",
+    "rotulacion-vehiculos",
+    "rotulos-luminosos",
+    "senalizacion"
+   ],
+   "nearby": [
+    "aguilar-de-la-frontera",
+    "lucena",
+    "montilla",
+    "estepa"
+   ],
+   "phase": 1
+  },
+  {
+   "slug": "montalban",
+   "name": "Montalbán de Córdoba",
+   "province": "Córdoba",
+   "population": 4400,
+   "km": 32,
+   "minutes": 30,
+   "zona": "Provincia de Córdoba",
+   "angle": "La capital del ajo: cooperativas, almacenes y transportistas que rotulan naves, cajas de camión y furgonetas.",
+   "typical": [
+    "rotulacion-vehiculos",
+    "letras-corporeas",
+    "vallas-y-monopostes"
+   ],
+   "nearby": [
+    "santaella",
+    "la-rambla",
+    "aguilar-de-la-frontera"
+   ],
+   "phase": 2
+  },
+  {
+   "slug": "lucena",
+   "name": "Lucena",
+   "province": "Córdoba",
+   "population": 43000,
+   "km": 65,
+   "minutes": 50,
+   "zona": "Provincia de Córdoba",
+   "angle": "La ciudad del mueble y del frío industrial: cientos de fábricas en los polígonos (Los Santos, Pilar de la Dehesa, La Viñuela) con exposición al público, flotas de reparto y naves que se ven desde la A-45. El mercado de rótulos de nave, tótem y flota más grande de la provincia fuera de la capital.",
+   "zones": [
+    "Polígono Los Santos",
+    "Polígono Pilar de la Dehesa",
+    "Polígono La Viñuela"
+   ],
+   "typical": [
+    "letras-corporeas",
+    "vallas-y-monopostes",
+    "rotulacion-vehiculos",
+    "rotulos-luminosos"
+   ],
+   "nearby": [
+    "cabra",
+    "puente-genil",
+    "aguilar-de-la-frontera",
+    "rute"
+   ],
+   "phase": 1
+  },
+  {
+   "slug": "cabra",
+   "name": "Cabra",
+   "province": "Córdoba",
+   "population": 20000,
+   "km": 65,
+   "minutes": 55,
+   "zona": "Provincia de Córdoba",
+   "angle": "Industria agroalimentaria, polígono y un centro comercial con tradición. Con la Subbética como destino turístico, también alojamientos y restaurantes que necesitan señalización y rótulo.",
+   "typical": [
+    "rotulos-luminosos",
+    "letras-corporeas",
+    "senalizacion"
+   ],
+   "nearby": [
+    "lucena",
+    "baena",
+    "priego-de-cordoba"
+   ],
+   "phase": 1
+  },
+  {
+   "slug": "baena",
+   "name": "Baena",
+   "province": "Córdoba",
+   "population": 18500,
+   "km": 60,
+   "minutes": 55,
+   "zona": "Provincia de Córdoba",
+   "angle": "Capital del aceite con denominación de origen: almazaras, cooperativas y envasadoras que rotulan naves, tótems de entrada y flotas. Comercio de calle y polígono junto a la N-432.",
+   "typical": [
+    "letras-corporeas",
+    "vallas-y-monopostes",
+    "rotulacion-vehiculos"
+   ],
+   "nearby": [
+    "castro-del-rio",
+    "cabra",
+    "espejo"
+   ],
+   "phase": 1
+  },
+  {
+   "slug": "castro-del-rio",
+   "name": "Castro del Río",
+   "province": "Córdoba",
+   "population": 7600,
+   "km": 55,
+   "minutes": 50,
+   "zona": "Provincia de Córdoba",
+   "angle": "Pueblo de la madera y del mueble de olivo, con talleres y tiendas de exposición que necesitan rótulo y vinilos de escaparate.",
+   "typical": [
+    "letras-corporeas",
+    "impresion-digital",
+    "rotulacion-vehiculos"
+   ],
+   "nearby": [
+    "baena",
+    "espejo",
+    "montilla"
+   ],
+   "phase": 2
+  },
+  {
+   "slug": "espejo",
+   "name": "Espejo",
+   "province": "Córdoba",
+   "population": 3200,
+   "km": 45,
+   "minutes": 42,
+   "zona": "Provincia de Córdoba",
+   "angle": "Pueblo agrícola junto a Castro del Río y Baena, con cooperativa y comercio local.",
+   "typical": [
+    "rotulacion-vehiculos",
+    "letras-corporeas"
+   ],
+   "nearby": [
+    "castro-del-rio",
+    "montilla",
+    "baena"
+   ],
+   "phase": 2
+  },
+  {
+   "slug": "priego-de-cordoba",
+   "name": "Priego de Córdoba",
+   "province": "Córdoba",
+   "population": 21800,
+   "km": 95,
+   "minutes": 80,
+   "zona": "Provincia de Córdoba",
+   "angle": "Textil, aceite con denominación de origen y turismo barroco: comercio, alojamientos, almazaras y polígono. Lejos del taller, pero vamos para proyectos completos (nave + flota + señalización).",
+   "typical": [
+    "letras-corporeas",
+    "senalizacion",
+    "rotulacion-vehiculos"
+   ],
+   "nearby": [
+    "cabra",
+    "rute",
+    "lucena"
+   ],
+   "phase": 2
+  },
+  {
+   "slug": "rute",
+   "name": "Rute",
+   "province": "Córdoba",
+   "population": 9800,
+   "km": 85,
+   "minutes": 70,
+   "zona": "Provincia de Córdoba",
+   "angle": "Anís, mantecados y turismo navideño: fábricas con tienda y visita, y comercio que vive de la imagen. Vamos para proyectos completos.",
+   "typical": [
+    "rotulos-luminosos",
+    "impresion-digital",
+    "letras-corporeas"
+   ],
+   "nearby": [
+    "lucena",
+    "priego-de-cordoba",
+    "cabra"
+   ],
+   "phase": 2
+  },
+  {
+   "slug": "villafranca-de-cordoba",
+   "name": "Villafranca de Córdoba",
+   "province": "Córdoba",
+   "population": 5000,
+   "km": 50,
+   "minutes": 40,
+   "zona": "Provincia de Córdoba",
+   "angle": "Junto a la A-4 al este de la capital: polígono, negocios de carretera y agricultura de vega.",
+   "typical": [
+    "vallas-y-monopostes",
+    "rotulos-luminosos",
+    "rotulacion-vehiculos"
+   ],
+   "nearby": [
+    "cordoba",
+    "el-carpio",
+    "bujalance"
+   ],
+   "phase": 2
+  },
+  {
+   "slug": "el-carpio",
+   "name": "El Carpio",
+   "province": "Córdoba",
+   "population": 4300,
+   "km": 55,
+   "minutes": 45,
+   "zona": "Provincia de Córdoba",
+   "angle": "Pueblo de la vega junto a la A-4 con cooperativa, industria y comercio local.",
+   "typical": [
+    "rotulacion-vehiculos",
+    "letras-corporeas"
+   ],
+   "nearby": [
+    "villafranca-de-cordoba",
+    "bujalance",
+    "montoro"
+   ],
+   "phase": 2
+  },
+  {
+   "slug": "bujalance",
+   "name": "Bujalance",
+   "province": "Córdoba",
+   "population": 7000,
+   "km": 60,
+   "minutes": 50,
+   "zona": "Provincia de Córdoba",
+   "angle": "Pueblo olivarero grande con almazaras, comercio y polígono.",
+   "typical": [
+    "letras-corporeas",
+    "rotulacion-vehiculos",
+    "vallas-y-monopostes"
+   ],
+   "nearby": [
+    "el-carpio",
+    "montoro",
+    "villafranca-de-cordoba"
+   ],
+   "phase": 2
+  },
+  {
+   "slug": "montoro",
+   "name": "Montoro",
+   "province": "Córdoba",
+   "population": 9100,
+   "km": 70,
+   "minutes": 55,
+   "zona": "Provincia de Córdoba",
+   "angle": "Aceite, turismo de casco histórico y negocios de carretera junto a la A-4.",
+   "typical": [
+    "rotulos-luminosos",
+    "senalizacion",
+    "rotulacion-vehiculos"
+   ],
+   "nearby": [
+    "bujalance",
+    "el-carpio",
+    "villafranca-de-cordoba"
+   ],
+   "phase": 2
+  },
+  {
+   "slug": "ecija",
+   "name": "Écija",
+   "province": "Sevilla",
+   "population": 39500,
+   "km": 27,
+   "minutes": 25,
+   "zona": "Provincia de Sevilla",
+   "angle": "La ciudad grande más cercana al taller, a 25 minutos. Polígonos junto a la A-4 y la A-451, concesionarios, industria agroalimentaria y un centro comercial histórico con ordenanza estricta de rótulos en el casco (la ciudad de las torres protege sus fachadas). Hemos hecho de todo en Écija: luminosos, corpóreos, vehículos, vallas y escaparates.",
+   "zones": [
+    "Polígono La provincia",
+    "Polígono El Barrero",
+    "Centro histórico"
+   ],
+   "typical": [
+    "rotulos-luminosos",
+    "letras-corporeas",
+    "rotulacion-vehiculos",
+    "impresion-digital",
+    "vallas-y-monopostes"
+   ],
+   "nearby": [
+    "la-carlota",
+    "la-luisiana",
+    "fuente-palmera",
+    "palma-del-rio",
+    "fuentes-de-andalucia",
+    "osuna",
+    "marchena"
+   ],
+   "phase": 1
+  },
+  {
+   "slug": "fuentes-de-andalucia",
+   "name": "Fuentes de Andalucía",
+   "province": "Sevilla",
+   "population": 6800,
+   "km": 40,
+   "minutes": 35,
+   "zona": "Provincia de Sevilla",
+   "angle": "Pueblo agrícola entre Écija y Carmona con cooperativa, comercio y negocios de carretera en la A-4.",
+   "typical": [
+    "rotulacion-vehiculos",
+    "rotulos-luminosos",
+    "vallas-y-monopostes"
+   ],
+   "nearby": [
+    "ecija",
+    "la-luisiana",
+    "carmona"
+   ],
+   "phase": 1
+  },
+  {
+   "slug": "carmona",
+   "name": "Carmona",
+   "province": "Sevilla",
+   "population": 29000,
+   "km": 60,
+   "minutes": 45,
+   "zona": "Provincia de Sevilla",
+   "angle": "Ciudad monumental con turismo, hostelería y comercio, además de polígono y agricultura. En el casco histórico la ordenanza de rótulos es exigente: corpóreos discretos, placas y señalización.",
+   "typical": [
+    "letras-corporeas",
+    "senalizacion",
+    "rotulos-luminosos"
+   ],
+   "nearby": [
+    "fuentes-de-andalucia",
+    "marchena",
+    "ecija"
+   ],
+   "phase": 1
+  },
+  {
+   "slug": "marchena",
+   "name": "Marchena",
+   "province": "Sevilla",
+   "population": 19500,
+   "km": 55,
+   "minutes": 50,
+   "zona": "Provincia de Sevilla",
+   "angle": "Pueblo grande de la provincia de Sevilla, con polígono, comercio y cooperativas.",
+   "typical": [
+    "rotulos-luminosos",
+    "rotulacion-vehiculos",
+    "letras-corporeas"
+   ],
+   "nearby": [
+    "ecija",
+    "osuna",
+    "carmona"
+   ],
+   "phase": 1
+  },
+  {
+   "slug": "osuna",
+   "name": "Osuna",
+   "province": "Sevilla",
+   "population": 17500,
+   "km": 60,
+   "minutes": 50,
+   "zona": "Provincia de Sevilla",
+   "angle": "Turismo monumental, hostelería, comercio y polígono junto a la A-92.",
+   "typical": [
+    "rotulos-luminosos",
+    "senalizacion",
+    "letras-corporeas"
+   ],
+   "nearby": [
+    "ecija",
+    "marchena",
+    "estepa"
+   ],
+   "phase": 1
+  },
+  {
+   "slug": "estepa",
+   "name": "Estepa",
+   "province": "Sevilla",
+   "population": 12300,
+   "km": 55,
+   "minutes": 45,
+   "zona": "Provincia de Sevilla",
+   "angle": "La ciudad del mantecado: fábricas con tienda y campaña de Navidad, polígono junto a la A-92 y comercio.",
+   "typical": [
+    "rotulos-luminosos",
+    "impresion-digital",
+    "rotulacion-vehiculos"
+   ],
+   "nearby": [
+    "osuna",
+    "puente-genil",
+    "aguilar-de-la-frontera"
+   ],
+   "phase": 2
+  },
+  {
+   "slug": "lora-del-rio",
+   "name": "Lora del Río",
+   "province": "Sevilla",
+   "population": 18500,
+   "km": 55,
+   "minutes": 45,
+   "zona": "Provincia de Sevilla",
+   "angle": "Pueblo grande de la vega con industria agroalimentaria, polígono y comercio.",
+   "typical": [
+    "rotulacion-vehiculos",
+    "rotulos-luminosos",
+    "letras-corporeas"
+   ],
+   "nearby": [
+    "palma-del-rio",
+    "ecija"
+   ],
+   "phase": 2
+  },
+  {
+   "slug": "sevilla",
+   "name": "Sevilla",
+   "province": "Sevilla",
+   "population": 684000,
+   "km": 110,
+   "minutes": 70,
+   "zona": "Sevilla capital",
+   "angle": "A una hora por la A-4. Vamos a Sevilla para proyectos completos (naves, flotas, cadenas con varios locales) y para clientes de Córdoba que abren allí. Para un rótulo suelto, seguramente te compense alguien de la ciudad; para un proyecto donde importe que lo fabrique y lo monte el mismo taller, cuenta con nosotros.",
+   "typical": [
+    "rotulacion-vehiculos",
+    "letras-corporeas",
+    "senalizacion"
+   ],
+   "nearby": [
+    "carmona",
+    "ecija"
+   ],
+   "phase": 2
+  },
+  {
+   "slug": "antequera",
+   "name": "Antequera",
+   "province": "Málaga",
+   "population": 41000,
+   "km": 115,
+   "minutes": 75,
+   "zona": "Provincia de Málaga",
+   "angle": "El nudo logístico de Andalucía: polígonos y centros de transporte con naves grandes y flotas. Vamos para proyectos de nave y flota.",
+   "typical": [
+    "vallas-y-monopostes",
+    "rotulacion-vehiculos",
+    "letras-corporeas"
+   ],
+   "nearby": [
+    "lucena",
+    "estepa"
+   ],
+   "phase": 3
+  },
+  {
+   "slug": "malaga",
+   "name": "Málaga",
+   "province": "Málaga",
+   "population": 580000,
+   "km": 165,
+   "minutes": 105,
+   "zona": "Málaga capital",
+   "angle": "Solo para proyectos completos de clientes con sede en Córdoba o la provincia que abren en Málaga.",
+   "typical": [
+    "letras-corporeas",
+    "senalizacion"
+   ],
+   "nearby": [
+    "antequera"
+   ],
+   "phase": 3
+  }
+ ],
+ "photos": {
+  "seymo": {
+   "slug": "letras-corporeas-carpinteria-seymo",
+   "alt": "Letras corpóreas negras y logotipo en relieve de Carpintería Seymo sobre fachada gris",
+   "caption": "Corpóreo con logotipo en relieve para carpintería",
+   "w": 800,
+   "h": 600,
+   "cat": "corporeos"
+  },
+  "carmenDia": {
+   "slug": "letras-corporeas-restaurante-carmen-fachada",
+   "alt": "Fachada del Restaurante Carmen con letras corpóreas de acero y logotipo sobre franja teja",
+   "caption": "Letras corpóreas de acero, restaurante de carretera",
+   "w": 800,
+   "h": 600,
+   "cat": "corporeos"
+  },
+  "mayores": {
+   "slug": "letras-corporeas-centro-de-mayores",
+   "alt": "Letras corpóreas azules «Centro de Mayores D. José Lázaro Civil» sobre fachada blanca",
+   "caption": "Rotulación institucional en corpóreo",
+   "w": 800,
+   "h": 600,
+   "cat": "corporeos"
+  },
+  "formacion": {
+   "slug": "letras-corporeas-centro-formacion-exposiciones",
+   "alt": "Letras corpóreas de acero inoxidable en la fachada roja de un centro de formación y exposiciones",
+   "caption": "Corpóreo inox sobre fachada roja",
+   "w": 800,
+   "h": 600,
+   "cat": "corporeos"
+  },
+  "deportivo": {
+   "slug": "letras-corporeas-centro-deportivo-municipal",
+   "alt": "Rótulo corpóreo «Centro Deportivo Municipal» en la entrada de un polideportivo",
+   "caption": "Corpóreo para edificio municipal",
+   "w": 800,
+   "h": 600,
+   "cat": "corporeos"
+  },
+  "veterinaria": {
+   "slug": "letras-corporeas-clinica-veterinaria",
+   "alt": "Letras corpóreas «Clínica Veterinaria» en relieve sobre fachada de piedra",
+   "caption": "Corpóreo tono sobre tono en piedra",
+   "w": 800,
+   "h": 600,
+   "cat": "corporeos"
+  },
+  "parafarmacia": {
+   "slug": "letras-corporeas-parafarmacia-acero",
+   "alt": "Letras corpóreas de acero «Parafarmacia» sobre panel de acero corten",
+   "caption": "Corpóreo inox sobre corten",
+   "w": 800,
+   "h": 600,
+   "cat": "corporeos"
+  },
+  "econaturNave": {
+   "slug": "letras-corporeas-econatur-nave-industrial",
+   "alt": "Letras corpóreas verdes de gran formato «econatur» en la fachada de una nave industrial, con la furgoneta del taller delante",
+   "caption": "Gran formato en nave industrial",
+   "w": 1200,
+   "h": 627,
+   "cat": "corporeos"
+  },
+  "econaturDetalle": {
+   "slug": "letras-corporeas-gran-formato-detalle",
+   "alt": "Detalle de letras corpóreas blancas de más de un metro sobre fachada verde",
+   "caption": "Corpóreo de gran formato, detalle",
+   "w": 1200,
+   "h": 1052,
+   "cat": "corporeos"
+  },
+  "econaturEdificio": {
+   "slug": "letras-corporeas-edificio-oficinas-econatur",
+   "alt": "Edificio de oficinas verde con letras corpóreas «econatur» en dos fachadas",
+   "caption": "Dos fachadas, mismo corpóreo",
+   "w": 1200,
+   "h": 927,
+   "cat": "corporeos"
+  },
+  "ruza": {
+   "slug": "letras-corporeas-acero-inoxidable-ruza",
+   "alt": "Letras corpóreas de acero inoxidable pulido «RUZA» sobre panel gris",
+   "caption": "Acero inoxidable pulido",
+   "w": 1600,
+   "h": 1200,
+   "cat": "corporeos"
+  },
+  "agroclinik": {
+   "slug": "rotulo-panel-agroclinik-laboratorio",
+   "alt": "Rótulo ovalado de AgroClinik, laboratorio agrario, sobre fachada de chapa gris",
+   "caption": "Panel de lamas con rótulo ovalado",
+   "w": 1200,
+   "h": 801,
+   "cat": "corporeos"
+  },
+  "carlotenaCorporeo": {
+   "slug": "letras-corporeas-la-carlotena-piedra",
+   "alt": "Logotipo corpóreo de La Carloteña, asados artesanos, sobre pared de pizarra",
+   "caption": "Corpóreo a color para La Carloteña",
+   "w": 1200,
+   "h": 1600,
+   "cat": "corporeos"
+  },
+  "ciat": {
+   "slug": "letras-corporeas-rojas-ciat",
+   "alt": "Logotipo corpóreo rojo «CIAT» con luz perimetral sobre granito",
+   "caption": "Corpóreo con halo de luz",
+   "w": 1600,
+   "h": 1200,
+   "cat": "corporeos"
+  },
+  "lapaz": {
+   "slug": "letras-corporeas-clinica-dental-la-paz",
+   "alt": "Rótulo interior de la Clínica La Paz, centro dental, con logotipo verde y letras blancas sobre gris",
+   "caption": "Rótulo interior para clínica dental",
+   "w": 1600,
+   "h": 1200,
+   "cat": "corporeos"
+  },
+  "hotelH": {
+   "slug": "letra-corporea-gigante-h-hotel-azotea",
+   "alt": "Letra H corpórea de gran tamaño instalada en la azotea de un hotel, con operarios montándola",
+   "caption": "Montaje en azotea de una H de hotel",
+   "w": 1408,
+   "h": 939,
+   "cat": "corporeos"
+  },
+  "envialia": {
+   "slug": "letras-corporeas-envialia-oficina",
+   "alt": "Logotipo corpóreo naranja «enviália» en pared interior de oficina",
+   "caption": "Corpóreo interior de oficina",
+   "w": 600,
+   "h": 800,
+   "cat": "corporeos"
+  },
+  "tallerCajon": {
+   "slug": "fabricacion-rotulo-taller-la-carlota",
+   "alt": "Operario fabricando la estructura de aluminio de un rótulo en el taller de Dígito Rotulación en La Carlota",
+   "caption": "Fabricación en nuestro taller de La Carlota",
+   "w": 800,
+   "h": 533,
+   "cat": "corporeos"
+  },
+  "tallerLetra": {
+   "slug": "fabricacion-letra-corporea-chapa-taller",
+   "alt": "Letra corpórea de chapa en proceso de fabricación en el taller",
+   "caption": "Letra corpórea de chapa, en el taller",
+   "w": 800,
+   "h": 600,
+   "cat": "corporeos"
+  },
+  "canario": {
+   "slug": "rotulo-panel-impresion-frutas-el-canario",
+   "alt": "Rótulo impreso «Frutas El Canario» con toldo amarillo en la fachada de una frutería",
+   "caption": "Panel impreso y toldo rotulado",
+   "w": 800,
+   "h": 600,
+   "cat": "digital"
+  },
+  "mapaVinilo": {
+   "slug": "vinilo-impreso-mapamundi-cristal-oficina",
+   "alt": "Vinilo impreso de un mapamundi sobre mampara de cristal en una oficina",
+   "caption": "Vinilo impreso sobre cristal",
+   "w": 1200,
+   "h": 900,
+   "cat": "digital"
+  },
+  "camionCamas": {
+   "slug": "rotulacion-camion-hnos-camas-perez",
+   "alt": "Puertas traseras de un camión rotuladas con vinilo impreso para Hnos. Camas Pérez, materiales de construcción",
+   "caption": "Camión rotulado con impresión digital",
+   "w": 1200,
+   "h": 1065,
+   "cat": "digital"
+  },
+  "helados": {
+   "slug": "vinilo-escaparate-heladeria-cucuruchos",
+   "alt": "Escaparate de heladería con vinilo impreso de cucuruchos de helado a tamaño real",
+   "caption": "Vinilo de escaparate para heladería",
+   "w": 1200,
+   "h": 714,
+   "cat": "digital"
+  },
+  "plataforma": {
+   "slug": "montaje-lona-gran-formato-plataforma-elevadora",
+   "alt": "Dos operarios en plataforma elevadora montando una lona impresa de gran formato",
+   "caption": "Montaje de gran formato con plataforma",
+   "w": 1200,
+   "h": 900,
+   "cat": "digital"
+  },
+  "agio": {
+   "slug": "rotulacion-gasolinera-surtidores-agio",
+   "alt": "Surtidores de gasolinera rotulados en verde con la marca Agio",
+   "caption": "Rotulación de estación de servicio",
+   "w": 800,
+   "h": 600,
+   "cat": "digital"
+  },
+  "peluqueria": {
+   "slug": "vinilo-escaparate-peluqueria-roses",
+   "alt": "Escaparate de peluquería con vinilo impreso de gran formato y lista de servicios",
+   "caption": "Escaparate con vinilo impreso",
+   "w": 1200,
+   "h": 900,
+   "cat": "digital"
+  },
+  "party": {
+   "slug": "vinilo-escaparate-party-events",
+   "alt": "Escaparate de una tienda de eventos con vinilo impreso a todo color",
+   "caption": "Vinilo de escaparate a todo color",
+   "w": 1200,
+   "h": 900,
+   "cat": "digital"
+  },
+  "orocenter": {
+   "slug": "rotulo-fachada-compra-venta-oro",
+   "alt": "Fachada de compra-venta de oro rotulada por completo con rótulo superior y vinilos en escaparate",
+   "caption": "Fachada completa: rótulo + escaparates",
+   "w": 1200,
+   "h": 900,
+   "cat": "digital"
+  },
+  "mezquitaArea": {
+   "slug": "rotulo-luminoso-restaurante-area-servicio",
+   "alt": "Rótulo luminoso rojo «Restaurante» sobre la cubierta del área de servicio La Mezquita, en la autovía",
+   "caption": "Luminoso de área de servicio en autovía",
+   "w": 800,
+   "h": 533,
+   "cat": "luminosos"
+  },
+  "tralara": {
+   "slug": "banderola-luminosa-bar-tralara",
+   "alt": "Banderola luminosa de doble cara del bar de copas Tralará",
+   "caption": "Banderola luminosa de doble cara",
+   "w": 800,
+   "h": 600,
+   "cat": "luminosos"
+  },
+  "adamant": {
+   "slug": "banderola-luminosa-tienda-adamant",
+   "alt": "Banderola luminosa ovalada de la tienda Adamant, trajes de fiesta",
+   "caption": "Banderola ovalada",
+   "w": 800,
+   "h": 600,
+   "cat": "luminosos"
+  },
+  "tosca": {
+   "slug": "banderola-luminosa-ovalada-tosca",
+   "alt": "Banderola luminosa ovalada morada del restaurante Tosca",
+   "caption": "Banderola ovalada, impresión sobre metacrilato",
+   "w": 800,
+   "h": 600,
+   "cat": "luminosos"
+  },
+  "duendes": {
+   "slug": "banderola-luminosa-redonda-moda-infantil",
+   "alt": "Banderola luminosa redonda verde de la tienda de moda infantil El Jardín de los Duendes",
+   "caption": "Banderola redonda a todo color",
+   "w": 800,
+   "h": 600,
+   "cat": "luminosos"
+  },
+  "restauranteNoche": {
+   "slug": "rotulo-luminoso-restaurante-azotea-noche",
+   "alt": "Rótulo luminoso «Restaurante» encendido al atardecer sobre una azotea",
+   "caption": "Luminoso encendido al anochecer",
+   "w": 800,
+   "h": 600,
+   "cat": "luminosos"
+  },
+  "farmacia": {
+   "slug": "rotulo-luminoso-farmacia-cruz",
+   "alt": "Fachada de farmacia con rótulo luminoso, cruces verdes y vinilos «abierto 13 horas»",
+   "caption": "Farmacia: luminoso, cruces y vinilos",
+   "w": 1200,
+   "h": 706,
+   "cat": "luminosos"
+  },
+  "puntomoto": {
+   "slug": "rotulo-luminoso-tienda-motos",
+   "alt": "Rótulo luminoso rojo y blanco de la tienda Punto Moto",
+   "caption": "Cajón de luz para concesionario",
+   "w": 800,
+   "h": 591,
+   "cat": "luminosos"
+  },
+  "aguilar": {
+   "slug": "rotulo-luminoso-centro-comercial-aguilar",
+   "alt": "Rótulo luminoso blanco con letras granates «Aguilar Centro Comercial»",
+   "caption": "Cajón de luz clásico",
+   "w": 800,
+   "h": 600,
+   "cat": "luminosos"
+  },
+  "ecaconsulting": {
+   "slug": "rotulo-luminoso-asesoria-ecaconsulting",
+   "alt": "Rótulo luminoso azul oscuro de la asesoría Ecaconsulting",
+   "caption": "Luminoso para asesoría",
+   "w": 1600,
+   "h": 1200,
+   "cat": "luminosos"
+  },
+  "optico": {
+   "slug": "banderola-luminosa-centro-optico",
+   "alt": "Banderola luminosa de un centro óptico con gafas naranjas",
+   "caption": "Banderola con logotipo a color",
+   "w": 800,
+   "h": 853,
+   "cat": "luminosos"
+  },
+  "factory": {
+   "slug": "rotulo-luminoso-tienda-ropa-factory-moda",
+   "alt": "Rótulo luminoso verde de la tienda Factory Moda con toldos a juego",
+   "caption": "Luminoso y toldos a juego",
+   "w": 800,
+   "h": 591,
+   "cat": "luminosos"
+  },
+  "mezquitaLetras": {
+   "slug": "letras-retroiluminadas-restaurante-mezquita",
+   "alt": "Letras retroiluminadas «Restaurante Mezquita» sobre listones de madera",
+   "caption": "Letras retroiluminadas sobre madera",
+   "w": 1200,
+   "h": 800,
+   "cat": "luminosos"
+  },
+  "kawasaki": {
+   "slug": "rotulos-luminosos-concesionario-motos",
+   "alt": "Fachada de concesionario de motos con rótulos luminosos Kawasaki, Royal Enfield e Indian",
+   "caption": "Varias marcas, una fachada",
+   "w": 1600,
+   "h": 900,
+   "cat": "luminosos"
+  },
+  "cruzOrtopedia": {
+   "slug": "cruz-luminosa-ortopedia-amarilla",
+   "alt": "Cruz luminosa amarilla de banderola de una ortopedia",
+   "caption": "Cruz luminosa de ortopedia",
+   "w": 738,
+   "h": 800,
+   "cat": "luminosos"
+  },
+  "granOptica": {
+   "slug": "montaje-rotulo-luminoso-optica",
+   "alt": "Operario montando el rótulo luminoso de una óptica subido a una escalera",
+   "caption": "Montaje de un luminoso de óptica",
+   "w": 800,
+   "h": 450,
+   "cat": "luminosos"
+  },
+  "soldando": {
+   "slug": "fabricacion-monoposte-soldadura-taller",
+   "alt": "Soldador fabricando la estructura metálica de un monoposte en el taller",
+   "caption": "Soldadura de estructura de monoposte",
+   "w": 741,
+   "h": 800,
+   "cat": "monopostes"
+  },
+  "monoposteHotel": {
+   "slug": "monoposte-hotel-area-santa-ana",
+   "alt": "Monoposte de área de servicio con paneles de hotel, cafetería 24 h y gasolinera",
+   "caption": "Monoposte de área de servicio",
+   "w": 600,
+   "h": 800,
+   "cat": "monopostes"
+  },
+  "totemCarlotena": {
+   "slug": "totem-corporativo-la-carlotena",
+   "alt": "Tótem corporativo de La Carloteña a la entrada de su fábrica",
+   "caption": "Tótem de entrada a fábrica",
+   "w": 627,
+   "h": 1200,
+   "cat": "monopostes"
+  },
+  "paneles": {
+   "slug": "paneles-informativos-ayuntamiento-guadalcazar",
+   "alt": "Paneles informativos turísticos del Ayuntamiento de Guadalcázar",
+   "caption": "Paneles turísticos para ayuntamiento",
+   "w": 1083,
+   "h": 1200,
+   "cat": "monopostes"
+  },
+  "gasolinera": {
+   "slug": "monoposte-precios-gasolinera-led",
+   "alt": "Monoposte de gasolinera con precios en LED y paneles de servicios",
+   "caption": "Monoposte con precios LED",
+   "w": 581,
+   "h": 800,
+   "cat": "monopostes"
+  },
+  "letraA": {
+   "slug": "letra-corporea-led-roja-iluminada",
+   "alt": "Letra A corpórea roja con iluminación LED perimetral",
+   "caption": "Letra corpórea con LED",
+   "w": 600,
+   "h": 800,
+   "cat": "neon-leds"
+  },
+  "letraS": {
+   "slug": "letra-corporea-retroiluminada-dorada",
+   "alt": "Letra S corpórea dorada con retroiluminación sobre pared blanca",
+   "caption": "Retroiluminación (efecto halo)",
+   "w": 600,
+   "h": 800,
+   "cat": "neon-leds"
+  },
+  "neon": {
+   "slug": "neon-colores-tubos",
+   "alt": "Tubos de neón de distintos colores encendidos en el taller",
+   "caption": "Neón de cristal, colores",
+   "w": 800,
+   "h": 600,
+   "cat": "neon-leds"
+  },
+  "carmenNoche": {
+   "slug": "letras-corporeas-iluminadas-restaurante-carmen-noche",
+   "alt": "Fachada del Restaurante Carmen de noche con las letras corpóreas iluminadas",
+   "caption": "El mismo corpóreo, de noche",
+   "w": 800,
+   "h": 600,
+   "cat": "neon-leds"
+  },
+  "hVerde": {
+   "slug": "letra-h-hotel-neon-verde-noche",
+   "alt": "Letra H verde de hotel iluminada de noche con tres estrellas",
+   "caption": "H de hotel con LED verde",
+   "w": 800,
+   "h": 600,
+   "cat": "neon-leds"
+  },
+  "dafisa": {
+   "slug": "rotulo-retroiluminado-dafisa",
+   "alt": "Rótulo «DAFISA» retroiluminado en blanco sobre pared gris",
+   "caption": "Retroiluminado para oficina",
+   "w": 1600,
+   "h": 1200,
+   "cat": "neon-leds"
+  },
+  "plenaforma": {
+   "slug": "neon-led-gimnasio-plenaforma",
+   "alt": "Logotipo en neón LED azul de un gimnasio sobre pared de ladrillo",
+   "caption": "Neón LED para gimnasio",
+   "w": 1600,
+   "h": 1200,
+   "cat": "neon-leds"
+  },
+  "placaDental": {
+   "slug": "placa-metacrilato-clinica-dental",
+   "alt": "Placa de metacrilato con separadores de una clínica dental",
+   "caption": "Placa de metacrilato con separadores",
+   "w": 600,
+   "h": 800,
+   "cat": "senalizacion"
+  },
+  "senalVial": {
+   "slug": "senalizacion-vial-rotonda-la-carlota",
+   "alt": "Señal vial de rotonda con direcciones a Córdoba, Sevilla, Posadas y La Carlota",
+   "caption": "Señalización vial homologada",
+   "w": 800,
+   "h": 600,
+   "cat": "senalizacion"
+  },
+  "tintoreria": {
+   "slug": "rotulo-nave-tintoreria-industrial",
+   "alt": "Rótulo de gran formato «Tintorería» en la fachada de una nave industrial",
+   "caption": "Rótulo de nave industrial",
+   "w": 800,
+   "h": 600,
+   "cat": "senalizacion"
+  },
+  "placaPlenaforma": {
+   "slug": "placa-recepcion-gimnasio",
+   "alt": "Placa azul de recepción y visitas de un gimnasio con teléfonos",
+   "caption": "Placa de acceso",
+   "w": 1200,
+   "h": 900,
+   "cat": "senalizacion"
+  },
+  "evacuacion": {
+   "slug": "senalizacion-suelo-via-evacuacion",
+   "alt": "Señal de vía de evacuación pintada en el suelo de una nave",
+   "caption": "Señalización de seguridad en suelo",
+   "w": 600,
+   "h": 800,
+   "cat": "senalizacion"
+  },
+  "laredo": {
+   "slug": "senal-direccional-hospederia",
+   "alt": "Señal direccional sobre poste de la Hospedería Laredo",
+   "caption": "Direccional sobre poste",
+   "w": 1200,
+   "h": 862,
+   "cat": "senalizacion"
+  },
+  "emergencia": {
+   "slug": "senal-salida-emergencia-banderola",
+   "alt": "Señal de salida de emergencia en banderola verde",
+   "caption": "Señalética de emergencia",
+   "w": 800,
+   "h": 501,
+   "cat": "senalizacion"
+  },
+  "vallaNueva": {
+   "slug": "valla-publicitaria-promocion-viviendas-la-carlota",
+   "alt": "Valla publicitaria de una promoción de viviendas en La Carlota, con la obra detrás",
+   "caption": "Valla de promoción inmobiliaria",
+   "w": 600,
+   "h": 800,
+   "cat": "vallas"
+  },
+  "vallaVillas": {
+   "slug": "valla-publicitaria-villas-la-carlota",
+   "alt": "Valla publicitaria «Las Villas de La Carlota» sobre postes en una obra",
+   "caption": "Valla sobre postes en obra",
+   "w": 800,
+   "h": 600,
+   "cat": "vallas"
+  },
+  "vallaPromocion": {
+   "slug": "valla-publicitaria-viviendas-locales",
+   "alt": "Valla de promoción de viviendas y locales comerciales en el centro del pueblo",
+   "caption": "Valla de gran formato",
+   "w": 800,
+   "h": 600,
+   "cat": "vallas"
+  },
+  "vallaParcelas": {
+   "slug": "valla-publicitaria-venta-parcelas-carretera",
+   "alt": "Valla publicitaria «Venta de parcelas» junto a una carretera",
+   "caption": "Valla en parcela junto a carretera",
+   "w": 1200,
+   "h": 993,
+   "cat": "vallas"
+  },
+  "vallaRuiz": {
+   "slug": "valla-publicitaria-ruiz-espejo-campo",
+   "alt": "Valla publicitaria roja de Ruiz Espejo en pleno campo",
+   "caption": "Valla en campo abierto",
+   "w": 800,
+   "h": 825,
+   "cat": "vallas"
+  },
+  "bandera": {
+   "slug": "bandera-mastil-20-anos-la-carlotena",
+   "alt": "Bandera de mástil verde de los 20 años de La Carloteña",
+   "caption": "Bandera para mástil",
+   "w": 900,
+   "h": 1200,
+   "cat": "varios"
+  },
+  "mixfood": {
+   "slug": "rotulacion-fachada-local-hosteleria-esquina",
+   "alt": "Local de hostelería en esquina con rotulación negra en las dos fachadas",
+   "caption": "Rotulación de esquina completa",
+   "w": 1200,
+   "h": 900,
+   "cat": "varios"
+  },
+  "bodegon": {
+   "slug": "rotulo-y-lonas-bodegon-terraza",
+   "alt": "Bodegón con rótulo de madera y lonas impresas en la terraza",
+   "caption": "Rótulo + lonas de terraza",
+   "w": 1200,
+   "h": 565,
+   "cat": "varios"
+  },
+  "marquesina": {
+   "slug": "rotulacion-marquesina-gasolinera",
+   "alt": "Marquesina de gasolinera rotulada en verde y blanco",
+   "caption": "Marquesina de estación de servicio",
+   "w": 800,
+   "h": 600,
+   "cat": "varios"
+  },
+  "carlotenaPlaca": {
+   "slug": "placa-corporativa-la-carlotena",
+   "alt": "Placa corporativa de La Carloteña, asados artesanos, sobre pared blanca",
+   "caption": "Placa corporativa",
+   "w": 800,
+   "h": 600,
+   "cat": "varios"
+  },
+  "photocall": {
+   "slug": "photocall-lona-impresa-evento",
+   "alt": "Photocall de lona impresa con logotipos repetidos para un evento",
+   "caption": "Photocall para evento",
+   "w": 627,
+   "h": 1200,
+   "cat": "varios"
+  },
+  "cano": {
+   "slug": "rotulacion-fachada-taller-neumaticos-cano",
+   "alt": "Fachada de un taller de neumáticos rotulada en azul con marca Vredestein",
+   "caption": "Fachada de taller de neumáticos",
+   "w": 1200,
+   "h": 900,
+   "cat": "varios"
+  },
+  "furgoDigito": {
+   "slug": "furgoneta-digito-rotulacion-taller",
+   "alt": "Furgoneta amarilla de Dígito Rotulación delante de un concesionario de maquinaria agrícola",
+   "caption": "Nuestra furgoneta, en un montaje",
+   "w": 1200,
+   "h": 816,
+   "cat": "corporeos"
+  },
+  "carlotenaBebidas": {
+   "slug": "rotulacion-coche-carlotena-de-bebidas",
+   "alt": "Coche comercial rotulado con el logotipo de Carloteña de Bebidas",
+   "caption": "Rotulación parcial de turismo",
+   "w": 800,
+   "h": 600,
+   "cat": "vehiculos"
+  },
+  "agrizoo": {
+   "slug": "rotulacion-furgoneta-agrizoo",
+   "alt": "Furgoneta rotulada a todo color para Agrizoo, jardinería y animales",
+   "caption": "Furgoneta con impresión digital",
+   "w": 800,
+   "h": 600,
+   "cat": "vehiculos"
+  },
+  "recambios": {
+   "slug": "rotulacion-furgoneta-recambios-agricolas",
+   "alt": "Furgoneta blanca rotulada con franjas verdes y amarillas para Recambios Agrícolas del Sur",
+   "caption": "Rotulación de furgoneta con vinilo de corte",
+   "w": 1200,
+   "h": 800,
+   "cat": "vehiculos"
+  },
+  "buenabuelo": {
+   "slug": "rotulacion-camion-reparto-buenabuelo",
+   "alt": "Camión de reparto rotulado en rosa para la pastelería Buenabuelo",
+   "caption": "Caja de camión rotulada",
+   "w": 1200,
+   "h": 925,
+   "cat": "vehiculos"
+  },
+  "camionCarlotena": {
+   "slug": "rotulacion-camion-la-carlotena",
+   "alt": "Camión de La Carloteña con la caja rotulada en verde y foto de producto",
+   "caption": "Camión de reparto, La Carloteña",
+   "w": 1200,
+   "h": 900,
+   "cat": "vehiculos"
+  },
+  "husqvarna": {
+   "slug": "rotulacion-furgoneta-husqvarna",
+   "alt": "Furgoneta rotulada con imagen de jardín para un distribuidor Husqvarna",
+   "caption": "Furgoneta con fotografía impresa",
+   "w": 1200,
+   "h": 829,
+   "cat": "vehiculos"
+  },
+  "chaparro": {
+   "slug": "rotulacion-furgoneta-neumaticos-chaparro",
+   "alt": "Furgoneta rotulada con neumático gigante para Neumáticos Chaparro",
+   "caption": "Rotulación parcial con gráfico",
+   "w": 1200,
+   "h": 900,
+   "cat": "vehiculos"
+  },
+  "arit": {
+   "slug": "rotulacion-flota-furgonetas-arit",
+   "alt": "Flota de tres furgonetas rotuladas igual para Arit instalaciones",
+   "caption": "Flota rotulada, misma imagen",
+   "w": 1200,
+   "h": 678,
+   "cat": "vehiculos"
+  },
+  "vredestein": {
+   "slug": "rotulacion-integral-furgon-vredestein",
+   "alt": "Furgón grande con rotulación integral a todo color para Vredestein",
+   "caption": "Rotulación integral de furgón",
+   "w": 1200,
+   "h": 858,
+   "cat": "vehiculos"
+  },
+  "zafra": {
+   "slug": "rotulacion-camion-patatas-zafra-moreno",
+   "alt": "Camión rotulado con bolsa de patatas gigante para Zafra Moreno",
+   "caption": "Caja de camión con impresión",
+   "w": 1200,
+   "h": 670,
+   "cat": "vehiculos"
+  },
+  "mariscos": {
+   "slug": "rotulacion-furgoneta-mariscos",
+   "alt": "Furgoneta de reparto de mariscos rotulada con fotos de producto",
+   "caption": "Furgoneta de alimentación",
+   "w": 800,
+   "h": 600,
+   "cat": "vehiculos"
+  },
+  "deltacinco": {
+   "slug": "rotulacion-furgon-deltacinco-sevilla",
+   "alt": "Furgón azul con logotipo blanco de gran tamaño de Deltacinco Sevilla",
+   "caption": "Vinilo de corte sobre furgón",
+   "w": 1200,
+   "h": 720,
+   "cat": "vehiculos"
+  },
+  "rally": {
+   "slug": "rotulacion-coche-rally-renault-4",
+   "alt": "Renault 4 de rally rotulado en amarillo con dorsal 120",
+   "caption": "Rotulación de competición",
+   "w": 1200,
+   "h": 720,
+   "cat": "vehiculos"
+  },
+  "chacha": {
+   "slug": "rotulacion-furgoneta-queso-la-chacha",
+   "alt": "Furgoneta rotulada en azul para el queso fresco La Chacha Sebastiana",
+   "caption": "Furgoneta con marca de alimentación",
+   "w": 800,
+   "h": 457,
+   "cat": "vehiculos"
+  },
+  "policia": {
+   "slug": "rotulacion-vehiculo-policia-local",
+   "alt": "Todoterreno de la Policía Local rotulado con franjas verdes y escudo",
+   "caption": "Vehículo oficial",
+   "w": 800,
+   "h": 518,
+   "cat": "vehiculos"
+  },
+  "ambulancia": {
+   "slug": "rotulacion-ambulancia-uvi-movil",
+   "alt": "Ambulancia UVI móvil rotulada con logotipo y teléfono",
+   "caption": "Ambulancia rotulada",
+   "w": 800,
+   "h": 523,
+   "cat": "vehiculos"
+  }
+ },
+ "guides": [
+  {
+   "slug": "precio-rotulo-luminoso",
+   "title": "Cuánto cuesta un rótulo luminoso (2026): precios reales por tipo y tamaño",
+   "short": "Precio de un luminoso",
+   "desc": "Cajón de luz, banderola, letras iluminadas y cruz de farmacia: horquillas por m² y por letra, qué encarece y qué no.",
+   "service": "rotulos-luminosos",
+   "updated": "2026-09-21"
+  },
+  {
+   "slug": "precio-letras-corporeas",
+   "title": "Cuánto cuestan las letras corpóreas: precio por letra según material (2026)",
+   "short": "Precio de letras corpóreas",
+   "desc": "PVC, Dibond, aluminio, acero inoxidable y metacrilato: precio por letra de 30 y 50 cm, montaje y qué elegir para cada fachada.",
+   "service": "letras-corporeas",
+   "updated": "2026-09-21"
+  },
+  {
+   "slug": "cuanto-cuesta-rotular-una-furgoneta",
+   "title": "Cuánto cuesta rotular una furgoneta en 2026: parcial, impresa e integral",
+   "short": "Rotular una furgoneta",
+   "desc": "Precios por nivel de rotulación y tamaño de furgoneta, cuánto dura el vinilo y qué preguntar antes de contratar.",
+   "service": "rotulacion-vehiculos",
+   "updated": "2026-09-21"
+  },
+  {
+   "slug": "licencia-rotulo-fachada-cordoba",
+   "title": "Permiso para poner un rótulo en la fachada en Córdoba, Écija y provincia: qué se pide y cuánto tarda",
+   "short": "Permiso para un rótulo",
+   "desc": "Declaración responsable, licencia de obra menor, cascos históricos (Córdoba, Écija, Carmona) y comunidades de vecinos.",
+   "updated": "2026-09-21"
+  },
+  {
+   "slug": "valla-publicitaria-carretera-permisos",
+   "title": "Valla publicitaria junto a una carretera: qué se puede poner, permisos y precio",
+   "short": "Vallas en carretera",
+   "desc": "Lo que permite la Ley de Carreteras, qué se puede poner en suelo urbano y en polígonos, y cuánto cuesta una valla o un monoposte.",
+   "service": "vallas-y-monopostes",
+   "updated": "2026-09-21"
+  },
+  {
+   "slug": "materiales-rotulos-pvc-dibond-metacrilato-aluminio",
+   "title": "PVC, Dibond, metacrilato, aluminio o acero: qué material elegir para tu rótulo",
+   "short": "Qué material elegir",
+   "desc": "Duración al sol de Córdoba, precio relativo, acabados y para qué sirve cada uno. Con tabla comparativa.",
+   "service": "letras-corporeas",
+   "updated": "2026-09-21"
+  },
+  {
+   "slug": "neon-led-vs-neon-cristal",
+   "title": "Neón LED o neón de cristal: diferencias, precio y cuál te conviene",
+   "short": "Neón LED o de cristal",
+   "desc": "Consumo, duración, seguridad, exterior, precio por metro y por cartel. Y cuándo sigue mereciendo la pena el cristal.",
+   "service": "neon-y-led",
+   "updated": "2026-09-21"
+  },
+  {
+   "slug": "vinilo-escaparate-precio-y-tipos",
+   "title": "Vinilo para escaparate: tipos, precio por m² y cuánto dura al sol",
+   "short": "Vinilo de escaparate",
+   "desc": "Impreso, ácido, microperforado y de corte: para qué sirve cada uno, precio colocado y errores habituales.",
+   "service": "impresion-digital",
+   "updated": "2026-09-21"
+  },
+  {
+   "slug": "como-pedir-presupuesto-rotulo",
+   "title": "Cómo pedir presupuesto de un rótulo sin que te tengan que visitar: los 6 datos que necesita el taller",
+   "short": "Cómo pedir presupuesto",
+   "desc": "Medidas, foto, dónde va, si tienes logotipo, para cuándo y municipio. Con eso te damos precio cerrado en 48 horas.",
+   "updated": "2026-09-21"
+  }
+ ]
+}
