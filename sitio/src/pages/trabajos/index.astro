@@ -1,0 +1,51 @@
+---
+import Base from '../../layouts/Base.astro';
+import LonaTrozo from '../../components/LonaTrozo.astro';
+import { getCollection } from 'astro:content';
+import { u } from '../../data/site';
+
+const categorias = (await getCollection('categorias')).sort((a, b) => a.data.orden - b.data.orden);
+const casos = await getCollection('casos');
+const nCasos = (id: string) => casos.filter((c) => c.data.categoria.id === id).length;
+---
+<Base title="Trabajos: rótulos que hemos fabricado y montado | Dígito Rotulación" description="Los siete oficios del taller de Dígito Rotulación en La Carlota, con fotos de trabajos reales y casos contados pieza a pieza." actual="trabajos">
+  <section class="cabecera sobre-claro">
+    <div class="wrap">
+      <p class="migas"><a href={u('/')}>Inicio</a> / Trabajos</p>
+      <p class="marca oscura">Trabajos nuestros</p>
+      <h1>Se hacen en La Carlota. Se montan en tu calle.</h1>
+      <p class="lead">Todas las fotos son de trabajos que hemos fabricado y montado nosotros. Ni una sale de un banco de imágenes. Elige el oficio que buscas.</p>
+    </div>
+  </section>
+
+  <section class="seccion">
+    <div class="wrap">
+      <div class="rejilla">
+        {categorias.map((c, i) => (
+          <LonaTrozo src={c.data.fotos[0].src} alt={c.data.fotos[0].alt} titulo={c.data.nombre} texto={`${c.data.fotos.length} fotos${nCasos(c.id) ? ` · ${nCasos(c.id)} caso contado` : ''}`} href={u(`/trabajos/${c.id}/`)} lazy={i > 3} />
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="seccion hielo-2">
+    <div class="wrap">
+      <p class="marca oscura">Casos contados por dentro</p>
+      <h2>Qué se pidió, qué tuvo de difícil y cuánto costó cada pieza.</h2>
+      <div class="rejilla casos">
+        {casos.map((c) => (
+          <LonaTrozo src={c.data.portada.src} alt={c.data.portada.alt} titulo={c.data.cliente} texto={c.data.resumen} href={u(`/trabajos/${c.data.categoria.id}/${c.id}/`)} />
+        ))}
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+.cabecera{background:var(--amarillo);padding:clamp(2.5rem,6vw,4.5rem) 0}
+.cabecera h1{font-size:clamp(2rem,5vw,4rem);font-weight:800;max-width:18ch}
+.lead{font-size:1.12rem;margin:1.2rem 0 0}
+.rejilla{display:grid;grid-template-columns:repeat(auto-fill,minmax(15rem,1fr));gap:1.8rem 1.4rem}
+.rejilla.casos{margin-top:2rem}
+h2{max-width:22ch}
+</style>

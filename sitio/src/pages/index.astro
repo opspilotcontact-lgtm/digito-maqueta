@@ -1,0 +1,478 @@
+---
+import Base from '../layouts/Base.astro';
+import LonaTrozo from '../components/LonaTrozo.astro';
+import { getCollection } from 'astro:content';
+import { taller, u, img, euros } from '../data/site';
+
+const categorias = (await getCollection('categorias')).sort((a, b) => a.data.orden - b.data.orden);
+const casos = (await getCollection('casos')).filter((c) => c.data.destacado).slice(0, 3);
+const cat = (id: string) => u(`/trabajos/${id}/`);
+
+// Titular en letras corpóreas: cada letra se monta sola.
+const letras = [...'RÓTULOS'];
+---
+<Base title="Rótulos en La Carlota y Córdoba desde 1993 | Dígito Rotulación" description="Taller de rótulos en La Carlota (Córdoba) desde 1993: letras corpóreas, luminosos, vehículos, lonas, placas, señalización y monopostes. Mira trabajos como el tuyo y pide presupuesto con una foto de tu fachada." capasLogo>
+
+<!-- ============ LA FACHADA MUESTRARIO ============
+     Su nave, como un solo objeto: la banda amarilla con la caja luminosa (su logo real), RÓTULOS en
+     corpóreas y, colgada en la chapa, una pieza de cada cosa que fabrica. Cada pieza lleva contenido
+     útil y enlaza a su oficio: la fachada es el índice. -->
+<section class="fachada" aria-labelledby="titular">
+  <div class="wrap">
+    <div class="firma">
+      <div class="banda" aria-hidden="true"></div>
+      <div class="halo" aria-hidden="true"></div>
+      <svg viewBox="0 0 216 108" role="img" aria-label="Dígito Rotulación">
+        <use href="#dg-canto" fill="url(#g-canto)" fill-rule="evenodd"/>
+        <use href="#dg-blanco" fill="#fff" fill-rule="evenodd"/>
+        <use href="#dg-cara" fill="url(#g-cara)" fill-rule="evenodd"/>
+        <use class="apagado" href="#dg-cara" fill="#62613A" fill-rule="evenodd"/>
+        <use href="#dg-letras" fill="#0B0B0B" fill-rule="evenodd"/>
+        <use href="#dg-reg-s"/>
+      </svg>
+    </div>
+
+    <h1 id="titular"><span class="sr">Rótulos en La Carlota (Córdoba) desde 1993</span><span class="corporeo" aria-hidden="true">{letras.map((l, i) => <span class="l" style={`--i:${i}`}>{l}</span>)}</span></h1>
+    <p class="tira">Lo diseñamos, lo fabricamos en La Carlota y te lo montamos. Desde 1993.</p>
+
+    <ul class="muestrario" aria-label="Lo que fabricamos, colgado en nuestra fachada">
+      <li class="pieza p-placa" style="--n:0">
+        <a href={cat('placas')}>
+          <span class="obj placa">
+            <span class="placa-calle">{taller.calle}</span>
+            <span class="placa-pol">P.I. Gallardo · {taller.localidad}</span>
+            <span class="placa-anio"><small>desde</small> 1993</span>
+          </span>
+          <span class="etiqueta">Placas <svg class="ico"><use href="#i-flecha"/></svg></span>
+        </a>
+      </li>
+      <li class="pieza p-banderola" style="--n:1">
+        <a href={cat('rotulos-luminosos')}>
+          <span class="obj banderola" aria-hidden="true">
+            <span class="brazo"></span>
+            <svg viewBox="0 0 216 108">
+              <use href="#dg-canto" fill="url(#g-canto)" fill-rule="evenodd"/>
+              <use href="#dg-blanco" fill="#fff" fill-rule="evenodd"/>
+              <use href="#dg-cara" fill="url(#g-cara)" fill-rule="evenodd"/>
+              <use class="apagado" href="#dg-cara" fill="#62613A" fill-rule="evenodd"/>
+              <use href="#dg-letras" fill="#0B0B0B" fill-rule="evenodd"/>
+            </svg>
+          </span>
+          <span class="etiqueta">Luminosos <svg class="ico"><use href="#i-flecha"/></svg></span>
+        </a>
+      </li>
+      <li class="pieza p-vinilo" style="--n:2">
+        <a href={cat('lonas-y-vinilos')}>
+          <span class="obj vinilo">
+            <span class="vinilo-t">Horario</span>
+            <span>Lunes a viernes</span>
+            <span class="vinilo-h">8:00 – 14:00</span>
+            <span class="vinilo-h">16:00 – 18:00</span>
+            {taller.horario.pendiente && <span class="pend">a confirmar</span>}
+          </span>
+          <span class="etiqueta">Vinilos <svg class="ico"><use href="#i-flecha"/></svg></span>
+        </a>
+      </li>
+      <li class="pieza p-lona" style="--n:3">
+        <a href={u('/encargo/')}>
+          <span class="obj lona-cta">
+            <span class="lona-t">Danos una idea.</span>
+            <span class="lona-b">Pide presupuesto <svg class="ico"><use href="#i-flecha"/></svg></span>
+          </span>
+          <span class="etiqueta">Lonas · la ficha de encargo</span>
+        </a>
+      </li>
+    </ul>
+
+    <p class="fachada-pie">Taller en el Polígono Gallardo de La Carlota · <a href={`tel:${taller.fijoTel}`}>{taller.fijo}</a> · <a href={`https://wa.me/${taller.whatsappNum}`}>WhatsApp {taller.whatsapp}</a></p>
+  </div>
+</section>
+
+<!-- ============ LA LONA: índice de oficios ============ -->
+<section class="lona sobre-claro" aria-labelledby="t-lona">
+  <div class="wrap">
+    <div class="lona-cab">
+      <div>
+        <p class="marca">Lo que hacemos</p>
+        <h2 id="t-lona">¿Qué quieres rotular?</h2>
+      </div>
+      <p>Son las palabras de la lona que tenemos colgada en la nave. Toca un oficio y te enseñamos trabajos nuestros de ese tipo.</p>
+    </div>
+    <div class="panel-lona">
+      <div class="fotos-tira" aria-hidden="true">
+        <img src={img('rotulacion-furgoneta-agrizoo.webp')} alt="" width="800" height="600" loading="lazy">
+        <img src={img('letra-h-hotel-neon-verde-noche.webp')} alt="" width="800" height="600" loading="lazy">
+        <img src={img('letras-corporeas-carpinteria-seymo.webp')} alt="" width="800" height="600" loading="lazy">
+        <img src={img('banderola-luminosa-centro-optico.webp')} alt="" width="750" height="800" loading="lazy">
+        <img src={img('rotulos-luminosos-concesionario-motos.webp')} alt="" width="800" height="450" loading="lazy">
+        <img src={img('valla-publicitaria-villas-la-carlota.webp')} alt="" width="800" height="600" loading="lazy">
+      </div>
+    </div>
+    <nav class="nube" aria-label="Oficios del taller">
+      <a class="g1 gris" href={cat('rotulacion-vehiculos')}>Vehículos</a>
+      <span class="g4">Cartelería</span>
+      <a class="g2" href={cat('rotulos-luminosos')}>Leds</a>
+      <a class="g3" href={cat('lonas-y-vinilos')}>Lonas</a>
+      <a class="g3 gris" href={cat('monopostes-y-vallas')}>Monolitos</a>
+      <span class="g4 gris">Imagen corporativa</span>
+      <a class="g2" href={cat('senalizacion')}>Señalización</a>
+      <a class="g4 gris" href={cat('lonas-y-vinilos')}>Vinilos decorativos</a>
+      <span class="g4">Logotipos</span>
+      <a class="g1" href={cat('rotulos-luminosos')}>Rótulos luminosos</a>
+      <a class="g3 gris" href={cat('monopostes-y-vallas')}>Vallas</a>
+      <span class="g4 gris">Stands</span>
+      <a class="g1" href={cat('letras-corporeas')}>Letras corpóreas</a>
+      <a class="g2 gris" href={cat('lonas-y-vinilos')}>Impresión digital</a>
+      <a class="g3" href={cat('placas')}>Placas</a>
+    </nav>
+  </div>
+</section>
+
+<!-- ============ CASOS ============ -->
+<section class="casos seccion" aria-labelledby="t-casos">
+  <div class="wrap">
+    <div class="cab-seccion">
+      <div>
+        <p class="marca oscura">Trabajos contados por dentro</p>
+        <h2 id="t-casos">¿Habéis hecho algo como lo mío?</h2>
+      </div>
+      <p>Cada trabajo, con las piezas que llevó y cuánto costó cada una más o menos. Para que veas en qué se va el dinero antes de pedirnos nada.</p>
+    </div>
+    <div class="casos-rejilla">
+      {casos.map((c) => (
+        <LonaTrozo src={c.data.portada.src} alt={c.data.portada.alt} titulo={c.data.cliente} texto={c.data.resumen} href={u(`/trabajos/${c.data.categoria.id}/${c.id}/`)} />
+      ))}
+    </div>
+    <p class="mas"><a class="enlace" href={u('/trabajos/')}>Ver los 7 oficios y todos los trabajos <svg class="ico"><use href="#i-flecha"/></svg></a></p>
+  </div>
+</section>
+
+<!-- ============ POR QUÉ NO HAY PRECIO CERRADO ============
+     La objeción del dueño, hecha contenido: dos rótulos iguales, dos fachadas distintas. -->
+<section class="precio seccion" id="precio" aria-labelledby="t-precio">
+  <div class="wrap">
+    <div class="cab-seccion">
+      <div>
+        <p class="marca">¿Por qué no ponéis precios?</p>
+        <h2 id="t-precio">Dos rótulos iguales no cuestan lo mismo.</h2>
+      </div>
+      <blockquote class="voz">
+        <p>«Dos trabajos que parecen iguales pueden variar hasta un 60 % por el montaje.»</p>
+        <footer>El taller</footer>
+      </blockquote>
+    </div>
+
+    <div class="gemelos" aria-hidden="true">
+      <figure class="gemelo">
+        <div class="escena e-baja"><span class="rot">TU RÓTULO</span></div>
+        <figcaption>A 3 m · fachada lisa · se aparca delante</figcaption>
+      </figure>
+      <span class="distinto">≠</span>
+      <figure class="gemelo">
+        <div class="escena e-alta"><span class="rot">TU RÓTULO</span></div>
+        <figcaption>A 8 m · fachada de piedra · calle estrecha · con luz</figcaption>
+      </figure>
+    </div>
+
+    <ul class="factores">
+      <li><svg class="ico"><use href="#i-escalera"/></svg><b>La altura</b><span>De una escalera a una plataforma elevadora o una grúa.</span></li>
+      <li><svg class="ico"><use href="#i-casa"/></svg><b>La fachada</b><span>Chapa, ladrillo, piedra o cristal: cada una se ancla de una forma.</span></li>
+      <li><svg class="ico"><use href="#i-camion"/></svg><b>El acceso</b><span>Si podemos parar delante o hay que cortar la calle.</span></li>
+      <li><svg class="ico"><use href="#i-bombilla"/></svg><b>La luz</b><span>LED, fuente, punto de luz y, si hace falta, programador.</span></li>
+    </ul>
+
+    <div class="tablero">
+      <p class="tablero-t">Por eso publicamos un «desde» por oficio, y el precio cerrado te lo damos cuando vemos tu fachada.</p>
+      <dl>
+        {categorias.map((c) => (
+          <div>
+            <dt><a href={cat(c.id)}>{c.data.nombre}</a><small>{c.data.desdeQue}</small></dt>
+            <dd>{c.data.desde === null ? <span class="pend">a confirmar</span> : <>desde {euros(c.data.desde)}</>}</dd>
+          </div>
+        ))}
+      </dl>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EL TALLER ============ -->
+<section class="taller seccion hielo-2" id="taller" aria-labelledby="t-taller">
+  <div class="wrap">
+    <div class="cab-seccion">
+      <div>
+        <p class="marca oscura">El taller de La Carlota</p>
+        <h2 id="t-taller">Del diseño al montaje, desde 1993.</h2>
+      </div>
+      <p>Tenemos la maquinaria, las herramientas y la gente para hacerlo todo aquí: el diseño, la fabricación entera y el montaje. Hablas siempre con quien lo fabrica.</p>
+    </div>
+    <ol class="orden">
+      <li class="revela">
+        <div class="envia" aria-hidden="true">
+          <span><svg class="ico"><use href="#i-camara"/></svg>Una foto del sitio</span>
+          <span><svg class="ico"><use href="#i-regla"/></svg>Medidas aproximadas</span>
+          <span><svg class="ico"><use href="#i-pin"/></svg>Dónde va</span>
+        </div>
+        <div class="txt"><h3>Diseño</h3><p>Con la foto, las medidas y dónde va, te preparamos el diseño y el presupuesto.</p></div>
+      </li>
+      <li class="revela">
+        <img src={img('fabricacion-rotulo-taller-la-carlota.webp')} alt="Operario fabricando la estructura de aluminio de un rótulo en el taller de Dígito Rotulación en La Carlota" width="800" height="533" loading="lazy">
+        <div class="txt"><h3>Fabricación</h3><p>Estructura, chapa, soldadura, luz y vinilo, en nuestra nave del Polígono Gallardo.</p></div>
+      </li>
+      <li class="revela">
+        <img src={img('furgoneta-digito-rotulacion-taller.webp')} alt="Furgoneta amarilla de Dígito Rotulación delante de un concesionario de maquinaria agrícola" width="800" height="544" loading="lazy">
+        <div class="txt"><h3>Montaje</h3><p>Lo llevamos y lo montamos nosotros, con nuestra furgoneta y los medios que hagan falta.</p></div>
+      </li>
+    </ol>
+  </div>
+</section>
+
+<!-- ============ DUDAS: lo que se pregunta por WhatsApp, contestado antes ============ -->
+<section class="dudas seccion" aria-labelledby="t-dudas">
+  <div class="wrap dudas-rejilla">
+    <div>
+      <p class="marca oscura">Antes de escribirnos</p>
+      <h2 id="t-dudas">Lo que casi todo el mundo nos pregunta.</h2>
+    </div>
+    <div class="lista-dudas">
+      <details open>
+        <summary>¿Me podéis dar el precio por teléfono?</summary>
+        <p>Te podemos dar una idea con el «desde» de cada oficio. El precio cerrado, cuando vemos una foto de tu fachada, las medidas y dónde va: sin eso, cualquier cifra sería a ciegas y, como ves arriba, puede cambiar mucho.</p>
+      </details>
+      <details>
+        <summary>¿Hacéis también el diseño?</summary>
+        <p>Sí. Hacemos el trabajo entero: el diseño, la fabricación y el montaje. Si ya tienes logotipo, mándanoslo; si no, lo vemos contigo.</p>
+      </details>
+      <details>
+        <summary>¿Necesito permiso del ayuntamiento?</summary>
+        <p>Casi siempre, y cada ayuntamiento pide lo suyo. Lo tienes explicado para Córdoba en <a href={u('/guias/permiso-rotulo-cordoba/')}>nuestra guía de permisos</a>. Lo primero que te piden es ver cómo queda el rótulo en tu fachada, y ese diseño te lo preparamos nosotros. <span class="pend">a confirmar: si el taller hace el trámite</span></p>
+      </details>
+      <details>
+        <summary>¿Vais a mi pueblo?</summary>
+        <p>Montamos en La Carlota, en los pueblos de alrededor, en Córdoba y en Écija. Mira <a href={u('/zona/')}>dónde montamos</a>; si el tuyo no está, pregúntanos igual. <span class="pend">zona a confirmar</span></p>
+      </details>
+      <details>
+        <summary>¿Cuánto se tarda?</summary>
+        <p>Depende del trabajo y de cómo tengamos el taller. Si tienes una apertura con fecha, dínoslo en la ficha de encargo desde el principio. <span class="pend">plazos a confirmar</span></p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DÓNDE ============ -->
+<section class="donde seccion hielo-2" id="donde" aria-labelledby="t-donde">
+  <div class="wrap donde-rejilla">
+    <figure class="revela">
+      <img src={img('fachada-taller-la-carlota.webp')} alt="Fachada del taller de Dígito Rotulación: chapa gris con la palabra RÓTULOS en letras corpóreas, el rótulo del logo sobre una banda amarilla y la furgoneta de la empresa delante" width="567" height="456" loading="lazy">
+      <figcaption>Nuestra nave: la de la banda amarilla y el damero. La de arriba es ella.</figcaption>
+    </figure>
+    <div>
+      <p class="marca oscura">Dónde estamos</p>
+      <h2 id="t-donde">La nave de los rótulos, en el Polígono Gallardo.</h2>
+      <ul class="nap">
+        <li><svg class="ico"><use href="#i-pin"/></svg><span>{taller.calle} · {taller.poligono}<small>{taller.cp} {taller.localidad} ({taller.provincia})</small></span></li>
+        <li><svg class="ico"><use href="#i-reloj"/></svg><span>{taller.horario.largo} {taller.horario.pendiente && <span class="pend">a confirmar</span>}</span></li>
+        <li><svg class="ico"><use href="#i-tel"/></svg><span><a href={`tel:${taller.fijoTel}`}>{taller.fijo}</a> · <a href={`https://wa.me/${taller.whatsappNum}`}>{taller.whatsapp}</a> (WhatsApp)<small><a href={`mailto:${taller.email}`}>{taller.email}</a></small></span></li>
+      </ul>
+      <a class="btn btn-tinta" href={taller.maps}><svg class="ico"><use href="#i-pin"/></svg>Cómo llegar</a>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CIERRE ============ -->
+<section class="cierre" aria-labelledby="t-cierre">
+  <div class="wrap">
+    <p class="marca">Presupuesto</p>
+    <h2 id="t-cierre">Mándanos una foto de tu fachada.</h2>
+    <p>Rellena la ficha de encargo: qué necesitas, dónde va, a qué altura y para cuándo. Con eso te contestamos con algo concreto, sin idas y venidas.</p>
+    <div class="acciones">
+      <a class="btn btn-luz" href={u('/encargo/')}><svg class="ico"><use href="#i-camara"/></svg>Rellenar la ficha de encargo</a>
+      <a class="btn btn-linea" href={`tel:${taller.fijoTel}`}><svg class="ico"><use href="#i-tel"/></svg>{taller.fijo}</a>
+    </div>
+  </div>
+</section>
+
+</Base>
+
+<style>
+/* ================= LA FACHADA MUESTRARIO ================= */
+.fachada{position:relative;background:var(--grecada);color:#fff;overflow:hidden;padding:clamp(1.6rem,3.2vw,2.6rem) 0 clamp(2rem,3.6vw,3rem)}
+.fachada::before{content:"";position:absolute;z-index:2;left:0;top:0;bottom:0;width:3rem;background:var(--damero-bg)}
+.fachada::after{content:"";position:absolute;z-index:2;left:3rem;top:0;bottom:0;width:.55rem;background:var(--amarillo)}
+.fachada .wrap{position:relative;padding-left:max(var(--gutter),4.8rem)}
+.firma{position:relative;width:min(24rem,70vw);margin-left:-1%}
+.firma .banda{position:absolute;z-index:1;top:31%;height:40%;left:-100vw;right:-100vw;background:var(--amarillo);box-shadow:0 .5rem 1.2rem rgb(0 0 0/.25)}
+.firma .halo{position:absolute;z-index:2;inset:-14% -10%;border-radius:50%;background:radial-gradient(closest-side,rgb(254 254 0/.45),rgb(254 254 0/0));pointer-events:none}
+.firma svg{position:relative;z-index:3;width:100%;height:auto;filter:drop-shadow(.35rem .5rem .5rem rgb(0 0 0/.35))}
+.apagado{opacity:0}
+
+.fachada h1{margin:clamp(1rem,2vw,1.6rem) 0 0}
+/* RÓTULOS, en corpóreas blancas con su canto: tiene que ganar a todo lo que cuelga debajo */
+.corporeo{display:block;font-weight:900;font-size:clamp(3.1rem,11.4vw,9.6rem);line-height:1;letter-spacing:.015em;color:#fff;min-height:1em}
+.corporeo .l{display:inline-block;text-shadow:.02em .025em 0 var(--canto-osc),.035em .045em 0 var(--canto-osc),.05em .07em .02em #20242d}
+.tira{display:inline-block;margin:.8rem 0 0;background:var(--amarillo);color:var(--tinta);font-weight:700;font-size:clamp(.9rem,1.25vw,1.02rem);padding:.35rem .9rem;max-width:none}
+
+/* El muestrario: una pieza de cada cosa, colgada de la chapa */
+.muestrario{list-style:none;margin:clamp(1.8rem,3.4vw,2.6rem) 0 0;padding:0;display:grid;grid-template-columns:minmax(0,1.25fr) minmax(0,.95fr) minmax(0,.85fr) minmax(0,1.3fr);gap:clamp(1rem,2.6vw,2.4rem);align-items:end}
+.pieza a{display:flex;flex-direction:column;gap:.75rem;text-decoration:none;color:#fff}
+.pieza .obj{display:flex;flex-direction:column;transform-origin:50% 0;transition:transform .35s var(--curva)}
+.pieza a:hover .obj{transform:rotate(-1.2deg) translateY(-2px)}
+.etiqueta{display:inline-flex;align-items:center;gap:.4rem;font-family:var(--rotulo);font-weight:600;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:#C9CED6}
+.pieza a:hover .etiqueta,.pieza a:focus-visible .etiqueta{color:var(--amarillo)}
+
+/* Placa de metacrilato con separadores de acero en las esquinas */
+.placa{position:relative;gap:.2rem;padding:1.15rem 1.3rem 1.05rem;border-radius:.25rem;color:var(--tinta);
+  background:radial-gradient(circle at 1rem 1rem,#DDE1E6 0 .26rem,#8A929B .27rem .36rem,transparent .37rem),radial-gradient(circle at calc(100% - 1rem) 1rem,#DDE1E6 0 .26rem,#8A929B .27rem .36rem,transparent .37rem),radial-gradient(circle at 1rem calc(100% - 1rem),#DDE1E6 0 .26rem,#8A929B .27rem .36rem,transparent .37rem),radial-gradient(circle at calc(100% - 1rem) calc(100% - 1rem),#DDE1E6 0 .26rem,#8A929B .27rem .36rem,transparent .37rem),linear-gradient(135deg,#FDFEFF 0%,#E9EDF1 55%,#F7F9FB 100%);
+  box-shadow:inset 0 0 0 1px rgb(255 255 255/.9),0 .1rem 0 #B9C0C8,.5rem .8rem 1.1rem rgb(0 0 0/.35)}
+.placa-calle{font-weight:700;font-size:.95rem;line-height:1.25;padding:0 .6rem}
+.placa-pol{font-size:.85rem;color:var(--tinta-suave);padding:0 .6rem}
+.placa-anio{font-family:var(--rotulo);font-weight:800;font-size:clamp(1.6rem,2.6vw,2.2rem);line-height:1;margin-top:.55rem;padding:0 .6rem}
+.placa-anio small{font-size:.42em;font-weight:600;letter-spacing:.08em;text-transform:uppercase;vertical-align:.5em;margin-right:.2em}
+
+/* Banderola: el logo real colgado de su brazo */
+.banderola{align-items:flex-start}
+.brazo{display:block;width:62%;height:.5rem;margin-left:0;background:linear-gradient(#9AA1AC,#5B636C);border-radius:0 .2rem .2rem 0;position:relative}
+.brazo::before,.brazo::after{content:"";position:absolute;top:.5rem;width:.18rem;height:.7rem;background:#5B636C}
+.brazo::before{left:22%}.brazo::after{right:14%}
+.banderola svg{width:100%;height:auto;margin-top:.6rem;filter:drop-shadow(.3rem .45rem .45rem rgb(0 0 0/.4))}
+
+/* Vinilo de corte blanco sobre el cristal de la puerta */
+.vinilo{gap:.1rem;padding:1rem .9rem 1.1rem;border:.4rem solid #8A929B;border-radius:.15rem;color:#fff;font-weight:600;font-size:.86rem;line-height:1.35;
+  background:linear-gradient(115deg,rgb(255 255 255/0) 30%,rgb(255 255 255/.12) 38%,rgb(255 255 255/0) 46%),linear-gradient(#1C2129,#131820);box-shadow:.5rem .8rem 1.1rem rgb(0 0 0/.3)}
+.vinilo-t{font-family:var(--rotulo);font-weight:700;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;border-bottom:1.5px solid #fff;padding-bottom:.35rem;margin-bottom:.35rem}
+.vinilo-h{font-family:var(--rotulo);font-weight:600;font-size:.92rem;letter-spacing:.01em}
+.vinilo .pend{margin-top:.5rem;align-self:flex-start}
+
+/* La lona con ollaos: la ficha de encargo */
+.lona-cta{position:relative;padding:1.4rem 1.4rem 1.2rem;background:#F6F6F1;color:var(--tinta);gap:.9rem;box-shadow:.5rem .8rem 1.1rem rgb(0 0 0/.35);
+  background-image:radial-gradient(circle at .75rem .75rem,#5B636C 0 .22rem,#9AA1AC .23rem .38rem,transparent .39rem),radial-gradient(circle at calc(100% - .75rem) .75rem,#5B636C 0 .22rem,#9AA1AC .23rem .38rem,transparent .39rem),radial-gradient(circle at .75rem calc(100% - .75rem),#5B636C 0 .22rem,#9AA1AC .23rem .38rem,transparent .39rem),radial-gradient(circle at calc(100% - .75rem) calc(100% - .75rem),#5B636C 0 .22rem,#9AA1AC .23rem .38rem,transparent .39rem)}
+.lona-t{font-family:var(--rotulo);font-weight:800;font-size:clamp(1.5rem,2.5vw,2.1rem);line-height:1.02;letter-spacing:-.02em}
+.lona-b{display:inline-flex;align-items:center;gap:.5rem;align-self:flex-start;background:var(--amarillo);font-weight:700;padding:.55rem .9rem;border-radius:999px;box-shadow:0 0 0 .12rem var(--tinta)}
+.p-lona .etiqueta{color:var(--amarillo)}
+
+.fachada-pie{margin:1.8rem 0 0;font-size:.92rem;color:#C9CED6;max-width:none}
+.fachada-pie a{color:#fff;text-underline-offset:.2em}
+
+@media (max-width:60rem){
+  .muestrario{grid-template-columns:repeat(2,minmax(0,1fr));align-items:end}
+  .p-vinilo{display:none}
+  .p-lona{grid-column:1 / -1}
+}
+@media (max-width:52rem){
+  .fachada .wrap{padding-left:max(var(--gutter),2.9rem)}
+  .fachada::before{width:1.5rem}.fachada::after{left:1.5rem;width:.4rem}
+  .firma{width:min(17rem,72vw);margin-left:-3%}
+  .placa{padding:1rem .8rem .9rem}
+  .placa-calle{font-size:.82rem}.placa-pol{font-size:.76rem}
+}
+
+/* ================= LA LONA (índice) ================= */
+.lona{background:var(--amarillo);color:var(--tinta);padding:clamp(3.5rem,7vw,5.5rem) 0}
+.lona-cab{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:1rem 3rem;align-items:end;margin-bottom:2rem}
+.lona-cab h2{font-size:clamp(2.2rem,5.4vw,4.4rem)}
+.lona-cab p{font-size:1.1rem;margin:0}
+@media (max-width:52rem){.lona-cab{grid-template-columns:1fr}}
+.nube{display:flex;flex-wrap:wrap;align-items:baseline;gap:.5rem 1.4rem;padding:1.8rem .4rem .4rem;font-family:var(--rotulo);text-transform:uppercase;line-height:1}
+.nube a,.nube span{text-decoration:none;font-weight:800;letter-spacing:-.02em}
+.nube a{position:relative}
+.nube a::after{content:"";position:absolute;left:0;right:0;bottom:-.12em;height:.08em;background:currentColor;transform:scaleX(0);transform-origin:left;transition:transform .3s var(--curva)}
+.nube a:hover::after,.nube a:focus-visible::after{transform:scaleX(1)}
+.nube .gris{color:#5B5E3A}
+.g1{font-size:clamp(1.7rem,4vw,3.3rem)}.g2{font-size:clamp(1.25rem,2.6vw,2.1rem)}.g3{font-size:clamp(1rem,1.9vw,1.5rem)}.g4{font-size:clamp(.78rem,1.2vw,.95rem);font-weight:700 !important;letter-spacing:.04em !important}
+
+/* ================= Cabeceras de sección ================= */
+.cab-seccion{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:1rem 3rem;align-items:end;margin-bottom:2.6rem}
+.cab-seccion > p{margin:0}
+@media (max-width:52rem){.cab-seccion{grid-template-columns:1fr}}
+
+/* ================= CASOS ================= */
+.casos-rejilla{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.6rem}
+@media (max-width:52rem){.casos-rejilla{grid-template-columns:1fr}}
+.mas{margin:2rem 0 0}
+
+/* ================= PRECIO ================= */
+.precio{background:var(--damero);color:#fff}
+.precio .marca{color:var(--amarillo)}
+.voz{margin:0;border-left:.35rem solid var(--amarillo);padding:.2rem 0 .2rem 1.2rem}
+.voz p{font-family:var(--rotulo);font-weight:600;font-size:clamp(1.15rem,2vw,1.55rem);line-height:1.25;color:var(--amarillo);margin:0 0 .5rem}
+.voz footer{font-size:.9rem;color:#C9CED6}
+.gemelos{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);gap:1.4rem;align-items:end;margin:0 0 2.4rem}
+.gemelo{margin:0}
+.gemelo figcaption{font-size:.9rem;color:#C9CED6;margin-top:.7rem}
+.escena{position:relative;height:clamp(10rem,18vw,14rem);border-bottom:.3rem solid var(--canto)}
+.e-baja{background:linear-gradient(180deg,transparent 0 30%,#3B4251 30% 100%)}
+.e-alta{background:linear-gradient(90deg,rgb(0 0 0/.12) 0 1px,transparent 1px) 0 0/2.4rem 1rem,linear-gradient(0deg,rgb(0 0 0/.18) 0 1px,transparent 1px) 0 0/2.4rem 1rem,#555A62}
+.rot{position:absolute;left:50%;translate:-50% 0;font-family:var(--rotulo);font-weight:800;font-size:clamp(.8rem,1.5vw,1.1rem);letter-spacing:.02em;background:var(--amarillo);color:var(--tinta);padding:.55rem 1rem;white-space:nowrap;box-shadow:0 0 0 .14rem #fff,0 0 0 .3rem var(--canto)}
+.e-baja .rot{bottom:2.2rem}
+.e-alta .rot{top:1rem;box-shadow:0 0 0 .14rem #fff,0 0 0 .3rem var(--canto),0 0 1.6rem .3rem rgb(254 254 0/.5)}
+.distinto{font-family:var(--rotulo);font-weight:800;font-size:clamp(2rem,4vw,3.4rem);color:var(--amarillo);align-self:center}
+.factores{list-style:none;margin:0 0 3rem;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1.4rem}
+.factores li{display:flex;flex-direction:column;gap:.35rem;border-top:1.5px solid #4A515E;padding-top:1rem}
+.factores .ico{width:1.6rem;height:1.6rem;color:var(--amarillo)}
+.factores b{font-family:var(--rotulo);font-weight:700;font-size:1.05rem}
+.factores span{color:#C9CED6;font-size:.95rem}
+@media (max-width:52rem){.factores{grid-template-columns:1fr 1fr}.gemelos{grid-template-columns:1fr;}.distinto{justify-self:center}}
+@media (max-width:30rem){.factores{grid-template-columns:1fr}}
+.tablero{background:var(--tinta);border:1px solid #3B4251;padding:clamp(1.2rem,3vw,2rem)}
+.tablero-t{font-weight:700;font-size:1.1rem;margin:0 0 1.2rem}
+.tablero dl{margin:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 2.4rem}
+.tablero dl div{display:flex;justify-content:space-between;align-items:center;gap:1rem;padding:.8rem 0;border-bottom:1px dashed #3B4251}
+.tablero dt a{font-weight:700;color:#fff;text-underline-offset:.2em}
+.tablero dt small{display:block;font-size:.82rem;color:#9AA1AC}
+.tablero dd{margin:0;font-family:var(--rotulo);font-weight:700;color:var(--amarillo);white-space:nowrap}
+@media (max-width:52rem){.tablero dl{grid-template-columns:1fr}}
+
+/* ================= EL TALLER ================= */
+.orden{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:1.2rem;counter-reset:paso}
+.orden li{background:var(--blanco);border-top:.4rem solid var(--canto);display:flex;flex-direction:column}
+.orden li img{width:100%;height:13rem;object-fit:cover}
+.orden .txt{padding:1.1rem 1.2rem 1.3rem}
+.orden h3{display:flex;align-items:center;gap:.8rem;font-size:1.3rem;margin-bottom:.5rem}
+.orden h3::before{counter-increment:paso;content:counter(paso);display:grid;place-items:center;width:3.1rem;height:1.6rem;border-radius:50%;background:var(--amarillo);box-shadow:0 0 0 .12rem #fff,0 0 0 .28rem var(--canto);font-size:.9rem;transform:rotate(-9deg);flex:none}
+.orden p{margin:0;font-size:.98rem;color:var(--tinta-suave)}
+.orden .envia{height:13rem;background:var(--amarillo);padding:1.2rem 1.3rem;display:flex;flex-direction:column;justify-content:center;gap:.6rem;font-family:var(--rotulo);font-weight:700;font-size:1rem;line-height:1.1}
+.orden .envia span{display:flex;align-items:center;gap:.6rem}
+.orden .envia .ico{width:1.3rem;height:1.3rem;stroke-width:2.4}
+@media (max-width:52rem){.orden{grid-template-columns:1fr}}
+
+/* ================= DUDAS ================= */
+.dudas-rejilla{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:2rem 4rem;align-items:start}
+@media (max-width:52rem){.dudas-rejilla{grid-template-columns:1fr}}
+.lista-dudas details{border-top:1.5px solid var(--tinta);padding:1rem 0}
+.lista-dudas details:last-child{border-bottom:1.5px solid var(--tinta)}
+.lista-dudas summary{cursor:pointer;font-family:var(--rotulo);font-weight:700;font-size:1.05rem;list-style:none;display:flex;justify-content:space-between;gap:1rem}
+.lista-dudas summary::-webkit-details-marker{display:none}
+.lista-dudas summary::after{content:"+";font-size:1.4rem;line-height:1;transition:transform .25s var(--curva)}
+.lista-dudas details[open] summary::after{transform:rotate(45deg)}
+.lista-dudas p{margin:.8rem 0 0;color:var(--tinta-suave)}
+
+/* ================= DÓNDE ================= */
+.donde-rejilla{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:2.5rem 4rem;align-items:center}
+.donde figure{margin:0}
+.donde figure img{width:100%;border:.35rem solid var(--tinta)}
+.donde figcaption{font-size:.85rem;color:var(--tinta-suave);margin-top:.5rem}
+.nap{list-style:none;margin:1.6rem 0;padding:0;display:grid;gap:.9rem}
+.nap li{display:flex;gap:.7rem}
+.nap .ico{margin-top:.25rem;color:var(--canto-osc)}
+.nap small{display:block;color:var(--tinta-suave);font-size:.85rem}
+@media (max-width:52rem){.donde-rejilla{grid-template-columns:1fr}}
+
+.casos,.precio,.taller,.dudas,.donde{content-visibility:auto;contain-intrinsic-size:auto 1000px}
+
+/* ================= MOVIMIENTO DE OFICIO =================
+   La caja luminosa da dos parpadeos de tubo y se enciende; RÓTULOS se monta letra a letra;
+   luego se cuelgan las piezas una a una y la banderola se enciende. Solo transform y opacity.
+   Con movimiento reducido, todo montado y encendido. */
+@media (prefers-reduced-motion:no-preference){
+  .firma .apagado{animation:tubo 1.25s linear .35s backwards}
+  .banderola .apagado{animation:tubo 1.25s linear calc(1.5s + .5s) backwards}
+  @keyframes tubo{0%,22%{opacity:.8}24%{opacity:0}34%{opacity:.62}40%{opacity:0}50%,56%{opacity:.4}76%,100%{opacity:0}}
+  .firma .halo{animation:aparece 1s ease-out 1.2s backwards}
+  @keyframes aparece{from{opacity:0}}
+  .corporeo .l{animation:monta .5s cubic-bezier(.34,1.56,.64,1) backwards;animation-delay:calc(.2s + var(--i) * .06s)}
+  @keyframes monta{from{opacity:0;transform:translateY(-.3em)}}
+  .tira{animation:aparece .5s ease-out .9s backwards}
+  .pieza .obj{animation:cuelga .9s cubic-bezier(.3,.7,.3,1) backwards;animation-delay:calc(1.05s + var(--n) * .16s)}
+  @keyframes cuelga{0%{opacity:0;transform:translateY(-1.4rem) rotate(-5deg)}45%{opacity:1;transform:translateY(0) rotate(2.2deg)}72%{transform:rotate(-.9deg)}100%{transform:none}}
+  .pieza .etiqueta{animation:aparece .5s ease-out backwards;animation-delay:calc(1.6s + var(--n) * .16s)}
+}
+</style>

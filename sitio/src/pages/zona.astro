@@ -1,0 +1,48 @@
+---
+import Base from '../layouts/Base.astro';
+import { zona, u, img } from '../data/site';
+---
+<Base title="Dónde montamos rótulos: La Carlota, Córdoba y Écija | Dígito Rotulación" description="Desde nuestro taller de La Carlota montamos rótulos en los pueblos de alrededor, en Córdoba capital y en Écija. Mira si vamos al tuyo." actual="zona">
+  <section class="zona-cab sobre-claro">
+    <div class="wrap rejilla">
+      <div>
+        <p class="migas"><a href={u('/')}>Inicio</a> / Dónde montamos</p>
+        <p class="marca oscura">Dónde montamos</p>
+        <h1>De La Carlota a tu fachada.</h1>
+        <p class="lead">Estamos en la A-4, entre Córdoba y Écija. Fabricamos aquí y montamos con nuestra furgoneta en estos pueblos. {zona.pendiente && <span class="pend">lista a confirmar por el taller</span>}</p>
+      </div>
+      <img src={img('furgoneta-digito-rotulacion-taller.webp')} alt="Furgoneta amarilla de Dígito Rotulación delante de un concesionario de maquinaria agrícola" width="1200" height="816" fetchpriority="high">
+    </div>
+  </section>
+  <section class="seccion">
+    <div class="wrap">
+      <div class="provincias">
+        <div>
+          <h2>Provincia de Córdoba</h2>
+          <ul>{zona.cordoba.map((p) => <li>{p}</li>)}</ul>
+        </div>
+        <div>
+          <h2>Provincia de Sevilla</h2>
+          <ul>{zona.sevilla.map((p) => <li>{p}</li>)}</ul>
+        </div>
+      </div>
+      <p class="fuera">¿Tu pueblo no está? Pregúntanos igual: si es un trabajo grande o tenemos otro por la zona, puede cuadrar.</p>
+      <a class="btn btn-luz" href={u('/encargo/')}><svg class="ico"><use href="#i-camara"/></svg>Rellenar la ficha de encargo</a>
+    </div>
+  </section>
+</Base>
+
+<style>
+.zona-cab{background:var(--amarillo);padding:clamp(2rem,5vw,3.6rem) 0}
+.rejilla{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:2rem 3.5rem;align-items:center}
+@media (max-width:52rem){.rejilla{grid-template-columns:1fr}}
+.zona-cab h1{font-size:clamp(2rem,5vw,4rem);font-weight:800}
+.zona-cab img{border:.35rem solid var(--tinta)}
+.lead{font-size:1.1rem;margin:1.2rem 0 0}
+.provincias{display:grid;grid-template-columns:2fr 1fr;gap:2rem 4rem}
+@media (max-width:52rem){.provincias{grid-template-columns:1fr}}
+.provincias h2{font-size:1.3rem;margin-bottom:1rem}
+.provincias ul{list-style:none;margin:0;padding:0;columns:2 12rem;column-gap:2rem}
+.provincias li{padding:.45rem 0;border-bottom:1px solid var(--hielo-2);break-inside:avoid;font-weight:600}
+.fuera{margin:2.4rem 0 1.4rem;font-size:1.05rem}
+</style>

@@ -1,0 +1,112 @@
+---
+import Base from '../../../layouts/Base.astro';
+import LonaTrozo from '../../../components/LonaTrozo.astro';
+import { getCollection, getEntry, render } from 'astro:content';
+import { u, img, euros } from '../../../data/site';
+
+export async function getStaticPaths() {
+  const casos = await getCollection('casos');
+  return casos.map((k) => ({ params: { categoria: k.data.categoria.id, caso: k.id }, props: { k } }));
+}
+const { k } = Astro.props;
+const cat = await getEntry(k.data.categoria);
+if (!cat) throw new Error(`El caso ${k.id} apunta a una categoría que no existe`);
+const { Content } = await render(k);
+const conPrecio = k.data.piezas.filter((p) => p.precio !== null);
+const total = conPrecio.reduce((s, p) => s + (p.precio ?? 0), 0);
+const otros = (await getCollection('casos')).filter((o) => o.id !== k.id).slice(0, 3);
+---
+<Base title={`${k.data.titulo} | Dígito Rotulación`} description={k.data.resumen} actual="trabajos">
+  <article>
+    <header class="caso-cab">
+      <div class="wrap">
+        <p class="migas"><a href={u('/')}>Inicio</a> / <a href={u('/trabajos/')}>Trabajos</a> / <a href={u(`/trabajos/${cat.id}/`)}>{cat.data.palabra}</a> / {k.data.cliente}</p>
+        <div class="cab-rejilla">
+          <div>
+            <p class="marca">Caso · {cat.data.nombre}</p>
+            <h1>{k.data.titulo}</h1>
+            <dl class="ficha">
+              <div><dt>Cliente</dt><dd>{k.data.cliente}</dd></div>
+              <div><dt>Dónde</dt><dd>{k.data.localidad ?? <span class="pend">a confirmar</span>}</dd></div>
+              <div><dt>Año</dt><dd>{k.data.anio ?? <span class="pend">a confirmar</span>}</dd></div>
+              <div><dt>Piezas</dt><dd>{k.data.piezas.length}</dd></div>
+            </dl>
+            {!k.data.permisoCliente && <p class="aviso"><span class="pend">falta el permiso del cliente</span> para publicar su nombre y los precios.</p>}
+          </div>
+          <figure class="portada">
+            <img src={img(k.data.portada.src)} alt={k.data.portada.alt} width="800" height="600" fetchpriority="high">
+          </figure>
+        </div>
+      </div>
+    </header>
+
+    <section class="seccion">
+      <div class="wrap relato">
+        <p class="resumen">{k.data.resumen}</p>
+        <div class="prosa"><Content /></div>
+      </div>
+    </section>
+
+    <!-- Las piezas: cada una es un trozo de la lona de su nave, con la foto y «unos X €» -->
+    <section class="seccion hielo-2" aria-labelledby="t-piezas">
+      <div class="wrap">
+        <p class="marca oscura">Lo que llevó</p>
+        <h2 id="t-piezas">Pieza a pieza, y cuánto costó más o menos cada una.</h2>
+        <div class="piezas">
+          {k.data.piezas.map((p) => <LonaTrozo src={p.src} alt={p.alt} titulo={p.nombre} precio={p.precio} />)}
+        </div>
+        <p class="nota">
+          {conPrecio.length === k.data.piezas.length
+            ? <>En total, unos <b>{euros(total)}</b> con IVA. Precios aproximados de cuando se hizo: el tuyo depende de tu fachada, la altura y el acceso.</>
+            : <>Precios aproximados de cuando se hizo, con IVA. El tuyo depende de tu fachada, la altura y el acceso.</>}
+          {' '}<a href={u('/#precio')}>Por qué dos rótulos iguales no cuestan lo mismo</a>.
+        </p>
+      </div>
+    </section>
+  </article>
+
+  {otros.length > 0 && (
+    <section class="seccion">
+      <div class="wrap">
+        <p class="marca oscura">Otros trabajos</p>
+        <div class="otros">
+          {otros.map((o) => <LonaTrozo src={o.data.portada.src} alt={o.data.portada.alt} titulo={o.data.cliente} texto={o.data.resumen} href={u(`/trabajos/${o.data.categoria.id}/${o.id}/`)} />)}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <section class="cierre">
+    <div class="wrap">
+      <p class="marca">Presupuesto</p>
+      <h2>¿Algo parecido? Mándanos una foto del sitio.</h2>
+      <div class="acciones">
+        <a class="btn btn-luz" href={u(`/encargo/?que=${cat.id}`)}><svg class="ico"><use href="#i-camara"/></svg>Rellenar la ficha de encargo</a>
+        <a class="btn btn-linea" href={u(`/trabajos/${cat.id}/`)}>Más de {cat.data.palabra.toLowerCase()}</a>
+      </div>
+    </div>
+  </section>
+</Base>
+
+<style>
+.caso-cab{background:var(--grecada);color:#fff;padding:clamp(1.6rem,4vw,2.6rem) 0 clamp(2.4rem,5vw,3.6rem);border-bottom:.55rem solid var(--amarillo)}
+.caso-cab .migas{color:#C9CED6}
+.caso-cab .marca{color:var(--amarillo)}
+.cab-rejilla{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:2rem 3.5rem;align-items:center;margin-top:1rem}
+@media (max-width:52rem){.cab-rejilla{grid-template-columns:1fr}}
+.caso-cab h1{font-size:clamp(1.7rem,3.6vw,2.9rem);font-weight:800}
+.ficha{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:.8rem 1.6rem;margin:1.8rem 0 0}
+.ficha div{border-top:1px solid #4A515E;padding-top:.6rem}
+.ficha dt{font-family:var(--rotulo);font-size:.68rem;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#9AA1AC}
+.ficha dd{margin:.2rem 0 0;font-weight:600}
+.aviso{font-size:.88rem;color:#C9CED6;margin:1.2rem 0 0}
+.portada{margin:0;background:var(--tinta);padding:.35rem;box-shadow:.6rem .9rem 1.4rem rgb(0 0 0/.35)}
+.portada img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.relato{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:2rem 4rem;align-items:start}
+@media (max-width:52rem){.relato{grid-template-columns:1fr}}
+.resumen{font-family:var(--rotulo);font-weight:600;font-size:clamp(1.15rem,2vw,1.5rem);line-height:1.3}
+.prosa :global(h2:first-child){margin-top:0}
+.piezas{display:grid;grid-template-columns:repeat(auto-fill,minmax(15rem,1fr));gap:1.8rem 1.4rem;margin-top:2rem}
+.nota{margin-top:1.8rem;color:var(--tinta-suave);font-size:.98rem}
+.otros{display:grid;grid-template-columns:repeat(auto-fill,minmax(16rem,1fr));gap:1.6rem}
+</style>

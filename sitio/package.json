@@ -1,0 +1,13 @@
+{
+  "name": "digito-web-v4",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "check": "astro check"
+  },
+  "dependencies": {
+    "astro": "^5.18.2"
+  }
+}

@@ -1,0 +1,18 @@
+---
+// Un trozo de la lona de su nave: foto arriba y, sobre el amarillo, el nombre.
+// Sirve para las piezas de un caso (con «unos X €») y para enlazar casos y categorías.
+import { img, euros } from '../data/site';
+interface Props { src: string; alt: string; titulo: string; texto?: string; precio?: number | null; href?: string; lazy?: boolean }
+const { src, alt, titulo, texto, precio, href, lazy = true } = Astro.props;
+const Tag = href ? 'a' : 'div';
+---
+<Tag class="lona-trozo" href={href}>
+  <img src={img(src)} alt={alt} width="800" height="600" loading={lazy ? 'lazy' : 'eager'} decoding="async">
+  <span class="rotulo">
+    <b>{titulo}</b>
+    {texto && <span>{texto}</span>}
+    {precio !== undefined && (precio === null
+      ? <span><span class="pend">precio a confirmar</span></span>
+      : <span class="precio">unos {euros(precio)}</span>)}
+  </span>
+</Tag>

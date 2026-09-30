@@ -1,0 +1,16 @@
+---
+import Base from '../layouts/Base.astro';
+import { taller, u } from '../data/site';
+---
+<Base title="Aviso legal | Dígito Rotulación" description="Aviso legal de la web de Dígito Rotulación.">
+  <section class="seccion">
+    <div class="wrap prosa">
+      <p class="migas"><a href={u('/')}>Inicio</a> / Aviso legal</p>
+      <h1>Aviso legal</h1>
+      <p><span class="pend">pendiente: razón social y NIF del taller</span></p>
+      <p>Titular de esta web: {taller.nombre}. Domicilio: {taller.poligono}, {taller.calle}, {taller.cp} {taller.localidad} ({taller.provincia}). Teléfono {taller.fijo}. Correo <a href={`mailto:${taller.email}`}>{taller.email}</a>.</p>
+      <p>Las fotos de esta web son de trabajos fabricados y montados por el taller. Los nombres y marcas de los clientes que aparecen en ellas pertenecen a sus titulares.</p>
+    </div>
+  </section>
+</Base>
+<style>h1{font-size:clamp(1.8rem,4vw,3rem);margin-bottom:1.5rem}</style>

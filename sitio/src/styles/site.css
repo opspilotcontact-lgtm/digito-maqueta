@@ -1,0 +1,119 @@
+/* Las @font-face van en Base.astro: necesitan la base del sitio para la ruta y el preload. */
+/* Solo lo medido: la chapa y el damero de SU fachada; el amarillo y el canto de SU logo.
+   Los claros son el canto de aluminio aclarado (una sola familia fría, H≈210). */
+:root{
+  --chapa:#323846; --chapa-surco:#2A2F3B; --chapa-luz:#3B4251; --damero:#242738;
+  --amarillo:#FEFE00; --amarillo-bajo:#D3D300; --canto:#788088; --canto-osc:#5B636C; --canto-claro:#9AA1AC;
+  --tinta:#101316; --tinta-suave:#434B55; --hielo:#EEF0F3; --hielo-2:#DFE3E8; --blanco:#fff;
+  --rotulo:'Unbounded','Arial Black',Impact,sans-serif; --texto:'Instrument Sans',system-ui,sans-serif;
+  --ancho:78rem; --gutter:clamp(1rem,4vw,2.5rem);
+  --curva:cubic-bezier(.2,.7,.2,1);
+  --grecada:repeating-linear-gradient(90deg,var(--chapa) 0 1.6rem,var(--chapa-surco) 1.6rem 1.85rem,var(--chapa-luz) 1.85rem 1.95rem,var(--chapa) 1.95rem 2.6rem);
+  --damero-bg:conic-gradient(var(--damero) 25%,var(--canto-claro) 0 50%,var(--damero) 0 75%,var(--canto-claro) 0) 0 0/1.5rem 1.5rem;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--hielo);color:var(--tinta);font-family:var(--texto);font-size:1.0625rem;line-height:1.6;-webkit-font-smoothing:antialiased}
+main{overflow-x:clip}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit}
+.wrap{max-width:var(--ancho);margin:0 auto;padding:0 var(--gutter)}
+.salto{position:absolute;left:-999px}.salto:focus{left:1rem;top:1rem;z-index:99;background:#fff;padding:.5rem 1rem}
+.sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+h1,h2,h3{font-family:var(--rotulo);margin:0;line-height:1.02;letter-spacing:-.02em;text-wrap:balance}
+h2{font-size:clamp(1.8rem,3.9vw,3.1rem);font-weight:800}
+h3{font-weight:700}
+p{margin:0 0 1rem;max-width:62ch}
+.ico{width:1.15em;height:1.15em;flex:none;fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.logo{display:block;aspect-ratio:2/1;height:auto}
+
+/* Lo que aún no ha dicho el taller: se ve, no se esconde */
+.pend{display:inline-block;vertical-align:.12em;font-family:var(--texto);font-size:.68rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;line-height:1;padding:.28rem .45rem;border-radius:.2rem;background:repeating-linear-gradient(-45deg,#FFE9A8 0 .35rem,#FFF4CF .35rem .7rem);color:#5A4300;border:1px solid #D9B64A;white-space:nowrap}
+
+/* El sello: la elipse de su logo en pequeño, sin letras. Abre cada sección. */
+.marca{display:inline-flex;align-items:center;gap:.65rem;font-family:var(--rotulo);font-weight:700;text-transform:uppercase;letter-spacing:.12em;font-size:.72rem;margin:0 0 1.1rem}
+.marca::before{content:"";width:2.1rem;height:1.05rem;border-radius:50%;background:var(--amarillo);box-shadow:0 0 0 .12rem #fff,0 0 0 .3rem var(--canto);transform:rotate(-9deg);flex:none}
+.sobre-claro .marca::before,.marca.oscura::before{box-shadow:0 0 0 .12rem var(--tinta),0 0 0 .3rem var(--canto)}
+
+.btn{display:inline-flex;align-items:center;gap:.6rem;padding:.95rem 1.35rem;border-radius:999px;font-weight:700;text-decoration:none;font-size:1rem;border:0;cursor:pointer;font-family:inherit;transition:transform .25s var(--curva)}
+.btn:hover{transform:translateY(-2px)}
+.btn-luz{background:var(--amarillo);color:var(--tinta);box-shadow:0 0 0 .14rem #fff,0 0 0 .32rem var(--canto)}
+.btn-linea{border:2px solid currentColor;background:none;color:inherit}
+.btn-tinta{background:var(--tinta);color:var(--amarillo)}
+.enlace{font-weight:700;display:inline-flex;gap:.4rem;align-items:center;text-underline-offset:.2em}
+
+.propuesta{background:var(--tinta);color:#E6E9EE;font-size:.82rem;text-align:center;padding:.45rem 1rem}
+.propuesta a{color:var(--amarillo)}
+
+/* ================= CABECERA: la chapa, con el logo real ================= */
+.cab{position:sticky;top:0;z-index:40;background:var(--chapa);color:#fff;border-bottom:3px solid var(--amarillo)}
+.cab .wrap{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:4.4rem}
+.cab-logo img{width:7.2rem;height:auto}
+.cab nav{display:flex;gap:1.5rem;font-size:.95rem;font-weight:600}
+.cab nav a{text-decoration:none;opacity:.9}.cab nav a:hover,.cab nav a[aria-current]{opacity:1;color:var(--amarillo)}
+.cab .btn{padding:.6rem 1rem;font-size:.95rem}
+@media (max-width:56rem){.cab nav{display:none}}
+@media (max-width:26rem){.cab .btn span{display:none}.cab .btn{padding:.7rem}}
+
+/* ================= LA LONA: el trozo de lona de su nave =================
+   Foto arriba; abajo, sobre el amarillo, el nombre. Dos ollaos cosidos arriba. */
+.lona-trozo{position:relative;display:flex;flex-direction:column;background:var(--tinta);padding:.3rem;text-decoration:none;color:var(--tinta)}
+.lona-trozo::before,.lona-trozo::after{content:"";position:absolute;z-index:2;top:-.5rem;width:1rem;height:1rem;border-radius:50%;background:var(--canto-claro);box-shadow:inset 0 0 0 .28rem var(--canto-osc)}
+.lona-trozo::before{left:-.5rem}.lona-trozo::after{right:-.5rem}
+.lona-trozo img{width:100%;aspect-ratio:4/3;object-fit:cover}
+.lona-trozo .rotulo{background:var(--amarillo);padding:.8rem .9rem .9rem;flex:1;display:flex;flex-direction:column;gap:.3rem}
+.lona-trozo .rotulo b{font-family:var(--rotulo);font-weight:700;font-size:1.02rem;line-height:1.15;letter-spacing:-.01em}
+.lona-trozo .rotulo span{font-size:.92rem;color:#2C2E10}
+.lona-trozo .precio{font-family:var(--rotulo);font-weight:800;font-size:1.25rem;color:var(--tinta)}
+a.lona-trozo{transition:transform .3s var(--curva)}
+a.lona-trozo:hover{transform:translateY(-3px) rotate(-.4deg)}
+
+.panel-lona{position:relative;background:var(--tinta);padding:.35rem}
+.panel-lona::before,.panel-lona::after{content:"";position:absolute;top:-.55rem;width:1.1rem;height:1.1rem;border-radius:50%;background:var(--canto-claro);box-shadow:inset 0 0 0 .3rem var(--canto-osc)}
+.panel-lona::before{left:-.55rem}.panel-lona::after{right:-.55rem}
+.fotos-tira{display:grid;grid-template-columns:1.3fr 1fr 1.15fr .9fr 1.2fr 1fr;gap:.35rem}
+.fotos-tira img{width:100%;height:clamp(6rem,11vw,9.5rem);object-fit:cover}
+@media (max-width:52rem){.fotos-tira{grid-template-columns:repeat(3,1fr)}.fotos-tira img:nth-child(n+4){display:none}}
+
+/* ================= CIERRE sobre la chapa ================= */
+.cierre{position:relative;background:var(--grecada);color:#fff;padding:clamp(4rem,8vw,6rem) 0;overflow:hidden;border-top:.55rem solid var(--amarillo)}
+.cierre .marca{color:var(--amarillo)}
+.cierre h2{max-width:16ch;margin-bottom:1.1rem}
+.cierre p{color:#E3E6EB;font-size:1.1rem}
+.cierre .acciones{margin-top:1.6rem}
+.acciones{display:flex;flex-wrap:wrap;gap:.8rem;align-items:center}
+
+/* ================= PIE ================= */
+.pie{background:var(--tinta);color:#C9CED6;padding:3rem 0 2rem;font-size:.92rem}
+.pie-rejilla{display:grid;grid-template-columns:1.2fr 1fr 1fr 1fr;gap:2rem}
+.pie img.logo{width:8rem;margin-bottom:.8rem}
+.pie h3{font-size:.72rem;letter-spacing:.14em;text-transform:uppercase;color:#fff;margin-bottom:.7rem}
+.pie p{margin:0 0 .3rem}
+.pie ul{list-style:none;margin:0;padding:0;display:grid;gap:.25rem}
+.pie a{color:#C9CED6;text-decoration:none}.pie a:hover{color:var(--amarillo)}
+.pie .legal{border-top:1px solid #2B3038;margin-top:2rem;padding-top:1.2rem;display:flex;flex-wrap:wrap;gap:1.2rem;font-size:.82rem}
+@media (max-width:52rem){.pie-rejilla{grid-template-columns:1fr 1fr}}
+@media (max-width:30rem){.pie-rejilla{grid-template-columns:1fr}}
+
+/* ================= Páginas interiores ================= */
+.migas{font-size:.88rem;color:var(--tinta-suave);margin:0 0 1rem}
+.migas a{color:inherit}
+.seccion{padding:clamp(3.5rem,7vw,5.5rem) 0}
+.seccion.hielo-2{background:var(--hielo-2)}
+.prosa{max-width:66ch}
+.prosa h2{font-size:clamp(1.4rem,2.6vw,2rem);margin:2.4rem 0 .9rem}
+.prosa h3{font-size:1.15rem;margin:1.8rem 0 .6rem}
+.prosa ul{padding-left:1.2rem}.prosa li{margin:.3rem 0}
+.prosa .corto{background:var(--amarillo);padding:1rem 1.2rem;max-width:none}
+.prosa .nota{font-size:.88rem;color:var(--tinta-suave);border-top:1px solid var(--hielo-2);padding-top:1rem;margin-top:2rem}
+
+:focus-visible{outline:3px solid var(--amarillo);outline-offset:3px}
+.sobre-claro :focus-visible,.lona-trozo:focus-visible{outline-color:var(--tinta)}
+
+@media (prefers-reduced-motion:no-preference){
+  @supports (animation-timeline:view()){
+    .revela{animation:sube linear both;animation-timeline:view();animation-range:entry 0% cover 22%}
+    @keyframes sube{from{opacity:0;transform:translateY(1.4rem)}to{opacity:1;transform:none}}
+  }
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none !important}}

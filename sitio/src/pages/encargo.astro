@@ -1,0 +1,181 @@
+---
+import Base from '../layouts/Base.astro';
+import { getCollection } from 'astro:content';
+import { taller, zona, u } from '../data/site';
+
+const categorias = (await getCollection('categorias')).sort((a, b) => a.data.orden - b.data.orden);
+const pueblos = [...zona.cordoba, ...zona.sevilla];
+
+// Opciones en chips: [valor que va en el mensaje, texto del botón]
+const donde = [['en fachada', 'Fachada'], ['en interior', 'Interior'], ['en un vehículo', 'Vehículo'], ['junto a una carretera', 'Junto a carretera']];
+const altura = [['a pie de calle (hasta 3 m)', 'Hasta 3 m'], ['entre 3 y 6 m', 'De 3 a 6 m'], ['a más de 6 m', 'Más de 6 m'], ['no sé la altura', 'No lo sé']];
+const acceso = [['se puede parar delante', 'Se puede parar delante'], ['calle estrecha o peatonal', 'Calle estrecha o peatonal'], ['no sé cómo es el acceso', 'No lo sé']];
+const logo = [['tengo el logotipo en vectorial (PDF, AI o SVG)', 'Sí, en PDF, AI o SVG'], ['tengo el logotipo en imagen', 'Sí, en imagen'], ['no tengo logotipo, hay que diseñarlo', 'No, hay que diseñarlo']];
+const cuando = [['sin prisa', 'Sin prisa'], ['para este mes', 'Este mes'], ['tengo fecha de apertura', 'Tengo una fecha']];
+---
+<Base title="Pide presupuesto: la ficha de encargo | Dígito Rotulación" description="Cuéntanos qué necesitas, dónde va, a qué altura y para cuándo, y mándanos una foto del sitio. Te contestamos con algo concreto." actual="encargo">
+  <section class="encargo-cab">
+    <div class="wrap">
+      <p class="migas"><a href={u('/')}>Inicio</a> / Pide presupuesto</p>
+      <p class="marca">La ficha de encargo</p>
+      <h1>Danos una idea. Nosotros te decimos cuánto y cómo.</h1>
+      <p class="lead">Son las preguntas que te haríamos por WhatsApp de todos modos. Rellenas lo que sepas, se abre WhatsApp con el mensaje escrito y solo tienes que adjuntar la foto.</p>
+    </div>
+  </section>
+
+  <section class="seccion">
+    <div class="wrap rejilla">
+      <form class="ficha" id="ficha" action={`https://wa.me/${taller.whatsappNum}`} method="get" target="_blank">
+        <fieldset>
+          <legend><span class="n">1</span>¿Qué necesitas?</legend>
+          <div class="chips">
+            {categorias.map((c, i) => <><input type="radio" name="que" id={`q-${c.id}`} value={c.data.nombre.toLowerCase()} data-id={c.id} checked={i === 0}><label for={`q-${c.id}`}>{c.data.palabra}</label></>)}
+            <input type="radio" name="que" id="q-otra" value="otra cosa"><label for="q-otra">Otra cosa</label>
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend><span class="n">2</span>¿En qué pueblo va?</legend>
+          <input type="text" id="pueblo" list="pueblos" autocomplete="address-level2" placeholder="Por ejemplo, Écija">
+          <datalist id="pueblos">{pueblos.map((p) => <option value={p} />)}</datalist>
+          <p class="fuera" id="fuera" hidden>Normalmente no montamos tan lejos, pero cuéntanos igual: si es un trabajo grande o tenemos otro por la zona, puede cuadrar.</p>
+        </fieldset>
+
+        <fieldset>
+          <legend><span class="n">3</span>¿Dónde se coloca?</legend>
+          <div class="chips">{donde.map(([v, t], i) => <><input type="radio" name="donde" id={`d${i}`} value={v}><label for={`d${i}`}>{t}</label></>)}</div>
+        </fieldset>
+
+        <div class="par">
+          <fieldset>
+            <legend><span class="n">4</span>¿A qué altura?</legend>
+            <div class="chips">{altura.map(([v, t], i) => <><input type="radio" name="altura" id={`a${i}`} value={v}><label for={`a${i}`}>{t}</label></>)}</div>
+          </fieldset>
+          <fieldset>
+            <legend><span class="n">5</span>¿Cómo es el acceso?</legend>
+            <div class="chips">{acceso.map(([v, t], i) => <><input type="radio" name="acceso" id={`c${i}`} value={v}><label for={`c${i}`}>{t}</label></>)}</div>
+          </fieldset>
+        </div>
+
+        <fieldset>
+          <legend><span class="n">6</span><label for="medidas">Medidas aproximadas</label></legend>
+          <input type="text" id="medidas" placeholder="Por ejemplo, 3 × 0,8 m, o «el hueco encima de la puerta»">
+        </fieldset>
+
+        <fieldset>
+          <legend><span class="n">7</span>¿Tienes logotipo?</legend>
+          <div class="chips">{logo.map(([v, t], i) => <><input type="radio" name="logo" id={`l${i}`} value={v}><label for={`l${i}`}>{t}</label></>)}</div>
+        </fieldset>
+
+        <fieldset>
+          <legend><span class="n">8</span>¿Para cuándo?</legend>
+          <div class="chips">{cuando.map(([v, t], i) => <><input type="radio" name="cuando" id={`w${i}`} value={v}><label for={`w${i}`}>{t}</label></>)}</div>
+          <div class="fecha" id="fecha" hidden><label for="dia">Fecha de apertura</label><input type="date" id="dia"></div>
+        </fieldset>
+
+        <fieldset>
+          <legend><span class="n">9</span><label for="mas">Algo más (opcional)</label></legend>
+          <textarea id="mas" placeholder="Tu nombre, el nombre del negocio, si ya tienes un rótulo que quitar…"></textarea>
+        </fieldset>
+
+        <input type="hidden" name="text" id="texto" value="Hola, quiero presupuesto para un rótulo. Os mando una foto del sitio.">
+        <div class="enviar">
+          <button class="btn btn-luz" type="submit"><svg class="ico"><use href="#i-wa"/></svg>Preparar el mensaje de WhatsApp</button>
+          <a class="enlace" id="por-email" href={`mailto:${taller.email}`}>Prefiero mandarlo por email</a>
+        </div>
+        <p class="nota">Se abre WhatsApp con el {taller.whatsapp} y el mensaje ya escrito. No se envía nada hasta que tú le das a enviar, y esta página no guarda ningún dato.</p>
+      </form>
+
+      <aside class="lateral">
+        <div class="antes">
+          <p class="marca oscura">Ten a mano</p>
+          <ul>
+            <li><svg class="ico"><use href="#i-camara"/></svg><span><b>Una foto del sitio, de lejos.</b> Que se vea la fachada entera y un poco de la calle: así vemos la altura y el acceso.</span></li>
+            <li><svg class="ico"><use href="#i-regla"/></svg><span><b>Las medidas, aunque sean a ojo.</b> Un metro de albañil vale.</span></li>
+            <li><svg class="ico"><use href="#i-casa"/></svg><span><b>Tu logotipo</b>, si lo tienes. Mejor en PDF que en una foto.</span></li>
+          </ul>
+        </div>
+        <div class="despues">
+          <p class="marca oscura">Qué pasa después</p>
+          <ol>
+            <li>Nos llega tu mensaje con la foto.</li>
+            <li>Si hace falta, te pedimos algún dato más o vamos a verlo. <span class="pend">a confirmar</span></li>
+            <li>Te mandamos el diseño y el presupuesto.</li>
+          </ol>
+          <p>¿Prefieres hablar? <a href={`tel:${taller.fijoTel}`}>{taller.fijo}</a></p>
+        </div>
+      </aside>
+    </div>
+  </section>
+</Base>
+
+<script is:inline define:vars={{ pueblos }}>
+  const f = document.getElementById('ficha');
+  const norm = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase().trim();
+  const zona = new Set(pueblos.map(norm));
+  // Llega con ?que=<oficio> desde una categoría o un caso
+  const que = new URLSearchParams(location.search).get('que');
+  const pre = que && f.querySelector(`input[data-id="${CSS.escape(que)}"]`);
+  if (pre) pre.checked = true;
+
+  const pueblo = f.querySelector('#pueblo'), fuera = f.querySelector('#fuera');
+  pueblo.addEventListener('change', () => { const v = norm(pueblo.value); fuera.hidden = !v || zona.has(v); });
+  f.addEventListener('change', () => { f.querySelector('#fecha').hidden = !f.querySelector('#w2')?.checked; });
+
+  const mensaje = () => {
+    const val = (s) => f.querySelector(s)?.value.trim() ?? '';
+    const radio = (n) => f.querySelector(`input[name=${n}]:checked`)?.value;
+    const l = [`Hola, quiero presupuesto para ${radio('que')}${val('#pueblo') ? ` en ${val('#pueblo')}` : ''}.`];
+    const d = [radio('donde'), radio('altura'), radio('acceso')].filter(Boolean);
+    if (d.length) l.push(`Va ${d.join(', ')}.`);
+    if (val('#medidas')) l.push(`Medidas aproximadas: ${val('#medidas')}.`);
+    if (radio('logo')) l.push(`Logotipo: ${radio('logo')}.`);
+    if (radio('cuando')) l.push(`Plazo: ${radio('cuando')}${f.querySelector('#w2').checked && val('#dia') ? ` (${new Date(val('#dia')).toLocaleDateString('es-ES')})` : ''}.`);
+    if (val('#mas')) l.push(val('#mas'));
+    l.push('Os mando una foto del sitio.');
+    return l.join('\n');
+  };
+  f.addEventListener('submit', () => { f.querySelector('#texto').value = mensaje(); });
+  const email = document.getElementById('por-email');
+  email.addEventListener('click', () => { email.href = `mailto:${email.href.replace(/^mailto:|\?.*$/g, '')}?subject=${encodeURIComponent('Presupuesto de rótulo')}&body=${encodeURIComponent(mensaje() + '\n(Adjunto la foto)')}`; });
+</script>
+
+<style>
+.encargo-cab{background:var(--grecada);color:#fff;padding:clamp(2rem,5vw,3.6rem) 0;border-bottom:.55rem solid var(--amarillo)}
+.encargo-cab .migas{color:#C9CED6}
+.encargo-cab .marca{color:var(--amarillo)}
+.encargo-cab h1{font-size:clamp(1.9rem,4.4vw,3.5rem);font-weight:800;max-width:20ch}
+.lead{font-size:1.1rem;color:#E3E6EB;margin:1.2rem 0 0}
+.rejilla{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(0,1fr);gap:2.5rem 4rem;align-items:start}
+@media (max-width:56rem){.rejilla{grid-template-columns:1fr}.lateral{order:-1}}
+.ficha fieldset{border:0;margin:0 0 1.6rem;padding:0 0 1.6rem;border-bottom:1px solid var(--hielo-2)}
+.ficha legend,.ficha legend label{display:flex;align-items:center;gap:.7rem;font-family:var(--rotulo);font-weight:700;font-size:1.02rem;margin-bottom:.8rem;padding:0}
+.ficha legend label{margin:0;font-size:inherit}
+.n{display:grid;place-items:center;width:2.1rem;height:1.1rem;border-radius:50%;background:var(--amarillo);box-shadow:0 0 0 .1rem var(--tinta),0 0 0 .22rem var(--canto);font-size:.66rem;transform:rotate(-9deg);flex:none}
+.par{display:grid;grid-template-columns:1fr 1fr;gap:0 2rem}
+@media (max-width:40rem){.par{grid-template-columns:1fr}}
+.chips{display:flex;flex-wrap:wrap;gap:.45rem}
+.chips input{position:absolute;opacity:0;pointer-events:none}
+.chips label{font-weight:600;font-size:.92rem;border:1.5px solid var(--canto);border-radius:999px;padding:.45rem .9rem;cursor:pointer;background:#fff;transition:background .2s var(--curva),border-color .2s var(--curva)}
+.chips label:hover{border-color:var(--tinta)}
+.chips input:checked+label{background:var(--amarillo);border-color:var(--tinta)}
+.chips input:focus-visible+label{outline:3px solid var(--tinta);outline-offset:2px}
+.ficha input[type=text],.ficha input[type=date],.ficha textarea{width:100%;font:inherit;font-size:1rem;color:var(--tinta);background:#fff;border:1.5px solid var(--canto);border-radius:.3rem;padding:.7rem .8rem}
+.ficha input:focus,.ficha textarea:focus{outline:3px solid var(--amarillo);outline-offset:1px;border-color:var(--tinta)}
+.ficha textarea{min-height:6rem;resize:vertical}
+.fuera{margin:.7rem 0 0;background:#FFF7C2;border-left:.3rem solid var(--amarillo-bajo);padding:.6rem .8rem;font-size:.95rem}
+.fecha{margin-top:.9rem;max-width:16rem}
+.fecha label{display:block;font-weight:600;font-size:.9rem;margin-bottom:.3rem}
+.enviar{display:flex;flex-wrap:wrap;gap:1rem 1.6rem;align-items:center}
+.nota{font-size:.88rem;color:var(--tinta-suave);margin:1rem 0 0}
+.lateral{position:sticky;top:6rem;display:grid;gap:1.4rem}
+@media (max-width:56rem){.lateral{position:static}}
+.antes{background:var(--amarillo);padding:1.4rem 1.4rem .6rem}
+.antes .marca::before{box-shadow:0 0 0 .12rem var(--tinta),0 0 0 .3rem var(--canto)}
+.antes ul{list-style:none;margin:0;padding:0;display:grid;gap:.9rem}
+.antes li{display:flex;gap:.7rem;font-size:.96rem;padding-bottom:.9rem}
+.antes .ico{margin-top:.2rem;width:1.3rem;height:1.3rem}
+.despues{background:#fff;padding:1.4rem;border-top:.4rem solid var(--canto)}
+.despues ol{margin:0 0 1rem;padding-left:1.2rem;display:grid;gap:.5rem}
+.despues p{margin:0;font-size:.95rem}
+</style>

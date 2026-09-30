@@ -1,0 +1,12 @@
+---
+import Base from '../layouts/Base.astro';
+import { u } from '../data/site';
+---
+<Base title="Esta página no está | Dígito Rotulación" description="La página que buscas no existe.">
+  <section class="seccion"><div class="wrap">
+    <p class="marca oscura">Error 404</p>
+    <h1 style="font-size:clamp(2rem,5vw,4rem)">Este rótulo se ha fundido.</h1>
+    <p style="margin-top:1rem">La página que buscas no existe o ha cambiado de sitio.</p>
+    <div class="acciones"><a class="btn btn-luz" href={u('/')}>Ir al inicio</a><a class="btn btn-linea" href={u('/trabajos/')}>Ver trabajos</a></div>
+  </div></section>
+</Base>

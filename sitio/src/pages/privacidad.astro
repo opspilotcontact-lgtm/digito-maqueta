@@ -1,0 +1,16 @@
+---
+import Base from '../layouts/Base.astro';
+import { taller, u } from '../data/site';
+---
+<Base title="Privacidad | Dígito Rotulación" description="Privacidad de la web de Dígito Rotulación.">
+  <section class="seccion">
+    <div class="wrap prosa">
+      <p class="migas"><a href={u('/')}>Inicio</a> / Privacidad</p>
+      <h1>Privacidad</h1>
+      <p><span class="pend">pendiente: razón social y NIF del responsable</span></p>
+      <p>Esta web no usa cookies de seguimiento ni guarda los datos de la ficha de encargo: el formulario solo prepara un mensaje que tú envías por WhatsApp o por correo. Los datos que nos mandes por esos canales los usamos solo para contestarte y preparar tu presupuesto.</p>
+      <p>Puedes pedir que borremos tus datos escribiendo a <a href={`mailto:${taller.email}`}>{taller.email}</a>.</p>
+    </div>
+  </section>
+</Base>
+<style>h1{font-size:clamp(1.8rem,4vw,3rem);margin-bottom:1.5rem}</style>

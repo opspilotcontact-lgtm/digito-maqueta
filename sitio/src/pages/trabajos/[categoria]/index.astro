@@ -1,0 +1,127 @@
+---
+import Base from '../../../layouts/Base.astro';
+import LonaTrozo from '../../../components/LonaTrozo.astro';
+import { getCollection, render } from 'astro:content';
+import { u, img, euros } from '../../../data/site';
+
+export async function getStaticPaths() {
+  const categorias = (await getCollection('categorias')).sort((a, b) => a.data.orden - b.data.orden);
+  return categorias.map((c) => ({ params: { categoria: c.id }, props: { c, todas: categorias } }));
+}
+const { c, todas } = Astro.props;
+const { Content } = await render(c);
+const casos = (await getCollection('casos')).filter((k) => k.data.categoria.id === c.id);
+const tira = c.data.fotos.slice(0, 6);
+const otras = todas.filter((o) => o.id !== c.id);
+const palabra = c.data.palabra.toLowerCase();
+---
+<Base title={`${c.data.nombre} en La Carlota, Córdoba y Écija | Dígito Rotulación`} description={c.data.resumen} actual="trabajos">
+
+  <!-- La cabecera es la lona de su nave: la tira de fotos y la palabra -->
+  <section class="lona-cab sobre-claro">
+    <div class="wrap">
+      <p class="migas"><a href={u('/')}>Inicio</a> / <a href={u('/trabajos/')}>Trabajos</a> / {c.data.palabra}</p>
+      <div class="panel-lona">
+        <div class="fotos-tira">
+          {tira.map((f, i) => <img src={img(f.src)} alt={f.alt} width="800" height="600" loading={i < 3 ? 'eager' : 'lazy'} fetchpriority={i === 0 ? 'high' : undefined}>)}
+        </div>
+      </div>
+      <div class="palabra">
+        <h1>{c.data.nombre}</h1>
+        <p class="desde">
+          <span>Desde</span>
+          {c.data.desde === null ? <span class="pend">a confirmar</span> : <b>{euros(c.data.desde)}</b>}
+          <small>{c.data.desdeQue}, IVA incluido</small>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="seccion">
+    <div class="wrap dos">
+      <div class="prosa">
+        <p class="marca oscura">Qué es</p>
+        <p class="resumen">{c.data.resumen}</p>
+        <Content />
+        <p><a class="btn btn-luz" href={u(`/encargo/?que=${c.id}`)}><svg class="ico"><use href="#i-camara"/></svg>Pide presupuesto</a></p>
+      </div>
+      <div>
+        <p class="marca oscura">¿De qué depende el precio?</p>
+        <ol class="depende">
+          {c.data.depende.map((d) => <li><b>{d.factor}</b><span>{d.texto}</span></li>)}
+        </ol>
+        <p class="nota">Por eso no ponemos un precio cerrado: te lo damos cuando vemos una foto del sitio, las medidas y dónde va. <a href={u('/#precio')}>Por qué dos rótulos iguales no cuestan lo mismo</a>.</p>
+      </div>
+    </div>
+  </section>
+
+  {casos.length > 0 && (
+    <section class="seccion hielo-2">
+      <div class="wrap">
+        <p class="marca oscura">Casos contados por dentro</p>
+        <h2>Trabajos de {palabra}, pieza a pieza.</h2>
+        <div class="rejilla">
+          {casos.map((k) => <LonaTrozo src={k.data.portada.src} alt={k.data.portada.alt} titulo={k.data.cliente} texto={k.data.resumen} href={u(`/trabajos/${c.id}/${k.id}/`)} />)}
+        </div>
+      </div>
+    </section>
+  )}
+
+  <section class="seccion">
+    <div class="wrap">
+      <p class="marca oscura">Galería</p>
+      <h2>{c.data.fotos.length} trabajos de {palabra} que salieron del taller.</h2>
+      <ul class="galeria">
+        {c.data.fotos.map((f) => (
+          <li><figure><img src={img(f.src)} alt={f.alt} width={f.w} height={f.h} loading="lazy" decoding="async"><figcaption>{f.pie}</figcaption></figure></li>
+        ))}
+      </ul>
+    </div>
+  </section>
+
+  <section class="cierre">
+    <div class="wrap">
+      <p class="marca">Presupuesto</p>
+      <h2>¿Buscas algo así? Mándanos una foto del sitio.</h2>
+      <div class="acciones">
+        <a class="btn btn-luz" href={u(`/encargo/?que=${c.id}`)}><svg class="ico"><use href="#i-camara"/></svg>Rellenar la ficha de encargo</a>
+      </div>
+      <nav class="otras" aria-label="Otros oficios">
+        {otras.map((o) => <a href={u(`/trabajos/${o.id}/`)}>{o.data.palabra}</a>)}
+      </nav>
+    </div>
+  </section>
+</Base>
+
+<style>
+.lona-cab{background:var(--amarillo);padding:clamp(1.6rem,4vw,2.6rem) 0 clamp(2.4rem,5vw,3.6rem)}
+.lona-cab .migas{color:#3E4010}
+.panel-lona{margin-top:1.2rem}
+.palabra{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:1rem 2.5rem;align-items:end;margin-top:1.8rem}
+.palabra h1{font-size:clamp(2rem,5.6vw,4.6rem);font-weight:900;text-transform:uppercase;letter-spacing:-.03em;line-height:.98}
+.desde{margin:0;display:grid;justify-items:end;text-align:right;gap:.2rem}
+.desde > span:first-child{font-family:var(--rotulo);font-weight:700;font-size:.8rem;letter-spacing:.12em;text-transform:uppercase}
+.desde b{font-family:var(--rotulo);font-weight:900;font-size:clamp(2rem,4vw,3.2rem);line-height:1}
+.desde .pend{font-size:.85rem;padding:.45rem .6rem}
+.desde small{font-size:.85rem;color:#3E4010;max-width:24ch}
+@media (max-width:52rem){.palabra{grid-template-columns:1fr}.desde{justify-items:start;text-align:left}}
+.dos{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:2.5rem 4rem;align-items:start}
+@media (max-width:52rem){.dos{grid-template-columns:1fr}}
+.resumen{font-family:var(--rotulo);font-weight:600;font-size:clamp(1.1rem,1.8vw,1.35rem);line-height:1.3}
+.depende{list-style:none;margin:0;padding:0;counter-reset:f}
+.depende li{display:grid;grid-template-columns:2.6rem 1fr;gap:.2rem .8rem;padding:1rem 0;border-top:1.5px solid var(--tinta)}
+.depende li::before{counter-increment:f;content:counter(f);grid-row:span 2;display:grid;place-items:center;width:2.2rem;height:1.2rem;border-radius:50%;background:var(--amarillo);box-shadow:0 0 0 .1rem var(--tinta),0 0 0 .24rem var(--canto);font-family:var(--rotulo);font-size:.72rem;font-weight:700;transform:rotate(-9deg);margin-top:.15rem}
+.depende b{font-family:var(--rotulo);font-weight:700}
+.depende span{color:var(--tinta-suave);font-size:.98rem}
+.nota{font-size:.95rem;color:var(--tinta-suave);margin-top:1rem}
+.rejilla{display:grid;grid-template-columns:repeat(auto-fill,minmax(16rem,1fr));gap:1.6rem;margin-top:2rem}
+h2{max-width:24ch}
+.galeria{list-style:none;margin:2rem 0 0;padding:0;columns:3 16rem;column-gap:1rem}
+.galeria li{break-inside:avoid;margin:0 0 1rem}
+.galeria figure{margin:0;background:var(--tinta)}
+.galeria img{width:100%}
+.galeria figcaption{font-size:.85rem;color:#E3E6EB;padding:.5rem .7rem}
+.otras{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:2rem}
+.otras a{border:1.5px solid #6B7380;border-radius:999px;padding:.35rem .85rem;font-weight:600;font-size:.9rem;text-decoration:none;color:#E3E6EB}
+.otras a:hover{border-color:var(--amarillo);color:var(--amarillo)}
+</style>
