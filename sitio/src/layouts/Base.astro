@@ -79,9 +79,9 @@ const schema = {
   <div class="wrap">
     <div class="pie-rejilla">
       <div><img class="logo" src={img('logo-digito.svg')} alt="Dígito Rotulación" width="216" height="108" loading="lazy"><p>Taller de rótulos en La Carlota desde 1993. Lo diseñamos, lo fabricamos y te lo montamos.</p></div>
-      <div><h3>El taller</h3><p>{taller.poligono}</p><p>{taller.calle}</p><p>{taller.cp} {taller.localidad} ({taller.provincia})</p><p>{taller.horario.corto} {taller.horario.pendiente && <span class="pend">a confirmar</span>}</p></div>
-      <div><h3>Contacto</h3><p><a href={`tel:${taller.fijoTel}`}>{taller.fijo}</a></p><p><a href={`https://wa.me/${taller.whatsappNum}`}>{taller.whatsapp}</a> (WhatsApp)</p><p><a href={`mailto:${taller.email}`}>{taller.email}</a></p></div>
-      <div><h3>La web</h3><ul><li><a href={u('/trabajos/')}>Trabajos</a></li><li><a href={u('/encargo/')}>Pide presupuesto</a></li><li><a href={u('/zona/')}>Dónde montamos</a></li><li><a href={u('/guias/permiso-rotulo-cordoba/')}>Permiso para un rótulo</a></li></ul></div>
+      <div><h2>El taller</h2><p>{taller.poligono}</p><p>{taller.calle}</p><p>{taller.cp} {taller.localidad} ({taller.provincia})</p><p>{taller.horario.corto} {taller.horario.pendiente && <span class="pend">a confirmar</span>}</p></div>
+      <div><h2>Contacto</h2><p><a href={`tel:${taller.fijoTel}`}>{taller.fijo}</a></p><p><a href={`https://wa.me/${taller.whatsappNum}`}>{taller.whatsapp}</a> (WhatsApp)</p><p><a href={`mailto:${taller.email}`}>{taller.email}</a></p></div>
+      <div><h2>La web</h2><ul><li><a href={u('/trabajos/')}>Trabajos</a></li><li><a href={u('/encargo/')}>Pide presupuesto</a></li><li><a href={u('/zona/')}>Dónde montamos</a></li><li><a href={u('/guias/permiso-rotulo-cordoba/')}>Permiso para un rótulo</a></li></ul></div>
     </div>
     <div class="legal"><span>© Dígito Rotulación</span><a href={u('/aviso-legal/')}>Aviso legal</a><a href={u('/privacidad/')}>Privacidad</a></div>
   </div>
