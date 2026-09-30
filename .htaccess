@@ -1,0 +1,31 @@
+# Redirecciones 301 de la web de 2018 (WordPress) a la v4. Solo actúa en un hosting Apache/LiteSpeed
+# (Hostinger); GitHub Pages lo ignora. URLs sacadas de su sitemap_index.xml el 30-sep-2026:
+# 14 páginas, 9 portfolios, 9 tipos de portfolio y ~286 páginas de foto suelta (/portfolio/<sección>/<foto>/).
+<IfModule mod_rewrite.c>
+RewriteEngine On
+
+# Páginas
+RewriteRule ^trabajos-realizados/?$ /trabajos/ [R=301,L]
+RewriteRule ^empresa/ /#taller [R=301,L,NE]
+RewriteRule ^contactar/?$ /encargo/ [R=301,L]
+RewriteRule ^privacidad-cookies/?$ /privacidad/ [R=301,L]
+
+# Cada sección vieja (página, portfolio, tipo y sus fotos sueltas) → su oficio en la v4
+RewriteRule ^(trabajos-realizados|portfolio-type)/corporeos/?$ /trabajos/letras-corporeas/ [R=301,L]
+RewriteRule ^portfolio/varios-corporeos(/.*)?$ /trabajos/letras-corporeas/ [R=301,L]
+RewriteRule ^(trabajos-realizados|portfolio-type)/(luminosos|neon-leds)/?$ /trabajos/rotulos-luminosos/ [R=301,L]
+RewriteRule ^portfolio/varios-(luminosos|neon-leds)(/.*)?$ /trabajos/rotulos-luminosos/ [R=301,L]
+RewriteRule ^(trabajos-realizados|portfolio-type)/vehiculos/?$ /trabajos/rotulacion-vehiculos/ [R=301,L]
+RewriteRule ^portfolio/varios-vehiculos(/.*)?$ /trabajos/rotulacion-vehiculos/ [R=301,L]
+RewriteRule ^(trabajos-realizados/digital|portfolio-type/impresion-digital)/?$ /trabajos/lonas-y-vinilos/ [R=301,L]
+RewriteRule ^portfolio/varios-digital(/.*)?$ /trabajos/lonas-y-vinilos/ [R=301,L]
+RewriteRule ^(trabajos-realizados|portfolio-type)/senalizacion/?$ /trabajos/senalizacion/ [R=301,L]
+RewriteRule ^portfolio/varios-senalizacion(/.*)?$ /trabajos/senalizacion/ [R=301,L]
+RewriteRule ^(trabajos-realizados|portfolio-type)/(monopostes|vallas)/?$ /trabajos/monopostes-y-vallas/ [R=301,L]
+RewriteRule ^portfolio/varios-(monopostes|vallas)(/.*)?$ /trabajos/monopostes-y-vallas/ [R=301,L]
+RewriteRule ^(trabajos-realizados|portfolio-type)/varios/?$ /trabajos/ [R=301,L]
+RewriteRule ^portfolio/trabajos-varios(/.*)?$ /trabajos/ [R=301,L]
+RewriteRule ^portfolio/?$ /trabajos/ [R=301,L]
+</IfModule>
+
+ErrorDocument 404 /404.html

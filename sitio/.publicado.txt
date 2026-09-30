@@ -1,3 +1,4 @@
+.htaccess
 404.html
 _astro
 aviso-legal
